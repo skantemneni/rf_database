@@ -1,0 +1,418 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+
+			<id_system>111</id_system>
+			<id_level>103</id_level>
+			<id_provider>0</id_provider>
+			<topicChoiceArray>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>7</id_topic>
+						<subject>BankingPO</subject>
+						<name>Parts of Speech</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Parts of Speech</name>
+									<description>Topic Test - Parts of Speech</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Parts of Speech</name>
+									<description>Parts of Speech</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>8</id_topic>
+						<subject>BankingPO</subject>
+						<name>Time and Tense</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Time and Tense</name>
+									<description>Topic Test - Time and Tense</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Time and Tense</name>
+									<description>Time and Tense</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>9</id_topic>
+						<subject>BankingPO</subject>
+						<name>Verb Forms, Syntax, Modals and Tenses</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Verb Forms, Syntax, Modals and Tenses</name>
+									<description>Topic Test - Verb Forms, Syntax, Modals and Tenses</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Verb Forms, Syntax, Modals and Tenses</name>
+									<description>Verb Forms, Syntax, Modals and Tenses</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>10</id_topic>
+						<subject>BankingPO</subject>
+						<name>Articles</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Articles</name>
+									<description>Topic Test - Articles</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Articles</name>
+									<description>Articles</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>11</id_topic>
+						<subject>BankingPO</subject>
+						<name>Rearrangements of Sentences</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Rearrangements of Sentences</name>
+									<description>Topic Test - Rearrangements of Sentences</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Rearrangements of Sentences</name>
+									<description>Rearrangements of Sentences</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>12</id_topic>
+						<subject>BankingPO</subject>
+						<name>Cloze Test</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Cloze Test</name>
+									<description>Topic Test - Cloze Test</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Cloze Test</name>
+									<description>Cloze Test</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>13</id_topic>
+						<subject>BankingPO</subject>
+						<name>Error Detection</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Error Detection</name>
+									<description>Topic Test - Error Detection</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Error Detection</name>
+									<description>Error Detection</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>14</id_topic>
+						<subject>BankingPO</subject>
+						<name>Fill in the Blanks</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Fill in the Blanks</name>
+									<description>Topic Test - Fill in the Blanks</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Fill in the Blanks</name>
+									<description>Fill in the Blanks</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>15</id_topic>
+						<subject>BankingPO</subject>
+						<name>Antonyms and Synonyms</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Antonyms and Synonyms</name>
+									<description>Topic Test - Antonyms and Synonyms</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Antonyms and Synonyms</name>
+									<description>Antonyms and Synonyms</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>16</id_topic>
+						<subject>BankingPO</subject>
+						<name>Sentence Improvement</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Sentence Improvement</name>
+									<description>Topic Test - Sentence Improvement</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Sentence Improvement</name>
+									<description>Sentence Improvement</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>17</id_topic>
+						<subject>BankingPO</subject>
+						<name>Misspelt or Inappropriate</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Misspelt or Inappropriate</name>
+									<description>Topic Test - Misspelt or Inappropriate</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Misspelt or Inappropriate</name>
+									<description>Misspelt or Inappropriate</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>18</id_topic>
+						<subject>BankingPO</subject>
+						<name>Idioms/Phrase</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Idioms/Phrase</name>
+									<description>Topic Test - Idioms/Phrase</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Idioms/Phrase</name>
+									<description>Idioms/Phrase</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>19</id_topic>
+						<subject>BankingPO</subject>
+						<name>One Word Substitution</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - One Word Substitution</name>
+									<description>Topic Test - One Word Substitution</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>One Word Substitution</name>
+									<description>One Word Substitution</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>20</id_topic>
+						<subject>BankingPO</subject>
+						<name>Active and Passive Voice</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Active and Passive Voice</name>
+									<description>Topic Test - Active and Passive Voice</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Active and Passive Voice</name>
+									<description>Active and Passive Voice</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>21</id_topic>
+						<subject>BankingPO</subject>
+						<name>Direct and Indirect</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Direct and Indirect</name>
+									<description>Topic Test - Direct and Indirect</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Direct and Indirect</name>
+									<description>Direct and Indirect</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+			</topicChoiceArray>
+		</LoadTopicsOnlyRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

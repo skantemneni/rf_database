@@ -1,0 +1,184 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+      
+         <id_system>111</id_system>
+         <id_level>101</id_level>
+         <id_provider>0</id_provider>
+         <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Simplification</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Simplification</name>
+                           <description>Topic Tests - Simplification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Simplification</name>
+                           <description>Simplification</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Roots and averages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Roots and averages</name>
+                           <description>Topic Tests - Roots and averages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Roots and averages</name>
+                           <description>Roots and averages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Profit and loss</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Profit and loss</name>
+                           <description>Topic Tests - Profit and loss</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Profit and loss</name>
+                           <description>Profit and loss</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Boats and streams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Boats and streams</name>
+                           <description>Topic Tests - Boats and streams</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Boats and streams</name>
+                           <description>Boats and streams</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Simple interest and compound interest</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Simple interest and compound interest</name>
+                           <description>Topic Tests - Simple interest and compound interest</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Simple interest and compound interest</name>
+                           <description>Simple interest and compound interest</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Mensuration</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mensuration</name>
+                           <description>Topic Tests - Mensuration</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Mensuration</name>
+                           <description>Mensuration</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Pipes and Cisterns</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Pipes and Cisterns</name>
+                           <description>Topic Tests - Pipes and Cisterns</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Pipes and Cisterns</name>
+                           <description>Pipes and Cisterns</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>20</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Partnership</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Partnership</name>
+                           <description>Topic Tests - Partnership</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Partnership</name>
+                           <description>Partnership</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>21</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Problems on Ages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Problems on Ages</name>
+                           <description>Topic Tests - Problems on Ages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on Ages</name>
+                           <description>Problems on Ages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+         </topicOnlyArray>
+      </LoadTopicsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

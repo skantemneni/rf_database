@@ -1,0 +1,1295 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>103</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+
+            <levelOnly>
+               <id_level>101</id_level>
+               <subject>InterPhysics</subject>
+               <subject_header>Intermediate Physics</subject_header>
+               <name><![CDATA[Physics First Year]]></name>
+               <display_name><![CDATA[Physics First Year]]></display_name>
+               <description><![CDATA[Physics preparation for EAMCET and IIT.  First Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - First Year Physics</name>
+                           <description><![CDATA[Combined Practice Tests - First Year Physics]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Units and Measurement</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Units and Measurement</name>
+                           <description>Topic Tests - Units and Measurement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Measurement of errors</name>
+                           <description>Measurement of errors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Significant figures and rounding off</name>
+                           <description>Significant figures and rounding off</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Conversion of units</name>
+                           <description>Conversion of units</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Deriving the equations</name>
+                           <description>Deriving the equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Principle of homogeneity</name>
+                           <description>Principle of homogeneity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Motion in a Straight Line</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Motion in a Straight Line</name>
+                           <description>Topic Tests - Motion in a Straight Line</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Horizontal motion</name>
+                           <description>Horizontal motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Vertical motion</name>
+                           <description>Vertical motion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Motion in a Plane</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Motion in a Plane</name>
+                           <description>Topic Tests - Motion in a Plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Addition, Subtraction and Resoluion</name>
+                           <description>Addition, Subtraction and Resoluion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Parallelogram law, Triangle law and Polygon law</name>
+                           <description>Parallelogram law, Triangle law and Polygon law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Lami’s theorem</name>
+                           <description>Lami’s theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Motion in a plane</name>
+                           <description>Motion in a plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Relative velocity</name>
+                           <description>Relative velocity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>A boat in a plane</name>
+                           <description>A boat in a plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Oblique projection</name>
+                           <description>Oblique projection</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Horizontal projection motion</name>
+                           <description>Horizontal projection motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Circular motion</name>
+                           <description>Circular motion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Laws of Motion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Laws of Motion</name>
+                           <description>Topic Tests - Laws of Motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Change in momentum, force and impulse</name>
+                           <description>Change in momentum, force and impulse</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Conservation of linear momentum</name>
+                           <description>Conservation of linear momentum</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Rocket propulsion</name>
+                           <description>Rocket propulsion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Equilibrium</name>
+                           <description>Equilibrium</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Contact force, Tension, Normal reaction, Apparant weight</name>
+                           <description>Contact force, Tension, Normal reaction, Apparant weight</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Pulley</name>
+                           <description>Pulley</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Pseudo force</name>
+                           <description>Pseudo force</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Friction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Friction</name>
+                           <description>Topic Tests - Friction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rough horizontal surface</name>
+                           <description>Rough horizontal surface</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Pulling and pushing</name>
+                           <description>Pulling and pushing</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Motion on a unbanked road</name>
+                           <description>Motion on a unbanked road</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Friction on a vertical surfaces</name>
+                           <description>Friction on a vertical surfaces</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Inclined plane</name>
+                           <description>Inclined plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Circular motion</name>
+                           <description>Circular motion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Work, Power and Energy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Work, Power and Energy</name>
+                           <description>Topic Tests - Work, Power and Energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Scalar (or) dot product</name>
+                           <description>Scalar (or) dot product</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Work</name>
+                           <description>Work</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Energy</name>
+                           <description>Energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Power</name>
+                           <description>Power</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Vertical circle</name>
+                           <description>Vertical circle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Elastic collisions</name>
+                           <description>Elastic collisions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Inelastic collisions</name>
+                           <description>Inelastic collisions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Perfectly inelastic collisions</name>
+                           <description>Perfectly inelastic collisions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>System of Particles and Rotational Motion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - System of Particles and Rotational Motion</name>
+                           <description>Topic Tests - System of Particles and Rotational Motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Center of mass</name>
+                           <description>Center of mass</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Cross product</name>
+                           <description>Cross product</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Moment of inertia</name>
+                           <description>Moment of inertia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Conservation of angular momentum</name>
+                           <description>Conservation of angular momentum</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Rotational dynamics</name>
+                           <description>Rotational dynamics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Rolling motion</name>
+                           <description>Rolling motion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Oscillations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Oscillations</name>
+                           <description>Topic Tests - Oscillations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equations of Simple Harmonic Motion</name>
+                           <description>Equations of Simple Harmonic Motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Simple pendulum</name>
+                           <description>Simple pendulum</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Springs</name>
+                           <description>Springs</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Gravitation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Gravitation</name>
+                           <description>Topic Tests - Gravitation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Kepler’s law</name>
+                           <description>Kepler’s law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Universal law of gravitation</name>
+                           <description>Universal law of gravitation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Acceleration due to gravity</name>
+                           <description>Acceleration due to gravity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Acceleration due to gravity below and above surface of the earth</name>
+                           <description>Acceleration due to gravity below and above surface of the earth</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Gravitational potential energy</name>
+                           <description>Gravitational potential energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Earth satellites and escape speed</name>
+                           <description>Earth satellites and escape speed</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Mechanical Properties of Solids</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mechanical Properties of Solids</name>
+                           <description>Topic Tests - Mechanical Properties of Solids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Young’s modulus</name>
+                           <description>Young’s modulus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Rigidity modulus and Bulk modulus</name>
+                           <description>Rigidity modulus and Bulk modulus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Strain energy</name>
+                           <description>Strain energy</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Mechanical Properties of Fluids</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mechanical Properties of Fluids</name>
+                           <description>Topic Tests - Mechanical Properties of Fluids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Pressure and Buoyance</name>
+                           <description>Pressure and Buoyance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Equation of continuity and Bernouli’s theorem</name>
+                           <description>Equation of continuity and Bernouli’s theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Viscous force</name>
+                           <description>Viscous force</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Terminal velocity</name>
+                           <description>Terminal velocity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Poiseulli’s equation</name>
+                           <description>Poiseulli’s equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Surface energy and work done</name>
+                           <description>Surface energy and work done</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Excess pressure</name>
+                           <description>Excess pressure</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Capillarity</name>
+                           <description>Capillarity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Thermal Properties of Matter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Thermal Properties of Matter</name>
+                           <description>Topic Tests - Thermal Properties of Matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Thermometry</name>
+                           <description>Thermometry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Expansion of solids</name>
+                           <description>Expansion of solids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Expansion of liquids</name>
+                           <description>Expansion of liquids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Expansion of gases</name>
+                           <description>Expansion of gases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Calorimetry</name>
+                           <description>Calorimetry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Conduction</name>
+                           <description>Conduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Radiation</name>
+                           <description>Radiation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Newton’s law of cooling</name>
+                           <description>Newton’s law of cooling</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Thermodynamics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Thermodynamics</name>
+                           <description>Topic Tests - Thermodynamics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Joul’s law</name>
+                           <description>Joul’s law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>First law of thermodynamics</name>
+                           <description>First law of thermodynamics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Cp Cv and their relations</name>
+                           <description>Cp Cv and their relations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Graphs</name>
+                           <description>Graphs</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Heat engine</name>
+                           <description>Heat engine</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Kinetic Theory of Gases</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Kinetic Theory of Gases</name>
+                           <description>Topic Tests - Kinetic Theory of Gases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Kinetic theory of an ideal gas</name>
+                           <description>Kinetic theory of an ideal gas</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Various speeds of gas molecules</name>
+                           <description>Various speeds of gas molecules</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+            <levelOnly>
+               <id_level>102</id_level>
+               <subject>InterPhysics</subject>
+               <subject_header>Intermediate Physics</subject_header>
+               <name><![CDATA[Physics Second Year]]></name>
+               <display_name><![CDATA[Physics Second Year]]></display_name>
+               <description><![CDATA[Physics preparation for EAMCET and IIT.  Second Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Second Year Physics</name>
+                           <description><![CDATA[Combined Practice Tests - Second Year Physics]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Waves</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Waves</name>
+                           <description>Topic Tests - Waves</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Wave equation and basics</name>
+                           <description>Wave equation and basics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Strings (speed of a travelling wave)</name>
+                           <description>Strings (speed of a travelling wave)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Velocity of sound</name>
+                           <description>Velocity of sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Pipes (open and closed)</name>
+                           <description>Pipes (open and closed)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Beats</name>
+                           <description>Beats</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Doppler Effect</name>
+                           <description>Doppler Effect</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Ray Optics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ray Optics</name>
+                           <description>Topic Tests - Ray Optics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Reflection</name>
+                           <description>Reflection</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Refraction</name>
+                           <description>Refraction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Lens maker’s formula</name>
+                           <description>Lens maker’s formula</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Prism</name>
+                           <description>Prism</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Optical instruments: Microscopes</name>
+                           <description>Optical instruments: Microscopes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Wave Optics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Wave Optics</name>
+                           <description>Topic Tests - Wave Optics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Doppler Effect in Light Waves, Interference</name>
+                           <description>Doppler Effect in Light Waves, Interference</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Diffraction</name>
+                           <description>Diffraction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Polarization</name>
+                           <description>Polarization</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Electric Charges and Fields</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electric Charges and Fields</name>
+                           <description>Topic Tests - Electric Charges and Fields</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Coulomb’s Inverse-square law</name>
+                           <description>Coulomb’s Inverse-square law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Intensity of electric field</name>
+                           <description>Intensity of electric field</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Electric dipole</name>
+                           <description>Electric dipole</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Gauss law</name>
+                           <description>Gauss law</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Electrostatic Potential and Capacitance</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electrostatic Potential and Capacitance</name>
+                           <description>Topic Tests - Electrostatic Potential and Capacitance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Electric potential</name>
+                           <description>Electric potential</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Capacitance</name>
+                           <description>Capacitance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Current Electricity</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Current Electricity</name>
+                           <description>Topic Tests - Current Electricity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Current</name>
+                           <description>Current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Resistance</name>
+                           <description>Resistance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Joule’s law</name>
+                           <description>Joule’s law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Resistance in series and parallel</name>
+                           <description>Resistance in series and parallel</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Ohm’s law</name>
+                           <description>Ohm’s law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Cells</name>
+                           <description>Cells</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Potentiometer</name>
+                           <description>Potentiometer</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Moving Charges and Magnetic Field</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Moving Charges and Magnetic Field</name>
+                           <description>Topic Tests - Moving Charges and Magnetic Field</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Force on charge placed in a magnetic field (or) current charging conductor</name>
+                           <description>Force on charge placed in a magnetic field (or) current charging conductor</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Magnetic induction due to current carrying circular coil</name>
+                           <description>Magnetic induction due to current carrying circular coil</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Magnetic field due to current carrying straight conductors</name>
+                           <description>Magnetic field due to current carrying straight conductors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Solenoid and Toroid</name>
+                           <description>Solenoid and Toroid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Force between parallel current carrying conductor, torque, MCG and T.G</name>
+                           <description>Force between parallel current carrying conductor, torque, MCG and T.G</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Magnetism and Matter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Magnetism and Matter</name>
+                           <description>Topic Tests - Magnetism and Matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Bar magnet</name>
+                           <description>Bar magnet</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Coulomb force</name>
+                           <description>Coulomb force</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Couple, P.E and work done</name>
+                           <description>Couple, P.E and work done</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Time period of oscillations</name>
+                           <description>Time period of oscillations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Earth’s magnetism and neutral points</name>
+                           <description>Earth’s magnetism and neutral points</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Electromagnetic Induction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electromagnetic Induction</name>
+                           <description>Topic Tests - Electromagnetic Induction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Magnetic flux, Faraday’s law, Lenz’s law, AC generator</name>
+                           <description>Magnetic flux, Faraday’s law, Lenz’s law, AC generator</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Motional EMF</name>
+                           <description>Motional EMF</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Self-Inductance and Mutual-Inductance</name>
+                           <description>Self-Inductance and Mutual-Inductance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>DC circuits</name>
+                           <description>DC circuits</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Alternating Current</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Alternating Current</name>
+                           <description>Topic Tests - Alternating Current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>AC circuits and Transformer</name>
+                           <description>AC circuits and Transformer</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Dual Nature of Radiation and Matter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Dual Nature of Radiation and Matter</name>
+                           <description>Topic Tests - Dual Nature of Radiation and Matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Photoelectric effect</name>
+                           <description>Photoelectric effect</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>De Broglie Hypothesis</name>
+                           <description>De Broglie Hypothesis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>X-Rays</name>
+                           <description>X-Rays</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Atoms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atoms</name>
+                           <description>Topic Tests - Atoms</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Atoms</name>
+                           <description>Atoms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Atoms/Nuclei</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atoms/Nuclei</name>
+                           <description>Topic Tests - Atoms/Nuclei</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Nuclear Binding Energy and Mass Defect</name>
+                           <description>Nuclear Binding Energy and Mass Defect</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nuclear Fission, Nuclear Fusion and Elementary Particles</name>
+                           <description>Nuclear Fission, Nuclear Fusion and Elementary Particles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Semiconductor Devices</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Semiconductor Devices</name>
+                           <description>Topic Tests - Semiconductor Devices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Energy Bands and classification of solids</name>
+                           <description>Energy Bands and classification of solids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>p–n junction Diode</name>
+                           <description>p–n junction Diode</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Transistors</name>
+                           <description>Transistors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Logic gates</name>
+                           <description>Logic gates</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Communication Systems</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Communication Systems</name>
+                           <description>Topic Tests - Communication Systems</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>TV antenna</name>
+                           <description>TV antenna</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Sky and Space Wave Propagation</name>
+                           <description>Sky and Space Wave Propagation</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Amplitude and Modulation</name>
+                           <description>Amplitude and Modulation</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Bandwidth of signals, transmission medium and communication system</name>
+                           <description>Bandwidth of signals, transmission medium and communication system</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Electromagnetic Waves</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electromagnetic Waves</name>
+                           <description>Topic Tests - Electromagnetic Waves</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Displacement current</name>
+                           <description>Displacement current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Magnetic field produced between the plates of a parallel plate condenser</name>
+                           <description>Magnetic field produced between the plates of a parallel plate condenser</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Wave equation</name>
+                           <description>Wave equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Relation between B and E</name>
+                           <description>Relation between B and E</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+				  
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Magnetic Effect of Current</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Magnetic Effect of Current</name>
+                           <description>Topic Tests - Magnetic Effect of Current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Biot-Savart's law and its applications</name>
+                           <description>Biot-Savart's law and its applications</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ampere's law and its applications</name>
+                           <description>Ampere's law and its applications</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Lorentz force, force on current carrying conductors in a magnetic field</name>
+                           <description>Lorentz force, force on current carrying conductors in a magnetic field</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Magnetic moment of a current loop, torque on a current loop, Galvanometer and its conversion to voltmeter and ammeter</name>
+                           <description>Magnetic moment of a current loop, torque on a current loop, Galvanometer and its conversion to voltmeter and ammeter</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>103</id_level>
+               <subject>InterPhysics</subject>
+               <subject_header>Intermediate Physics</subject_header>
+               <name>Mock Subject Exams</name>
+               <display_name>Mock Subject Exams</display_name>
+               <description>Physics Mock Exams for EAMCET and IIT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>EAMCET Physics Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya EAMCET Practice Tests</name>
+                           <description>Sri Chaitanya EAMCET Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sakshi EAMCET Practice Tests</name>
+                           <description>Sakshi EAMCET Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>IIT Physics Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya Practice Tests</name>
+                           <description>Sri Chaitanya Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+         <id_system>149</id_system>
+         <id_provider>0</id_provider>
+         
+         <levelChoiceArray>
+
+            <levelChoiceType>
+               <coreLevelReference>
+                  <id_level>101</id_level>
+                  <id_level_reference>104190</id_level_reference>
+                  <subject_header_override><![CDATA[10<sup>th</sup> Grade Subjects]]></subject_header_override>
+               </coreLevelReference>
+            </levelChoiceType>
+
+            <levelChoiceType>
+               <coreLevelReference>
+                  <id_level>103</id_level>
+                  <id_level_reference>104390</id_level_reference>
+                  <subject_header_override><![CDATA[10<sup>th</sup> Grade Subjects]]></subject_header_override>
+               </coreLevelReference>
+            </levelChoiceType>
+
+            <levelChoiceType>
+               <coreLevelReference>
+                  <id_level>104</id_level>
+                  <id_level_reference>104490</id_level_reference>
+                  <subject_header_override><![CDATA[10<sup>th</sup> Grade Subjects]]></subject_header_override>
+               </coreLevelReference>
+            </levelChoiceType>
+
+            <levelChoiceType>
+               <coreLevelReference>
+                  <id_level>105</id_level>
+                  <id_level_reference>104590</id_level_reference>
+                  <subject_header_override><![CDATA[10<sup>th</sup> Grade Subjects]]></subject_header_override>
+               </coreLevelReference>
+            </levelChoiceType>
+         </levelChoiceArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

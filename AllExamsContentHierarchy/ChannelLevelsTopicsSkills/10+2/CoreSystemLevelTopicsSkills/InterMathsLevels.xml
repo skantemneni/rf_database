@@ -1,0 +1,1754 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="true">
+         <id_system>103</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+
+            <levelOnly>
+               <id_level>501</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Mathematics</subject_header>
+               <name>Mathematics First Year I-A</name>
+               <display_name>Mathematics First Year I-A</display_name>
+               <description>Mathematics EAMCET/IIT - Maths First Year I-A</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Maths First Year I-A</name>
+                           <description>Combined Practice Tests - Maths First Year I-A</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Functions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Functions</name>
+                           <description>Topic Tests - Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Composite of functions and real valued functions, even and odd functions, domains, Ranges</name>
+                           <description>Composite of functions and real valued functions, even and odd functions, domains, Ranges</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nature of functions, number of a function</name>
+                           <description>Nature of functions, number of a function</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Mathematical Induction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mathematical Induction</name>
+                           <description>Topic Tests - Mathematical Induction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>n’th term series</name>
+                           <description>n’th term series</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Matrices</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Matrices</name>
+                           <description>Topic Tests - Matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Definitions, Rank of matrix</name>
+                           <description>Definitions, Rank of matrix</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Properties of Vectors</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Properties of Vectors</name>
+                           <description>Topic Tests - Properties of Vectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Collinear, coplanar</name>
+                           <description>Collinear, coplanar</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Functions of vectors</name>
+                           <description>Functions of vectors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterMath</subject>
+                     <name>DOT product of two vectors</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - DOT product of two vectors</name>
+                           <description>Topic Tests - DOT product of two vectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Angle between the vectors</name>
+                           <description>Angle between the vectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Components (or) projections , Geometrical Applications</name>
+                           <description>Components (or) projections , Geometrical Applications</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Vector cross product of two vectors</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Vector cross product of two vectors</name>
+                           <description>Topic Tests - Vector cross product of two vectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cross products</name>
+                           <description>Cross products</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Multiple product of two vectors</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Multiple product of two vectors</name>
+                           <description>Topic Tests - Multiple product of two vectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Scalar triple product</name>
+                           <description>Scalar triple product</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Vector triple product</name>
+                           <description>Vector triple product</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Scalar products of four vectors</name>
+                           <description>Scalar products of four vectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Vector product of four vectors</name>
+                           <description>Vector product of four vectors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Trigonometric ratios</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Trigonometric ratios</name>
+                           <description>Topic Tests - Trigonometric ratios</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Values of trigonometric functions</name>
+                           <description>Values of trigonometric functions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Compound angles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Compound angles</name>
+                           <description>Topic Tests - Compound angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name><![CDATA[Trigonometric ratios of sin (A&plusmn;B), cos (A&plusmn;B), tan(A&plusmn;B), identities]]></name>
+                           <description><![CDATA[Trigonometric ratios of sin (A&plusmn;B), cos (A&plusmn;B), tan(A&plusmn;B), identities]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Multiple and sub multiple angles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Multiple and sub multiple angles</name>
+                           <description>Topic Tests - Multiple and sub multiple angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Multiple and sub multiples of angles 2A, 3A , A/2</name>
+                           <description>Multiple and sub multiples of angles 2A, 3A , A/2</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Transformation and identities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Transformation and identities</name>
+                           <description>Topic Tests - Transformation and identities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Transformation from sum to products and products to sum</name>
+                           <description>Transformation from sum to products and products to sum</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Periodicity, extreme values and graphs</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Periodicity, extreme values and graphs</name>
+                           <description>Topic Tests - Periodicity, extreme values and graphs</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Periods of trigonometric functions, extreme values of ratios</name>
+                           <description>Periods of trigonometric functions, extreme values of ratios</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Trigonometric equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Trigonometric equations</name>
+                           <description>Topic Tests - Trigonometric equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Trigonometric equations</name>
+                           <description>Trigonometric equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Inverse Trigonometric Functions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inverse Trigonometric Functions</name>
+                           <description>Topic Tests - Inverse Trigonometric Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Inverse Trigonometric Functions</name>
+                           <description>Inverse Trigonometric Functions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Hyperbolic Functions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Hyperbolic Functions</name>
+                           <description>Topic Tests - Hyperbolic Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Hyperbolic Functions</name>
+                           <description>Hyperbolic Functions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Properties of triangles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Properties of triangles</name>
+                           <description>Topic Tests - Properties of triangles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on sine rule, problems on cosine rule</name>
+                           <description>Problems on sine rule, problems on cosine rule</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Projection rule, tangent and mollciede's, half angle formulae</name>
+                           <description>Projection rule, tangent and mollciede's, half angle formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Arithmetic, Geometric, Harmonic Progressions, problems on delta</name>
+                           <description>Arithmetic, Geometric, Harmonic Progressions, problems on delta</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Problems on nature of triangles, problems on r, r1, r2, r3; problems on heights and distance</name>
+                           <description>Problems on nature of triangles, problems on r, r1, r2, r3; problems on heights and distance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+            <levelOnly>
+               <id_level>502</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Mathematics</subject_header>
+               <name>Mathematics First Year I-B</name>
+               <display_name>Mathematics First Year I-B</display_name>
+               <description>Mathematics EAMCET/IIT - Maths First Year I-B</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Maths First Year I-B</name>
+                           <description>Combined Practice Tests - Maths First Year I-B</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Co-ordinate system</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Co-ordinate system</name>
+                           <description>Topic Tests - Co-ordinate system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on section formulae</name>
+                           <description>Problems on section formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on Centroid, Circumcenter, Orthocenter of a triangle</name>
+                           <description>Problems on Centroid, Circumcenter, Orthocenter of a triangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Problems on area of triangle, area of a quadrilateral collinear points</name>
+                           <description>Problems on area of triangle, area of a quadrilateral collinear points</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Problems on index and excenter of a triangle</name>
+                           <description>Problems on index and excenter of a triangle</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Change of axes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Change of axes</name>
+                           <description>Topic Tests - Change of axes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Translation of axes</name>
+                           <description>Translation of axes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Rotation of axes</name>
+                           <description>Rotation of axes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Straight lines</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Straight lines</name>
+                           <description>Topic Tests - Straight lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on equation of a line</name>
+                           <description>Problems on equation of a line</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on slopes</name>
+                           <description>Problems on slopes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Problems on intercepts</name>
+                           <description>Problems on intercepts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Problems on axes</name>
+                           <description>Problems on axes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Problems on perpendicular distance</name>
+                           <description>Problems on perpendicular distance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Problems in angle between the lines</name>
+                           <description>Problems in angle between the lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Problems on foot and image</name>
+                           <description>Problems on foot and image</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Pair of straight lines</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Pair of straight lines</name>
+                           <description>Topic Tests - Pair of straight lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on  Nature of pair of lines</name>
+                           <description>Problems on  Nature of pair of lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on angle between the pair of lines</name>
+                           <description>Problems on angle between the pair of lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Problems on angle bisectors</name>
+                           <description>Problems on angle bisectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Problems related to slopes</name>
+                           <description>Problems related to slopes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Problems on axe of triangle</name>
+                           <description>Problems on axe of triangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Parallel and perpendicular pair of lines and product of perpendiculars</name>
+                           <description>Parallel and perpendicular pair of lines and product of perpendiculars</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Problems on common line to the pair of lines</name>
+                           <description>Problems on common line to the pair of lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Equation to the pair of sides of a triangle</name>
+                           <description>Equation to the pair of sides of a triangle</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterMath</subject>
+                     <name>3D Co-ordinate system</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - 3D Co-ordinate system</name>
+                           <description>Topic Tests - 3D Co-ordinate system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Co-ordinate axes, plane</name>
+                           <description>Co-ordinate axes, plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Distance formulae</name>
+                           <description>Distance formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Section formulae</name>
+                           <description>Section formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Centroid, tetrahedron</name>
+                           <description>Centroid, tetrahedron</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Locus, translation of axes</name>
+                           <description>Locus, translation of axes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterMath</subject>
+                     <name><![CDATA[Direction cosines & ratios]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - Direction cosines & ratios]]></name>
+                           <description><![CDATA[Topic Tests - Direction cosines & ratios]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Direction cosines of a line</name>
+                           <description>Direction cosines of a line</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Direction ratios of a line</name>
+                           <description>Direction ratios of a line</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Angle between two lines</name>
+                           <description>Angle between two lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Projection of a line segment</name>
+                           <description>Projection of a line segment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Symmetric form of the equation of a line</name>
+                           <description>Symmetric form of the equation of a line</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Planes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Planes</name>
+                           <description>Topic Tests - Planes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on equation of a plane</name>
+                           <description>Problems on equation of a plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on ratio</name>
+                           <description>Problems on ratio</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Problems on angle between planes</name>
+                           <description>Problems on angle between planes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Limits</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Limits</name>
+                           <description>Topic Tests - Limits</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Limits on 0/0 form</name>
+                           <description>Limits on 0/0 form</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Limits on &infin;/&infin;]]></name>
+                           <description><![CDATA[Limits on &infin;/&infin;]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name><![CDATA[Limits on 1<sup>&infin;</sup>]]></name>
+                           <description><![CDATA[Limits on 1<sup>&infin;</sup>]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Limits on right limit, left limit form</name>
+                           <description>Limits on right limit, left limit form</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Limits on bounded functions</name>
+                           <description>Limits on bounded functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name><![CDATA[Limits on 0<sup>0</sup>, &infin;<sup>0</sup>, &infin;<sup>&infin;</sup> form]]></name>
+                           <description><![CDATA[Limits on 0<sup>0</sup>, &infin;<sup>0</sup>, &infin;<sup>&infin;</sup> form]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Continuity</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Continuity</name>
+                           <description>Topic Tests - Continuity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Continuity of  real functions</name>
+                           <description>Continuity of  real functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Left continuity and Right continuity</name>
+                           <description>Left continuity and Right continuity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Differentiation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Differentiation</name>
+                           <description>Topic Tests - Differentiation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Basic differentiation</name>
+                           <description>Basic differentiation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Implicit differentiation</name>
+                           <description>Implicit differentiation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Differentiation by substitution</name>
+                           <description>Differentiation by substitution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Parametric differentiation</name>
+                           <description>Parametric differentiation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Differentiation of a function w.r.t another function</name>
+                           <description>Differentiation of a function w.r.t another function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Second order derivatives</name>
+                           <description>Second order derivatives</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Differentiability</name>
+                           <description>Differentiability</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Errors and approximations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Errors and approximations</name>
+                           <description>Topic Tests - Errors and approximations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Models based on circle</name>
+                           <description>Models based on circle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Models based on cylinder</name>
+                           <description>Models based on cylinder</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Models based on cone</name>
+                           <description>Models based on cone</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Rate of change</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Rate of change</name>
+                           <description>Topic Tests - Rate of change</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems based on velocity and acceleration</name>
+                           <description>Problems based on velocity and acceleration</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on circles, cubes, sphere, cylinder</name>
+                           <description>Problems on circles, cubes, sphere, cylinder</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Tangent and Normals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Tangent and Normals</name>
+                           <description>Topic Tests - Tangent and Normals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on tangents</name>
+                           <description>Problems on tangents</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on normals</name>
+                           <description>Problems on normals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Length of tangent, length of normal, length of subtangent, length of subnormal</name>
+                           <description>Length of tangent, length of normal, length of subtangent, length of subnormal</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterMath</subject>
+                     <name><![CDATA[Maxima & Minima]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - Maxima & Minima]]></name>
+                           <description><![CDATA[Topic Tests - Maxima & Minima]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name><![CDATA[Increasing & Decreasing Functions]]></name>
+                           <description><![CDATA[Increasing & Decreasing Functions]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Stationary Values & Stationary Points]]></name>
+                           <description><![CDATA[Stationary Values & Stationary Points]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name><![CDATA[Maximum & Minimum Values]]></name>
+                           <description><![CDATA[Maximum & Minimum Values]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Mean Values Theorems</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mean Values Theorems</name>
+                           <description>Topic Tests - Mean Values Theorems</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rolle's Theorem, Legrange's Mean Value Theorem</name>
+                           <description>Rolle's Theorem, Legrange's Mean Value Theorem</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+            <levelOnly>
+               <id_level>503</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Mathematics</subject_header>
+               <name>Algebra - Mathematics Second Year II-A</name>
+               <display_name>Algebra - Mathematics Second Year II-A</display_name>
+               <description>Algebra for EAMCET/IIT -  Mathematics Second Year II-A</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Algebra</name>
+                           <description>Combined Practice Tests - Algebra</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Quadratic Equations and Expressions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Quadratic Equations and Expressions</name>
+                           <description>Topic Tests - Quadratic Equations and Expressions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Based on Roots, Relation Between Roots and Coefficients</name>
+                           <description>Based on Roots, Relation Between Roots and Coefficients</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Formation of Quadratic Equations and Transformed Equations, Ratio of Roots</name>
+                           <description>Formation of Quadratic Equations and Transformed Equations, Ratio of Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Roots with Power, Conjugate Roots, Equal Roots</name>
+                           <description>Roots with Power, Conjugate Roots, Equal Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Nature of Roots, Expressions, Inequalities</name>
+                           <description>Nature of Roots, Expressions, Inequalities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Theory of Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Theory of Equations</name>
+                           <description>Topic Tests - Theory of Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Quotient, Remainders, Formation of Equation</name>
+                           <description>Quotient, Remainders, Formation of Equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Models on Roots of the Equatic, Multiple Roots</name>
+                           <description>Models on Roots of the Equatic, Multiple Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Transformed Equations, Removal of 2nd, 3rd Terms</name>
+                           <description>Transformed Equations, Removal of 2nd, 3rd Terms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Conditional Roots, Reciprocal Equations</name>
+                           <description>Conditional Roots, Reciprocal Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Binomial Theorem</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Binomial Theorem</name>
+                           <description>Topic Tests - Binomial Theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Middle Term</name>
+                           <description>Middle Term</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Binomial Coefficients</name>
+                           <description>Binomial Coefficients</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Rational Index</name>
+                           <description>Rational Index</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Partial Fractions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Partial Fractions</name>
+                           <description>Topic Tests - Partial Fractions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Partial Fractions</name>
+                           <description>Partial Fractions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Complex Numbers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Complex Numbers</name>
+                           <description>Topic Tests - Complex Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Integral Powers of i, Algebra of Complex Numbers</name>
+                           <description>Integral Powers of i, Algebra of Complex Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on Conjugate and Relation on z, Problems on Modulus</name>
+                           <description>Problems on Conjugate and Relation on z, Problems on Modulus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Amplitude Properties - Polar Form, Square Roots</name>
+                           <description>Amplitude Properties - Polar Form, Square Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Cube Roots of Unity, Problems on Locus</name>
+                           <description>Cube Roots of Unity, Problems on Locus</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Demoivre’s Theorem</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Demoivre’s Theorem</name>
+                           <description>Topic Tests - Demoivre’s Theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Demoivre’s Theorem for Integral and Rational Indices</name>
+                           <description>Demoivre’s Theorem for Integral and Rational Indices</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+            <levelOnly>
+               <id_level>504</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Mathematics</subject_header>
+               <name>Probability - Mathematics Second Year II-A</name>
+               <display_name>Probability - Mathematics Second Year II-A</display_name>
+               <description>Probability for EAMCET/IIT - Maths IIA</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Probability Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Probability</name>
+                           <description>Combined Practice Tests - Probability</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Permutations and Combinations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Permutations and Combinations</name>
+                           <description>Topic Tests - Permutations and Combinations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on nPr, Permutations of Dissimilar Things</name>
+                           <description>Problems on nPr, Permutations of Dissimilar Things</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Permutations with Repetition of Things, Problems on No. of Functions and Its Applications</name>
+                           <description>Permutations with Repetition of Things, Problems on No. of Functions and Its Applications</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Permutations of Similar Things, Circular Permutations</name>
+                           <description>Permutations of Similar Things, Circular Permutations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sum of Numbers (without Repetition)</name>
+                           <description>Sum of Numbers (without Repetition)</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Probability</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Probability</name>
+                           <description>Topic Tests - Probability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on Classical Definition</name>
+                           <description>Problems on Classical Definition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Addition Theorem</name>
+                           <description>Addition Theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Conditional Probability</name>
+                           <description>Conditional Probability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Independent and Dependent Events</name>
+                           <description>Independent and Dependent Events</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Bayes' Theorem</name>
+                           <description>Bayes' Theorem</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Random Variable and Distributions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Random Variable and Distributions</name>
+                           <description>Topic Tests - Random Variable and Distributions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Random Variable</name>
+                           <description>Random Variable</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Binomial Distribution</name>
+                           <description>Binomial Distribution</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Measures of Dispersion (Statistics)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Measures of Dispersion (Statistics)</name>
+                           <description>Topic Tests - Measures of Dispersion (Statistics)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Arithmetic Mean</name>
+                           <description>Arithmetic Mean</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Median and Partition Values</name>
+                           <description>Median and Partition Values</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Mean Deviation</name>
+                           <description>Mean Deviation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Standard Deviation and Variance</name>
+                           <description>Standard Deviation and Variance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Miscellaneous Models</name>
+                           <description>Miscellaneous Models</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+            <levelOnly>
+               <id_level>505</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Mathematics</subject_header>
+               <name>Geometry - Mathematics Second Year II-B</name>
+               <display_name>Geometry - Mathematics Second Year II-B</display_name>
+               <description> EAMCET/IIT - Mathematics Second Year II-B</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Geometry</name>
+                           <description>Combined Practice Tests - Geometry</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Circles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Circles</name>
+                           <description>Topic Tests - Circles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equations on Circle, Centre, Radius Form, Tangents and Normals</name>
+                           <description>Equations on Circle, Centre, Radius Form, Tangents and Normals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Power of a Point, Position of A Point, Chord, Circles Touching Co-ordinate Axes and Intercepts on Axes</name>
+                           <description>Power of a Point, Position of A Point, Chord, Circles Touching Co-ordinate Axes and Intercepts on Axes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Pole, Polar, Conjugate Points, Inverse Points, Chord with Mid Point</name>
+                           <description>Pole, Polar, Conjugate Points, Inverse Points, Chord with Mid Point</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Circles Relative Positions</name>
+                           <description>Circles Relative Positions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterMath</subject>
+                     <name>System of Circles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - System of Circles</name>
+                           <description>Topic Tests - System of Circles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Angle between Two Circles</name>
+                           <description>Angle between Two Circles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Radical Axes and Radical Centre</name>
+                           <description>Radical Axes and Radical Centre</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Length of Common Chord</name>
+                           <description>Length of Common Chord</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Parabola</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Parabola</name>
+                           <description>Topic Tests - Parabola</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equation of Parabola</name>
+                           <description>Equation of Parabola</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Tangents and Normals</name>
+                           <description>Tangents and Normals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Parametric Form</name>
+                           <description>Parametric Form</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Vertex, Focus, Length of Latus rectum</name>
+                           <description>Vertex, Focus, Length of Latus rectum</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Ellipse</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ellipse</name>
+                           <description>Topic Tests - Ellipse</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equation of The Ellipse, Centre, Foci, Vertices, Directrices, Axes</name>
+                           <description>Equation of The Ellipse, Centre, Foci, Vertices, Directrices, Axes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Eccentricity, Tangents and Normals</name>
+                           <description>Eccentricity, Tangents and Normals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Midpoint of Chord, Parametric Form</name>
+                           <description>Midpoint of Chord, Parametric Form</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Hyperbola</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Hyperbola</name>
+                           <description>Topic Tests - Hyperbola</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equation of the Hyperbola</name>
+                           <description>Equation of the Hyperbola</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Centre, Vertices, Foci, Axes</name>
+                           <description>Centre, Vertices, Foci, Axes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Eccentricity</name>
+                           <description>Eccentricity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Tangents and Normals</name>
+                           <description>Tangents and Normals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Asymptotes</name>
+                           <description>Asymptotes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+            <levelOnly>
+               <id_level>506</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Mathematics</subject_header>
+               <name>Calculus - Mathematics Second Year II-B</name>
+               <display_name>Calculus - Mathematics Second Year II-B</display_name>
+               <description>Calculus EAMCET/IIT - Mathematics Second Year II-B</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Calculus</name>
+                           <description>Combined Practice Tests - Calculus</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Indefinite Integrals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Indefinite Integrals</name>
+                           <description>Topic Tests - Indefinite Integrals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Formula Based Problems, Integration by Substitution</name>
+                           <description>Formula Based Problems, Integration by Substitution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Standard Formulae, Partial Fractions</name>
+                           <description>Standard Formulae, Partial Fractions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Integration by Parts, Reduction Formulae</name>
+                           <description>Integration by Parts, Reduction Formulae</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Definite Integrals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Definite Integrals</name>
+                           <description>Topic Tests - Definite Integrals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Problems on Fundamental Theorem of Calculus, Problems on (A-X) Property</name>
+                           <description>Problems on Fundamental Theorem of Calculus, Problems on (A-X) Property</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Problems on Even and Odd Functions, Step Function Models</name>
+                           <description>Problems on Even and Odd Functions, Step Function Models</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Periodic Property, Miscellaneous Models</name>
+                           <description>Periodic Property, Miscellaneous Models</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Integrals as a Limit of Summation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Integrals as a Limit of Summation</name>
+                           <description>Topic Tests - Integrals as a Limit of Summation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Integrals as a Limit of Summation</name>
+                           <description>Integrals as a Limit of Summation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Areas</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Areas</name>
+                           <description>Topic Tests - Areas</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Areas</name>
+                           <description>Areas</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Differential Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Differential Equations</name>
+                           <description>Topic Tests - Differential Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Order, Degree, Formation of Differential Equation</name>
+                           <description>Order, Degree, Formation of Differential Equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Variables Separable, Homogeneous</name>
+                           <description>Variables Separable, Homogeneous</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Non-Homogeneous, Linear Equations</name>
+                           <description>Non-Homogeneous, Linear Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+
+            <levelOnly>
+               <id_level>510</id_level>
+               <subject>InterMath</subject>
+               <subject_header>Intermediate Maths</subject_header>
+               <name>Mathematics Mock Subject Exams</name>
+               <display_name>Mathematics Mock Subject Exams</display_name>
+               <description>Mathematics Mock Exams for EAMCET and IIT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterMath</subject>
+                     <name>EAMCET Mathematics Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya EAMCET Mathematics Practice Tests</name>
+                           <description>Sri Chaitanya EAMCET Mathematics Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sakshi EAMCET Mathematics Practice Tests</name>
+                           <description>Sakshi EAMCET Mathematics Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterMath</subject>
+                     <name>IIT Mathematics Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya Mathematics Practice Tests</name>
+                           <description>Sri Chaitanya Mathematics Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

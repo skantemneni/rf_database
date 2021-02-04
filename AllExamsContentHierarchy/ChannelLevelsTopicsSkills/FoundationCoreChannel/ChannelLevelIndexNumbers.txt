@@ -1,0 +1,76 @@
+Channel:
+---------------
+Core Foundation Channel: 104
+
+
+Subjects:
+---------------
+Math: 1 Series
+    
+    6th Grade Math: 150-159
+    7th Grade Math: 160-169
+    8th Grade Math: 170-179
+    9th Grade Math: 180-189
+    10th Grade Math: 190-199
+
+
+Foundation Science: 2 Series
+
+    6th Grade Math: 250-259
+    7th Grade Math: 260-269
+
+
+Physics: 3 Series
+
+    8th Grade Math: 370-379
+    9th Grade Math: 380-389
+    10th Grade Math: 390-399
+
+Chemistry: 4 Series
+
+    8th Grade Math: 470-479
+    9th Grade Math: 480-489
+    10th Grade Math: 490-499
+
+Biology: 5 Series
+
+    8th Grade Math: 570-579
+    9th Grade Math: 580-589
+    10th Grade Math: 590-599
+
+Languate Arts: 6 Series
+
+    6th Grade Math: 650-659
+    7th Grade Math: 660-669
+    8th Grade Math: 670-679
+    9th Grade Math: 680-689
+    10th Grade Math: 690-699
+
+Social: 7 Series
+
+    6th Grade Math: 750-759
+    7th Grade Math: 760-769
+    8th Grade Math: 770-779
+    9th Grade Math: 780-789
+    10th Grade Math: 790-799
+
+Reasoning: 8 Series
+
+    6th Grade Math: 850-859
+    7th Grade Math: 860-869
+    8th Grade Math: 870-879
+    9th Grade Math: 880-889
+    10th Grade Math: 890-899
+
+Mental Ability: 9 Series
+
+    6th Grade Math: 950-959
+    7th Grade Math: 960-969
+    8th Grade Math: 970-979
+    9th Grade Math: 980-989
+    10th Grade Math: 990-999
+
+
+
+
+

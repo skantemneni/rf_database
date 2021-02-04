@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false" reload="true">
+         <id_system>132</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>601</id_level>
+               <subject>InterEnglish</subject>
+               <subject_header>BITSAT English</subject_header>
+               <name>BITSAT English</name>
+               <display_name>BITSAT English</display_name>
+               <description>BITSAT English</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Practise tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined practice tests - English proficiency</name>
+                           <description>Combined practice tests - English proficiency</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Grammar</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - grammar</name>
+                           <description>Topic Tests - grammar</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Agreement, Time and Tense, Parallel construction, Relative pronouns</name>
+                           <description>Agreement, Time and Tense, Parallel construction, Relative pronouns</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Determiners, Prepositions, Modals, Adjectives</name>
+                           <description>Determiners, Prepositions, Modals, Adjectives</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Voice, Transformation</name>
+                           <description>Voice, Transformation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Question tags, Phrasal verbs</name>
+                           <description>Question tags, Phrasal verbs</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Vocabulary</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - vocabulary</name>
+                           <description>Topic Tests - vocabulary</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synonyms, Antonyms, Odd Word, One Word, Jumbled letters, Homophones, Spelling</name>
+                           <description>Synonyms, Antonyms, Odd Word, One Word, Jumbled letters, Homophones, Spelling</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Contextual meaning</name>
+                           <description>Contextual meaning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Analogy</name>
+                           <description>Analogy</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Reading Comprehension</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reading Comprehension</name>
+                           <description>Topic Tests - Reading Comprehension</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Content/ideas</name>
+                           <description>Content/ideas</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Vocabulary</name>
+                           <description>Vocabulary</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Referents</name>
+                           <description>Referents</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Idioms/Phrases</name>
+                           <description>Idioms/Phrases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Reconstruction (rewording)</name>
+                           <description>Reconstruction (rewording)</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Composition</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Composition</name>
+                           <description>Topic Tests - Composition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rearrangement</name>
+                           <description>Rearrangement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Paragraph Unity</name>
+                           <description>Paragraph Unity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Linkers/Connectives</name>
+                           <description>Linkers/Connectives</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Verbal Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - verbal reasoning</name>
+                           <description>Topic Tests - verbal reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Analogy</name>
+                           <description>Analogy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification</name>
+                           <description>Classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Series Completion</name>
+                           <description>Series Completion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Logical Deduction - Reading Passage</name>
+                           <description>Logical Deduction - Reading Passage</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Chart Logic</name>
+                           <description>Chart Logic</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>Non-verbal Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Non verbal reasoning</name>
+                           <description>Topic Tests - Non verbal reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Pattern Perception</name>
+                           <description>Pattern Perception</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Figure Formation and Analysis</name>
+                           <description>Figure Formation and Analysis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Paper Cutting</name>
+                           <description>Paper Cutting</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Figure Matrix</name>
+                           <description>Figure Matrix</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Rule Detection</name>
+                           <description>Rule Detection</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>610</id_level>
+               <subject>InterEnglish</subject>
+               <subject_header>BITSAT English</subject_header>
+               <name>Mock Exams</name>
+               <display_name>Mock Exams - BITSAT English</display_name>
+               <description>English Mock Exams for BITSAT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterEnglish</subject>
+                     <name>BITSAT English Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Practice Test</name>
+                           <description>Practice Test</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>               
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

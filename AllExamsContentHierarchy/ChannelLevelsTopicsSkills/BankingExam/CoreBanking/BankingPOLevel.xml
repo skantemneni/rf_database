@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="true">
+         <id_system>111</id_system>
+         <id_provider>0</id_provider>
+
+         <levelOnlyArray>
+
+            <levelOnly>
+               <id_level>101</id_level>
+               <subject>BankingPO</subject>
+               <subject_header>Bank Probationary Officer Exam</subject_header>
+               <name>Quantitative Aptitude</name>
+               <display_name>Quantitative Aptitude</display_name>
+               <description>Bank PO Exam - Quantitative Aptitude</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Quantitative Aptitude</name>
+                           <description><![CDATA[Combined Practice Tests - Quantitative Aptitude]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Averages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Averages</name>
+                           <description>Topic Tests - Averages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Averages</name>
+                           <description>Averages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Percentages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Percentages</name>
+                           <description>Topic Tests - Percentages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Percentages</name>
+                           <description>Percentages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Ratio and Proportion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ratio and Proportion</name>
+                           <description>Topic Tests - Ratio and Proportion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Ratio and Proportion</name>
+                           <description>Ratio and Proportion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Mixtures and Allegations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mixtures and Allegations</name>
+                           <description>Topic Tests - Mixtures and Allegations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Mixtures and Allegations</name>
+                           <description>Mixtures and Allegations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Clocks and Calendars</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Clocks and Calendars</name>
+                           <description>Topic Tests - Clocks and Calendars</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Clocks and Calendars</name>
+                           <description>Clocks and Calendars</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Time, speed, distance and work</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Time, speed, distance and work</name>
+                           <description>Topic Tests - Time, speed, distance and work</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Time, speed, distance and work</name>
+                           <description>Time, speed, distance and work</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Number Systems</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Number Systems</name>
+                           <description>Topic Tests - Number Systems</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Number Systems</name>
+                           <description>Number Systems</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Probability</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Probability</name>
+                           <description>Topic Tests - Probability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Probability</name>
+                           <description>Probability</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Permutations and Combinations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Permutations and Combinations</name>
+                           <description>Topic Tests - Permutations and Combinations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Permutations and Combinations</name>
+                           <description>Permutations and Combinations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Sequences, Progressions and Series</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sequences, Progressions and Series</name>
+                           <description>Topic Tests - Sequences, Progressions and Series</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sequences, Progressions and Series</name>
+                           <description>Sequences, Progressions and Series</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Logarithms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Logarithms</name>
+                           <description>Topic Tests - Logarithms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Logarithms</name>
+                           <description>Logarithms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>102</id_level>
+               <subject>BankingPO</subject>
+               <subject_header>Bank Probationary Officer Exam</subject_header>
+               <name>Data Interpretation and Logical Reasoning</name>
+               <display_name>Data Interpretation and Logical Reasoning</display_name>
+               <description>Bank PO Exam - Data Interpretation and Logical Reasoning</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Data Interpretation and Logical Reasoning</name>
+                           <description><![CDATA[Combined Practice Tests - Data Interpretation and Logical Reasoning]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Data Interpretation and Analysis</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Data Interpretation and Analysis</name>
+                           <description>Topic Tests - Data Interpretation and Analysis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Data Interpretation and Analysis</name>
+                           <description>Data Interpretation and Analysis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Tables and Caselets</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Tables and Caselets</name>
+                           <description>Topic Tests - Tables and Caselets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Tables and Caselets</name>
+                           <description>Tables and Caselets</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Charts and Diagrams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Charts and Diagrams</name>
+                           <description>Topic Tests - Charts and Diagrams</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Charts and Diagrams</name>
+                           <description>Charts and Diagrams</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Relationships</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Relationships</name>
+                           <description>Topic Tests - Relationships</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Relationships</name>
+                           <description>Relationships</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Directions and Arrangements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Directions and Arrangements</name>
+                           <description>Topic Tests - Directions and Arrangements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Directions and Arrangements</name>
+                           <description>Directions and Arrangements</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Series and Analogy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Series and Analogy</name>
+                           <description>Topic Tests - Series and Analogy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Series and Analogy</name>
+                           <description>Series and Analogy</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Codes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Codes</name>
+                           <description>Topic Tests - Codes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Codes</name>
+                           <description>Codes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Logical Puzzles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Logical Puzzles</name>
+                           <description>Topic Tests - Logical Puzzles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Logical Puzzles</name>
+                           <description>Logical Puzzles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Venn Diagrams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Venn Diagrams</name>
+                           <description>Topic Tests - Venn Diagrams</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Venn Diagrams</name>
+                           <description>Venn Diagrams</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Numerical Logic</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Numerical Logic</name>
+                           <description>Topic Tests - Numerical Logic</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Numerical Logic</name>
+                           <description>Numerical Logic</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Visual Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Visual Reasoning</name>
+                           <description>Topic Tests - Visual Reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Visual Reasoning</name>
+                           <description>Visual Reasoning</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>103</id_level>
+               <subject>BankingPO</subject>
+               <subject_header>Bank Probationary Officer Exam</subject_header>
+               <name>Verbal Ability</name>
+               <display_name>Verbal Ability</display_name>
+               <description>Bank PO Exam - Verbal Ability</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Verbal Ability</name>
+                           <description><![CDATA[Combined Practice Tests - Verbal Ability]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Verbal Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Verbal Reasoning</name>
+                           <description>Topic Tests - Verbal Reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Verbal Reasoning</name>
+                           <description>Verbal Reasoning</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Critical Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Critical Reasoning</name>
+                           <description>Topic Tests - Critical Reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Critical Reasoning</name>
+                           <description>Critical Reasoning</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Grammar</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Grammar</name>
+                           <description>Topic Tests - Grammar</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Grammar</name>
+                           <description>Grammar</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Vocabulary</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Vocabulary</name>
+                           <description>Topic Tests - Vocabulary</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Vocabulary</name>
+                           <description>Vocabulary</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Reading Comprehension</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reading Comprehension</name>
+                           <description>Topic Tests - Reading Comprehension</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Reading Comprehension</name>
+                           <description>Reading Comprehension</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>104</id_level>
+               <subject>BankingPO</subject>
+               <subject_header>Bank Probationary Officer Exam</subject_header>
+               <name>General Knowledge</name>
+               <display_name>General Knowledge</display_name>
+               <description>Bank PO Exam - General Knowledge</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - General Knowledge</name>
+                           <description><![CDATA[Combined Practice Tests - General Knowledge]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Social Schemes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Social Schemes</name>
+                           <description>Topic Tests - Social Schemes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Social Schemes</name>
+                           <description>Social Schemes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Groups, Organizations, Associations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Groups, Organizations, Associations</name>
+                           <description>Topic Tests - Groups, Organizations, Associations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Groups, Organizations, Associations</name>
+                           <description>Groups, Organizations, Associations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Capitals and Currencies</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Capitals and Currencies</name>
+                           <description>Topic Tests - Capitals and Currencies</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Capitals and Currencies</name>
+                           <description>Capitals and Currencies</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Miscellaneous</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Miscellaneous</name>
+                           <description>Topic Tests - Miscellaneous</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Miscellaneous</name>
+                           <description>Miscellaneous</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Current Affairs</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Current Affairs</name>
+                           <description>Topic Tests - Current Affairs</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Current Affairs</name>
+                           <description>Current Affairs</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Commonly Used Marketing Terms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Commonly Used Marketing Terms</name>
+                           <description>Topic Tests - Commonly Used Marketing Terms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Commonly Used Marketing Terms</name>
+                           <description>Commonly Used Marketing Terms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Business Terms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Business Terms</name>
+                           <description>Topic Tests - Business Terms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Business Terms</name>
+                           <description>Business Terms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Basic of Marketing</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Basic of Marketing</name>
+                           <description>Topic Tests - Basic of Marketing</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Basic of Marketing</name>
+                           <description>Basic of Marketing</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Assorted</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Assorted</name>
+                           <description>Topic Tests - Assorted</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Assorted</name>
+                           <description>Assorted</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Major Banks</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Major Banks</name>
+                           <description>Topic Tests - Major Banks</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Major Banks</name>
+                           <description>Major Banks</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Major Schemes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Major Schemes</name>
+                           <description>Topic Tests - Major Schemes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Major Schemes</name>
+                           <description>Major Schemes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Marketing for Banks</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Marketing for Banks</name>
+                           <description>Topic Tests - Marketing for Banks</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Marketing for Banks</name>
+                           <description>Marketing for Banks</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>105</id_level>
+               <subject>BankingPO</subject>
+               <subject_header>Bank Probationary Officer Exam</subject_header>
+               <name>Computer Awareness</name>
+               <display_name>Computer Awareness</display_name>
+               <description>Bank PO Exam - Computer Awareness</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Computer Awareness</name>
+                           <description><![CDATA[Combined Practice Tests - Computer Awareness]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Computer Software</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Computer Software</name>
+                           <description>Topic Tests - Computer Software</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Computer Software</name>
+                           <description>Computer Software</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Computer Hardware</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Computer Hardware</name>
+                           <description>Topic Tests - Computer Hardware</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Computer Hardware</name>
+                           <description>Computer Hardware</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Internet</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Internet</name>
+                           <description>Topic Tests - Internet</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Internet</name>
+                           <description>Internet</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Computer Networking</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Computer Networking</name>
+                           <description>Topic Tests - Computer Networking</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Computer Networking</name>
+                           <description>Computer Networking</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Malware</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Malware</name>
+                           <description>Topic Tests - Malware</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Malware</name>
+                           <description>Malware</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Computer Languages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Computer Languages</name>
+                           <description>Topic Tests - Computer Languages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Computer Languages</name>
+                           <description>Computer Languages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Database Management</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Database Management</name>
+                           <description>Topic Tests - Database Management</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Database Management</name>
+                           <description>Database Management</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>110</id_level>
+               <subject>BankingPO</subject>
+               <subject_header>Bank Probationary Officer Exam</subject_header>
+               <name>Mock Exams - Bank PO</name>
+               <display_name>Mock Exams - Bank PO</display_name>
+               <description>Mock Exams for Bank PO Exam</description>
+               <published>true</published>
+               <derived>false</derived>
+
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>eTester Bank PO Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Provided by eTester.com</name>
+                           <description>eTester.com Bank PO Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Provider by eTester Independent Authors</name>
+                           <description>Bank PO Practice Tests from Indipendent Authors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Book Publishers, Training Institutes and Teachers Associations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Bank PO Practice Tests from Former Employees of T.I.M.E Pvt. Ltd.</name>
+                           <description>Bank PO Practice Tests from Former Employees of Triumphant Institute of Management Education Pvt. Ltd.</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+
+            </levelOnly>
+
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

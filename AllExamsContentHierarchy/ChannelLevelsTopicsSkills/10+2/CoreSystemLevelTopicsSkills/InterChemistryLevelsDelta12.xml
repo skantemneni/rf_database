@@ -1,0 +1,18 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadSkillsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>103</id_system>
+         <id_level>202</id_level>
+         <id_topic>16</id_topic>
+         <id_provider>0</id_provider>
+         <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Petroleum: Composition and refining, uses of petrochemicals</name>
+                           <description>Petroleum: Composition and refining, uses of petrochemicals</description>
+                        </skillOnly>
+         </skillOnlyArray>
+      </LoadSkillsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

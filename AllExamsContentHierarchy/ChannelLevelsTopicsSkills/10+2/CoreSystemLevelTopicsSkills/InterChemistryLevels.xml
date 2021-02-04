@@ -1,0 +1,989 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>103</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+
+            <levelOnly>
+               <id_level>201</id_level>
+               <subject>InterChemistry</subject>
+               <subject_header>Intermediate Chemistry</subject_header>
+               <name><![CDATA[Chemistry First Year]]></name>
+               <display_name><![CDATA[Chemistry First Year]]></display_name>
+               <description><![CDATA[Chemistry preparation for EAMCET and IIT.  First Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - First Year Chemistry</name>
+                           <description><![CDATA[Combined Practice Tests - First Year Chemistry]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Atomic Structure</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atomic Structure</name>
+                           <description>Topic Tests - Atomic Structure</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Atomic Models</name>
+                           <description>Atomic Models</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>DeBroglie's Theory, Heisenberg's Principle, Quantum Numbers</name>
+                           <description>DeBroglie's Theory, Heisenberg's Principle, Quantum Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Electronic Configurations and Principles</name>
+                           <description>Electronic Configurations and Principles</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Energy and Velocity of Electron, Radius of Orbit</name>
+                           <description>Energy and Velocity of Electron, Radius of Orbit</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Classification of Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Classification of Elements</name>
+                           <description>Topic Tests - Classification of Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Different Periodic Classification, Modern Periodic law, Nomenclature of elements and the periodic table</name>
+                           <description>Different Periodic Classification, Modern Periodic law, Nomenclature of elements and the periodic table</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Periodicity and s,p,d,f- blocks, Periodic properties and chemical reactivity</name>
+                           <description>Periodicity and s,p,d,f- blocks, Periodic properties and chemical reactivity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemical Bond</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemical Bond</name>
+                           <description>Topic Tests - Chemical Bond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Bond Theories</name>
+                           <description>Bond Theories</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Bond order, Hydrogen bond</name>
+                           <description>Bond order, Hydrogen bond</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Hybridisation</name>
+                           <description>Hybridisation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>States of matter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - States of matter</name>
+                           <description>Topic Tests - States of matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Intermolecular Theory, Thermal energy, Inter molecular forces vs Thermal energy</name>
+                           <description>Intermolecular Theory, Thermal energy, Inter molecular forces vs Thermal energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Gas Laws</name>
+                           <description>Gas Laws</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Compressibility factor, liquefaction of gases, Critical Constant (Cv, Cp, Ct), Types of Molecular Velocities</name>
+                           <description>Compressibility factor, liquefaction of gases, Critical Constant (Cv, Cp, Ct), Types of Molecular Velocities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Liquid state, properties of liquids</name>
+                           <description>Liquid state, properties of liquids</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Stoichiometry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Stoichiometry</name>
+                           <description>Topic Tests - Stoichiometry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Law of chemical combinations</name>
+                           <description>Law of chemical combinations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Mole concept, Equivalent weights, Empirical and Molecular formula</name>
+                           <description>Mole concept, Equivalent weights, Empirical and Molecular formula</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Stoichiometric calculations, methods of concentration terms, Balancing of Redox reactions, Titrations</name>
+                           <description>Stoichiometric calculations, methods of concentration terms, Balancing of Redox reactions, Titrations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Thermodynamics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Thermodynamics</name>
+                           <description>Topic Tests - Thermodynamics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Thermodynamic Terms</name>
+                           <description>Thermodynamic Terms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Measurement of 'U' and 'H' calorimetry enthalpy exchange, Spontanity of reaction</name>
+                           <description>Measurement of 'U' and 'H' calorimetry enthalpy exchange, Spontanity of reaction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Entropy, Gibbs free energy, Thermodynamic laws</name>
+                           <description>Entropy, Gibbs free energy, Thermodynamic laws</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemical Equilibrium Acid – Bases</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemical Equilibrium Acid – Bases</name>
+                           <description>Topic Tests - Chemical Equilibrium Acid – Bases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equilibrium, Dynamic Equilibrium - Types of  Equilibrium</name>
+                           <description>Equilibrium, Dynamic Equilibrium - Types of  Equilibrium</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Law of mass action- Equilibrium constant, Application Of Equilibrium constant</name>
+                           <description>Law of mass action- Equilibrium constant, Application Of Equilibrium constant</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Relation b/w Kc and Kp Reaction Quotient Q, Gibbs energy</name>
+                           <description>Relation b/w Kc and Kp Reaction Quotient Q, Gibbs energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Le Chatelier's Principle, Acid and Base theories</name>
+                           <description>Le Chatelier's Principle, Acid and Base theories</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Hydrogen and its Compounds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Hydrogen and its Compounds</name>
+                           <description>Topic Tests - Hydrogen and its Compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Position of Hydrogen, Isotopes</name>
+                           <description>Position of Hydrogen, Isotopes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Preparation and Properties of Hydrogen, Hydrogen Hydrides</name>
+                           <description>Preparation and Properties of Hydrogen, Hydrogen Hydrides</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name><![CDATA[Water - Physical & chemical Properties. Structure, Hard water-soft water, heavy water]]></name>
+                           <description><![CDATA[Water - Physical & chemical Properties. Structure, Hard water-soft water, heavy water]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name><![CDATA[Hydrogen peroxide – Preparation and Properties, uses & storage, Hydrogen as a fuel]]></name>
+                           <description><![CDATA[Hydrogen peroxide – Preparation and Properties, uses & storage, Hydrogen as a fuel]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic Chemistry</name>
+                           <description>Topic Tests - Organic Chemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction, Nomenclature, Isomerism, Electronic displacement effects, Reaction inter mediates</name>
+                           <description>Introduction, Nomenclature, Isomerism, Electronic displacement effects, Reaction inter mediates</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Purification methods, Qualitative & Quantitative analysis, Alkanes, Alkenes & Alkynes]]></name>
+                           <description><![CDATA[Purification methods, Qualitative & Quantitative analysis, Alkanes, Alkenes & Alkynes]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name><![CDATA[Benzene & other Compounds]]></name>
+                           <description><![CDATA[Benzene & other Compounds]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Environmental Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Environmental Chemistry</name>
+                           <description>Topic Tests - Environmental Chemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Pollutions</name>
+                           <description>Pollutions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Green chemistry and Chloro Flouro Carbons</name>
+                           <description>Green chemistry and Chloro Flouro Carbons</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>S – Block Elements (IA and IIA Group Elements)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - S – Block Elements (IA and IIA Group Elements)</name>
+                           <description>Topic Tests - S – Block Elements (IA and IIA Group Elements)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>IA - General Properties, Important Compounds of Sodium</name>
+                           <description>IA - General Properties, Important Compounds of Sodium</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>IIA - General Properties, Important Compounds of Calcium</name>
+                           <description>IIA - General Properties, Important Compounds of Calcium</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+				  
+				  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>P – Block Elements (IIIA and IVA Group Elements)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - P – Block Elements (IIIA and IVA Group Elements)</name>
+                           <description>Topic Tests - P – Block Elements (IIIA and IVA Group Elements)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>IIIA - General Properties, Important Compounds of Boron</name>
+                           <description>IIIA - General Properties, Important Compounds of Boron</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>IVA - General Properties, Important Compounds of Carbon and Silicon</name>
+                           <description>IVA - General Properties, Important Compounds of Carbon and Silicon</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>202</id_level>
+               <subject>InterChemistry</subject>
+               <subject_header>Intermediate Chemistry</subject_header>
+               <name><![CDATA[Chemistry Second Year]]></name>
+               <display_name><![CDATA[Chemistry Second Year]]></display_name>
+               <description><![CDATA[Chemistry preparation for EAMCET and IIT.  Second Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Second Year Chemistry</name>
+                           <description><![CDATA[Combined Practice Tests - Second Year Chemistry]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Solid State</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Solid State</name>
+                           <description>Topic Tests - Solid State</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>General Characteristics of Solid State</name>
+                           <description>General Characteristics of Solid State</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Probing the structure of solids; x-ray crystallography, crystal lattice and unit cell</name>
+                           <description>Probing the structure of solids; x-ray crystallography, crystal lattice and unit cell</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Number of atoms in a unit cell, closed packed structure, packing efficiency</name>
+                           <description>Number of atoms in a unit cell, closed packed structure, packing efficiency</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Calculations involving unit cell dimensions, Properties of Solids</name>
+                           <description>Calculations involving unit cell dimensions, Properties of Solids</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Solutions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Solutions</name>
+                           <description>Topic Tests - Solutions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Types of solutions, expressing concentration of solutions, solubility, vapor pressure of liquids solutions</name>
+                           <description>Types of solutions, expressing concentration of solutions, solubility, vapor pressure of liquids solutions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Colligative Properties, Molar Mass</name>
+                           <description>Colligative Properties, Molar Mass</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Elctrochemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Elctrochemistry</name>
+                           <description>Topic Tests - Elctrochemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cells, Nernst Equation</name>
+                           <description>Cells, Nernst Equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Conductance of Electrolytic Solutions</name>
+                           <description>Conductance of Electrolytic Solutions</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Batteries, Fuel Cells, Corrosion and Possivity</name>
+                           <description>Batteries, Fuel Cells, Corrosion and Possivity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemical Kinetics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemical Kinetics</name>
+                           <description>Topic Tests - Chemical Kinetics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rate of Chemical Reactions and Factors, Order and Molecularity of the reaction</name>
+                           <description>Rate of Chemical Reactions and Factors, Order and Molecularity of the reaction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Collision Theory</name>
+                           <description>Collision Theory</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Surface Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Surface Chemistry</name>
+                           <description>Topic Tests - Surface Chemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Adsorption, Catalysis, Colloids, Classification of Colloids, Emulsions, Colloids around us</name>
+                           <description>Adsorption, Catalysis, Colloids, Classification of Colloids, Emulsions, Colloids around us</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>General Principles of Metallurgy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - General Principles of Metallurgy</name>
+                           <description>Topic Tests - General Principles of Metallurgy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Occurrence of Metals</name>
+                           <description>Occurrence of Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Extraction of Metals: Metallurgy</name>
+                           <description>Extraction of Metals: Metallurgy</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>'P'- Block Elements Group-15 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - 'P'- Block Elements Group-15 Elements</name>
+                           <description>Topic Tests - 'P'- Block Elements Group-15 Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction, Important Compounds of Nitrogen</name>
+                           <description>Introduction, Important Compounds of Nitrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Important Compounds of Phosphorous</name>
+                           <description>Important Compounds of Phosphorous</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Group – 16 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Group – 16 Elements</name>
+                           <description>Topic Tests - Group – 16 Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction, Important Compounds of Oxygen</name>
+                           <description>Introduction, Important Compounds of Oxygen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Important Compounds of Sulphur</name>
+                           <description>Important Compounds of Sulphur</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Group – 17 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Group – 17 Elements</name>
+                           <description>Topic Tests - Group – 17 Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction, Important Compounds of Chlorine</name>
+                           <description>Introduction, Important Compounds of Chlorine</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Oxoacids of Halogens, Inter Halogen Compounds</name>
+                           <description>Oxoacids of Halogens, Inter Halogen Compounds</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Group – 18 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Group – 18 Elements</name>
+                           <description>Topic Tests - Group – 18 Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Properties of 18th Group Elements, Compounds of Xenon</name>
+                           <description>Properties of 18th Group Elements, Compounds of Xenon</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name><![CDATA[d and f Block elements & Coordination Compounds]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - d and f Block elements & Coordination Compounds]]></name>
+                           <description><![CDATA[Topic Tests - d and f Block elements & Coordination Compounds]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Position in the periodic table, electronic configuration, General Properties of transition elements (d-Block)</name>
+                           <description>Position in the periodic table, electronic configuration, General Properties of transition elements (d-Block)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Important Compounds of Transition, Inner Transition Elements and Importance</name>
+                           <description>Important Compounds of Transition, Inner Transition Elements and Importance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Co-ordination compounds and Theories, Nomenclature, Isomerism</name>
+                           <description>Co-ordination compounds and Theories, Nomenclature, Isomerism</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Bonding in metal carbonyls, Stability of Co-ordination compounds and importance of application</name>
+                           <description>Bonding in metal carbonyls, Stability of Co-ordination compounds and importance of application</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Polymers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Polymers</name>
+                           <description>Topic Tests - Polymers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Classification of Polymers and Importance</name>
+                           <description>Classification of Polymers and Importance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Biomolecules</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Biomolecules</name>
+                           <description>Topic Tests - Biomolecules</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Carbohydrates, proteins, enzymes, vitamins, Nucleic acids, Hormones</name>
+                           <description>Carbohydrates, proteins, enzymes, vitamins, Nucleic acids, Hormones</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemistry in Everyday life</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemistry in Everyday life</name>
+                           <description>Topic Tests - Chemistry in Everyday life</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Drug classification and their Functions</name>
+                           <description>Drug classification and their Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Food Preservative, Artificial sweating agents</name>
+                           <description>Food Preservative, Artificial sweating agents</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Halo Alkanes and Haloarenes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Halo Alkanes and Haloarenes</name>
+                           <description>Topic Tests - Halo Alkanes and Haloarenes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Halo Alkanes Preparation, Properties and Chemical Reactions</name>
+                           <description>Halo Alkanes Preparation, Properties and Chemical Reactions</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Haloarenes Preparation and Properties</name>
+                           <description>Haloarenes Preparation and Properties</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic compounds containing C.H and O Alcohols Phenols and Ethers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic compounds containing C.H and O Alcohols Phenols and Ethers</name>
+                           <description>Topic Tests - Organic compounds containing C.H and O Alcohols Phenols and Ethers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Classification, Nomenclature, Structure of functional groups, Alcohols and Phenols</name>
+                           <description>Classification, Nomenclature, Structure of functional groups, Alcohols and Phenols</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Preparation and Properties of Carbon Hydrogen, Oxygen containing Compounds</name>
+                           <description>Preparation and Properties of Carbon Hydrogen, Oxygen containing Compounds</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Aldehydes and Ketones</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Aldehydes and Ketones</name>
+                           <description>Topic Tests - Aldehydes and Ketones</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Nomenclature and structure of carbonyl group, preparation of aldehydes and ketones</name>
+                           <description>Nomenclature and structure of carbonyl group, preparation of aldehydes and ketones</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Physical properties and chemical properties, uses of aldehydes and ketones</name>
+                           <description>Physical properties and chemical properties, uses of aldehydes and ketones</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Carboxylic Acids</name>
+                           <description>Carboxylic Acids</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic Compounds containing Nitrogen Amines</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic Compounds containing Nitrogen Amines</name>
+                           <description>Topic Tests - Organic Compounds containing Nitrogen Amines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Structure of Amines, classification, Nomenclature</name>
+                           <description>Structure of Amines, classification, Nomenclature</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Preparation of Amines, physical properties, chemical properties</name>
+                           <description>Preparation of Amines, physical properties, chemical properties</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>20</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Diazonium salts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Diazonium salts</name>
+                           <description>Topic Tests - Diazonium salts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Preparation and Properties of Diazonium Salts</name>
+                           <description>Preparation and Properties of Diazonium Salts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Importance of Diazonium salts in synthesis of aromatic compounds</name>
+                           <description>Importance of Diazonium salts in synthesis of aromatic compounds</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>21</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Cyanides and Isocyanides</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cyanides and Isocyanides</name>
+                           <description>Topic Tests - Cyanides and Isocyanides</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Structure of cyanides and isocyanides</name>
+                           <description>Structure of cyanides and isocyanides</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Preparation</name>
+                           <description>Preparation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>203</id_level>
+               <subject>InterChemistry</subject>
+               <subject_header>Intermediate Chemistry</subject_header>
+               <name>Mock Exams</name>
+               <display_name>Mock Exams</display_name>
+               <description>Chemistry Mock Exams for EAMCET and IIT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>EAMCET Chemistry Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya EAMCET Practice Tests</name>
+                           <description>Sri Chaitanya EAMCET Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sakshi EAMCET Practice Tests</name>
+                           <description>Sakshi EAMCET Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>IIT Chemistry Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya Practice Tests</name>
+                           <description>Sri Chaitanya Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+ 
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

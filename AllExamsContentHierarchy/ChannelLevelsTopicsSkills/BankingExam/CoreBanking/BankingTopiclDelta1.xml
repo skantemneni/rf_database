@@ -1,0 +1,202 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+
+			<id_system>111</id_system>
+			<id_level>101</id_level>
+			<id_provider>0</id_provider>
+			<topicChoiceArray>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>22</id_topic>
+						<subject>BankingPO</subject>
+						<name>Number Series</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Number Series</name>
+									<description>Topic Test - Number Series</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Number Series</name>
+									<description>Number Series</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>23</id_topic>
+						<subject>BankingPO</subject>
+						<name>Inequality</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Inequality</name>
+									<description>Topic Test - Inequality</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Inequality</name>
+									<description>Inequality</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>24</id_topic>
+						<subject>BankingPO</subject>
+						<name>Geometry</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Geometry</name>
+									<description>Topic Test - Geometry</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Geometry</name>
+									<description>Geometry</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>25</id_topic>
+						<subject>BankingPO</subject>
+						<name>Co-ordinate Geometry</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Co-ordinate Geometry</name>
+									<description>Topic Test - Co-ordinate Geometry</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Co-ordinate Geometry</name>
+									<description>Co-ordinate Geometry</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>26</id_topic>
+						<subject>BankingPO</subject>
+						<name>Trigonometry</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Trigonometry</name>
+									<description>Topic Test - Trigonometry</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Trigonometry</name>
+									<description>Trigonometry</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>27</id_topic>
+						<subject>BankingPO</subject>
+						<name>Height and Distance</name> 
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Height and Distance</name>
+									<description>Topic Test - Height and Distance</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Height and Distance</name>
+									<description>Height and Distance</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>28</id_topic>
+						<subject>BankingPO</subject>
+						<name>Statistics</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Statistics</name>
+									<description>Topic Test - Statistics</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Statistics</name>
+									<description>Statistics</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+			</topicChoiceArray>
+		</LoadTopicsOnlyRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

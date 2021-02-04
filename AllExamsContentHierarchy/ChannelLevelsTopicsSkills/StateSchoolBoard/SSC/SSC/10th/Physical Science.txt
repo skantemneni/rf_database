@@ -1,0 +1,126 @@
+1. Heat
+	Introduction
+	Thermal Equilibrium Heat and Temperature
+	Specific Heat
+	Method of Mixtures
+	Evaporation
+	Condensation
+	Boiling
+	Melting
+	Freezing
+	
+2. Chemical Reactions and Equations
+	Introduction
+	Chemical Equations
+	Making Chemical Equations more Informative
+	Types of Chemical Reactions
+	Rancidity
+	
+3. Reflection of Light by different Surfaces
+	Introduction
+	Reflection of Light by Plane Mirrors
+	Reflection of Light by Spherical Mirrors
+	
+4. Acids, Bases and Salts
+	Introduction
+	Chemical Properties of Acids and Bases
+	What do you Observe when Water is mixed with Acid or Base?
+	pH scale
+	Self defense by Animals and Plants through Chemical war fare?
+	More about Salts
+	Common Salt - A Raw Material for Chemicals
+	Baking Soda
+	Plaster of Paris
+	
+5. Refraction of Light at Plane Surfaces
+	Introduction
+	Refraction
+	Total Internal Reflection
+	Refraction through a Glass Slab
+	
+6. Refraction of Light at Curved Surfaces
+	Introduction
+	Refraction of Light at a Curved Surface
+	Lenses
+	
+7. Human Eye and Colourful World
+	Introduction
+	Least Distance of Distinct Vision
+	Structure of Human Eye
+	Dispersion and Scattering of Light
+	
+8. Structure of Atom
+	Introduction
+	Spectrum
+	Electromagnetic Spectrum
+	Bohr's Model of Hydrogen Atom and its Limitations
+	Bohr - Sommerfeld Model of an Atom
+	Quantum Mechanical Model of an Atom
+	Quantum Numbers
+	Electronic Configuration
+	
+9. Classification of Elements - The Periodic Table
+	Introduction
+	Need for the arrangement of Elements in an organised manner
+	Newlands' Law of Octaves
+	Mendeleeff's Periodic Table
+	The Periodic Law
+	Limitation of Mendeleeff's Peridic Table
+	Modern Periodic Table
+	Periods
+	Metals and Non Metals
+	Periodic Properties of the Elements in the Modern Table
+	Electronegativity
+	Metallic and Non Metallic Properties
+	
+10. Chemical Bonding
+	Introduction
+	The arrangement of Ions in Ionic Compounds
+	Draw backs of Electronic Theory of Valence
+	Valence Bond Theory
+	Valence Bond Theory - Hybridisation
+	Properties of Ionic and Covalent Compounds
+	
+11. Electric Current
+	Introduction
+	Electric Current
+	Potential Difference
+	Ohm's Law
+	Factors Affecting the Resistance of a Material
+	Electric Circuits
+	Kirchhoff's Laws
+	Electric Power
+	
+12. Electromagnetism
+	Introduction
+	Magnetic Field
+	Magnetic Field due to Currents
+	Magnetic Force on Moving and Current carrying Wire
+	Electric Motor
+	Electromagnetic Induction
+	Electric Generator and Alternating - Direct Currents
+	
+13. Principles of Metallurgy
+	Introduction
+	Occurrence of the Metals in Nature
+	Extraction of Metals from the Ores
+	Corrosion
+	
+14. Carbon and its Compounds
+	Introduction
+	Promotion of an Electron
+	Hybridisation
+	Allotropes of Carbon
+	Hydrocarbons
+	Binding of Carbon with other Elements
+	Functional Groups in Carbon Compounds
+	Isomerism
+	Homologous Series
+	Nomenclature of Organic Compounds
+	Principles of Nomenclature
+	Chemical Properties of Carbon Compounds
+	Some important Carbon Compounds
+	Esterification Reactions
+	Micelle
+	Formation of Micelle
+	

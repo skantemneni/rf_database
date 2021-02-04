@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+      
+         <id_system>103</id_system>
+         <id_level>203</id_level>
+         <id_provider>0</id_provider>
+         <topicOnlyArray>
+              <topicOnly>
+                 <id_topic>3</id_topic>
+                 <subject>InterChemistry</subject>
+                 <name>BITSAT Chemistry Practice Exams</name>
+                 <published>true</published>
+                 <derived>false</derived>
+                 <skillOnlyArray>
+                    <skillOnly>
+                       <id_skill>1</id_skill>
+                       <name>eTester Chemistry Practice Tests</name>
+                       <description>eTester Chemistry Practice Tests</description>
+                    </skillOnly>
+                 </skillOnlyArray>
+              </topicOnly>
+         </topicOnlyArray>
+      </LoadTopicsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

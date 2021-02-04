@@ -1,0 +1,1338 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="true">
+         <id_system>112</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>101</id_level>
+               <subject>CAT</subject>
+               <subject_header>CAT Exam</subject_header>
+               <name>Quantitative Aptitude</name>
+               <display_name>Quantitative Aptitude</display_name>
+               <description>CAT Exam - Quantitative Aptitude</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CAT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Quantitative Aptitude</name>
+                           <description><![CDATA[Combined Practice Tests - Quantitative Aptitude]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CAT</subject>
+                     <name>Number Systems</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Number Systems</name>
+                           <description>Topic Tests - Number Systems</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Number Systems</name>
+                           <description>Number Systems</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CAT</subject>
+                     <name>Progressions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Progressions</name>
+                           <description>Topic Tests - Progressions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Progressions</name>
+                           <description>Progressions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CAT</subject>
+                     <name>Averages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Averages</name>
+                           <description>Topic Tests - Averages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Averages</name>
+                           <description>Averages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CAT</subject>
+                     <name>Allegations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Allegations</name>
+                           <description>Topic Tests - Allegations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Allegations</name>
+                           <description>Allegations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CAT</subject>
+                     <name>Percentages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Percentages</name>
+                           <description>Topic Tests - Percentages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Percentages</name>
+                           <description>Percentages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>CAT</subject>
+                     <name>Profit and Loss</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Profit and Loss</name>
+                           <description>Topic Tests - Profit and Loss</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Profit and Loss</name>
+                           <description>Profit and Loss</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>CAT</subject>
+                     <name>Interest</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Interest</name>
+                           <description>Topic Tests - Interest</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Interest</name>
+                           <description>Interest</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>CAT</subject>
+                     <name>Ratio, Proportion and Variation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ratio, Proportion and Variation</name>
+                           <description>Topic Tests - Ratio, Proportion and Variation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Ratio, Proportion and Variation</name>
+                           <description>Ratio, Proportion and Variation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>CAT</subject>
+                     <name>Time and Work</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Time and Work</name>
+                           <description>Topic Tests - Time and Work</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Time and Work</name>
+                           <description>Time and Work</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>CAT</subject>
+                     <name>Time, Speed and Distance</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Time, Speed and Distance</name>
+                           <description>Topic Tests - Time, Speed and Distance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Time, Speed and Distance</name>
+                           <description>Time, Speed and Distance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>CAT</subject>
+                     <name>Geometry and Mensuration</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Geometry and Mensuration</name>
+                           <description>Topic Tests - Geometry and Mensuration</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Geometry and Mensuration</name>
+                           <description>Geometry and Mensuration</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>CAT</subject>
+                     <name>Coordinate Geometry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Coordinate Geometry</name>
+                           <description>Topic Tests - Coordinate Geometry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Coordinate Geometry</name>
+                           <description>Coordinate Geometry</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>CAT</subject>
+                     <name>Functions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Functions</name>
+                           <description>Topic Tests - Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Functions</name>
+                           <description>Functions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>CAT</subject>
+                     <name>Inequalities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inequalities</name>
+                           <description>Topic Tests - Inequalities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Inequalities</name>
+                           <description>Inequalities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>CAT</subject>
+                     <name>Quadratic Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Quadratic Equations</name>
+                           <description>Topic Tests - Quadratic Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Quadratic Equations</name>
+                           <description>Quadratic Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>CAT</subject>
+                     <name>Logarithms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Logarithms</name>
+                           <description>Topic Tests - Logarithms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Logarithms</name>
+                           <description>Logarithms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>CAT</subject>
+                     <name>Permutation and Combinations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Permutation and Combinations</name>
+                           <description>Topic Tests - Permutation and Combinations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Permutation and Combinations</name>
+                           <description>Permutation and Combinations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>CAT</subject>
+                     <name>Probability</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Probability</name>
+                           <description>Topic Tests - Probability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Probability</name>
+                           <description>Probability</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>20</id_topic>
+                     <subject>CAT</subject>
+                     <name>Set Theory</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Set Theory</name>
+                           <description>Topic Tests - Set Theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Set Theory</name>
+                           <description>Set Theory</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>102</id_level>
+               <subject>CAT</subject>
+               <subject_header>CAT Exam</subject_header>
+               <name>Data Interpretation</name>
+               <display_name>Data Interpretation</display_name>
+               <description>CAT Exam - Data Interpretation</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CAT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Data Interpretation</name>
+                           <description><![CDATA[Combined Practice Tests - Data Interpretation]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CAT</subject>
+                     <name>Tables</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Tables</name>
+                           <description>Topic Tests - Tables</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Tables</name>
+                           <description>Tables</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CAT</subject>
+                     <name>Bar Charts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Bar Charts</name>
+                           <description>Topic Tests - Bar Charts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Bar Charts</name>
+                           <description>Bar Charts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CAT</subject>
+                     <name>X-Y Charts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - X-Y Charts</name>
+                           <description>Topic Tests - X-Y Charts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>X-Y Charts</name>
+                           <description>X-Y Charts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CAT</subject>
+                     <name>Pie Charts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Pie Charts</name>
+                           <description>Topic Tests - Pie Charts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Pie Charts</name>
+                           <description>Pie Charts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CAT</subject>
+                     <name>Cases</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cases</name>
+                           <description>Topic Tests - Cases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cases</name>
+                           <description>Cases</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>103</id_level>
+               <subject>CAT</subject>
+               <subject_header>CAT Exam</subject_header>
+               <name>Logical Reasoning</name>
+               <display_name>Logical Reasoning</display_name>
+               <description>CAT Exam - Logical Reasoning</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CAT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Logical Reasoning</name>
+                           <description><![CDATA[Combined Practice Tests - Logical Reasoning]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CAT</subject>
+                     <name>Arrangements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Arrangements</name>
+                           <description>Topic Tests - Arrangements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Arrangements</name>
+                           <description>Arrangements</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CAT</subject>
+                     <name>Rankings</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Rankings</name>
+                           <description>Topic Tests - Rankings</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rankings</name>
+                           <description>Rankings</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CAT</subject>
+                     <name>Team Formation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Team Formation</name>
+                           <description>Topic Tests - Team Formation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Team Formation</name>
+                           <description>Team Formation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CAT</subject>
+                     <name>Quantitative Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Quantitative Reasoning</name>
+                           <description>Topic Tests - Quantitative Reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Quantitative Reasoning</name>
+                           <description>Quantitative Reasoning</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CAT</subject>
+                     <name>Puzzle Test</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Puzzle Test</name>
+                           <description>Topic Tests - Puzzle Test</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Puzzle Test</name>
+                           <description>Puzzle Test</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>CAT</subject>
+                     <name>Syllogisms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Syllogisms</name>
+                           <description>Topic Tests - Syllogisms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Syllogisms</name>
+                           <description>Syllogisms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>CAT</subject>
+                     <name>Logical Deduction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Logical Deduction</name>
+                           <description>Topic Tests - Logical Deduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Logical Deduction</name>
+                           <description>Logical Deduction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>CAT</subject>
+                     <name>Set Theory, Venn Diagrams and Network Diagrams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Set Theory, Venn Diagrams and Network Diagrams</name>
+                           <description>Topic Tests - Set Theory, Venn Diagrams and Network Diagrams</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Set Theory, Venn Diagrams and Network Diagrams</name>
+                           <description>Set Theory, Venn Diagrams and Network Diagrams</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>CAT</subject>
+                     <name>Binary Logic</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Binary Logic</name>
+                           <description>Topic Tests - Binary Logic</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Binary Logic</name>
+                           <description>Binary Logic</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>CAT</subject>
+                     <name>Critical Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Critical Reasoning</name>
+                           <description>Topic Tests - Critical Reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Critical Reasoning</name>
+                           <description>Critical Reasoning</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>CAT</subject>
+                     <name>Sequences and Series</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sequences and Series</name>
+                           <description>Topic Tests - Sequences and Series</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sequences and Series</name>
+                           <description>Sequences and Series</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>CAT</subject>
+                     <name>Blood Relations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Blood Relations</name>
+                           <description>Topic Tests - Blood Relations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Blood Relations</name>
+                           <description>Blood Relations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>CAT</subject>
+                     <name>Direction Test</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Direction Test</name>
+                           <description>Topic Tests - Direction Test</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Direction Test</name>
+                           <description>Direction Test</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>CAT</subject>
+                     <name>Statement and Assumptions, Reasons and Conclusion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Statement and Assumptions, Reasons and Conclusion</name>
+                           <description>Topic Tests - Statement and Assumptions, Reasons and Conclusion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Statement and Assumptions, Reasons and Conclusion</name>
+                           <description>Statement and Assumptions, Reasons and Conclusion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>CAT</subject>
+                     <name>Mathematical Operations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mathematical Operations</name>
+                           <description>Topic Tests - Mathematical Operations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Mathematical Operations</name>
+                           <description>Mathematical Operations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>CAT</subject>
+                     <name>Clock and Calendar</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Clock and Calendar</name>
+                           <description>Topic Tests - Clock and Calendar</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Clock and Calendar</name>
+                           <description>Clock and Calendar</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>CAT</subject>
+                     <name>Cubes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cubes</name>
+                           <description>Topic Tests - Cubes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cubes</name>
+                           <description>Cubes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>104</id_level>
+               <subject>CAT</subject>
+               <subject_header>CAT Exam</subject_header>
+               <name>Verbal Ability and Reading Comprehension</name>
+               <display_name>Verbal Ability and Reading Comprehension</display_name>
+               <description>CAT Exam - Verbal Ability and Reading Comprehension</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CAT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Verbal Ability and Reading Comprehension</name>
+                           <description><![CDATA[Combined Practice Tests - Verbal Ability and Reading Comprehension]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CAT</subject>
+                     <name>Reading Comprehension</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reading Comprehension</name>
+                           <description>Topic Tests - Reading Comprehension</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Reading Comprehension</name>
+                           <description>Reading Comprehension</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CAT</subject>
+                     <name>Synonyms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Synonyms</name>
+                           <description>Topic Tests - Synonyms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synonyms</name>
+                           <description>Synonyms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CAT</subject>
+                     <name>Antonyms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Antonyms</name>
+                           <description>Topic Tests - Antonyms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Antonyms</name>
+                           <description>Antonyms</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CAT</subject>
+                     <name>Odd Man Out</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Odd Man Out</name>
+                           <description>Topic Tests - Odd Man Out</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Odd Man Out</name>
+                           <description>Odd Man Out</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CAT</subject>
+                     <name>Analogies</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Analogies</name>
+                           <description>Topic Tests - Analogies</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Analogies</name>
+                           <description>Analogies</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>CAT</subject>
+                     <name>Sentence Completion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sentence Completion</name>
+                           <description>Topic Tests - Sentence Completion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sentence Completion</name>
+                           <description>Sentence Completion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>CAT</subject>
+                     <name>Paragraph Jumbles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Paragraph Jumbles</name>
+                           <description>Topic Tests - Paragraph Jumbles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Paragraph Jumbles</name>
+                           <description>Paragraph Jumbles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>CAT</subject>
+                     <name>Sentence Correction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sentence Correction</name>
+                           <description>Topic Tests - Sentence Correction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sentence Correction</name>
+                           <description>Sentence Correction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>CAT</subject>
+                     <name>Inventories</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inventories</name>
+                           <description>Topic Tests - Inventories</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Inventories</name>
+                           <description>Inventories</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>CAT</subject>
+                     <name>Depreciation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Depreciation</name>
+                           <description>Topic Tests - Depreciation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Depreciation</name>
+                           <description>Depreciation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>CAT</subject>
+                     <name>Final Accounts of Sole Prop. and Manufacturing Entities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Final Accounts of Sole Prop. and Manufacturing Entities</name>
+                           <description>Topic Tests - Final Accounts of Sole Prop. and Manufacturing Entities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Final Accounts of Sole Prop. and Manufacturing Entities</name>
+                           <description>Final Accounts of Sole Prop. and Manufacturing Entities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>CAT</subject>
+                     <name>Consignment</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Consignment</name>
+                           <description>Topic Tests - Consignment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Consignment</name>
+                           <description>Consignment</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>CAT</subject>
+                     <name>Joint Venture</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Joint Venture</name>
+                           <description>Topic Tests - Joint Venture</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Joint Venture</name>
+                           <description>Joint Venture</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>CAT</subject>
+                     <name>Bills of Exchange and Promissory Note</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Bills of Exchange and Promissory Note</name>
+                           <description>Topic Tests - Bills of Exchange and Promissory Note</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Bills of Exchange and Promissory Note</name>
+                           <description>Bills of Exchange and Promissory Note</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>CAT</subject>
+                     <name>Sale of Good on Approval or Return Basis</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sale of Good on Approval or Return Basis</name>
+                           <description>Topic Tests - Sale of Good on Approval or Return Basis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sale of Good on Approval or Return Basis</name>
+                           <description>Sale of Good on Approval or Return Basis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>CAT</subject>
+                     <name>Introduction to Partnership Accounts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Introduction to Partnership Accounts</name>
+                           <description>Topic Tests - Introduction to Partnership Accounts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction to Partnership Accounts</name>
+                           <description>Introduction to Partnership Accounts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>CAT</subject>
+                     <name>Admission of New Partner</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Admission of New Partner</name>
+                           <description>Topic Tests - Admission of New Partner</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Admission of New Partner</name>
+                           <description>Admission of New Partner</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>CAT</subject>
+                     <name>Retirement and Death of a Partner</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Retirement and Death of a Partner</name>
+                           <description>Topic Tests - Retirement and Death of a Partner</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Retirement and Death of a Partner</name>
+                           <description>Retirement and Death of a Partner</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>20</id_topic>
+                     <subject>CAT</subject>
+                     <name>Issue Forfeiture and Reissue of Shares</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Issue Forfeiture and Reissue of Shares</name>
+                           <description>Topic Tests - Issue Forfeiture and Reissue of Shares</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Issue Forfeiture and Reissue of Shares</name>
+                           <description>Issue Forfeiture and Reissue of Shares</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>21</id_topic>
+                     <subject>CAT</subject>
+                     <name>Redemption of Preference Shares</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Redemption of Preference Shares</name>
+                           <description>Topic Tests - Redemption of Preference Shares</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Redemption of Preference Shares</name>
+                           <description>Redemption of Preference Shares</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>22</id_topic>
+                     <subject>CAT</subject>
+                     <name>Issue of Debenture</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Issue of Debenture</name>
+                           <description>Topic Tests - Issue of Debenture</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Issue of Debenture</name>
+                           <description>Issue of Debenture</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>110</id_level>
+               <subject>CAT</subject>
+               <subject_header>CAT Exam</subject_header>
+               <name>Mock Exams - CAT</name>
+               <display_name>Mock Exams - CAT</display_name>
+               <description>Mock Exams for CAT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CAT</subject>
+                     <name>eTester CAT Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Provided by eTester.com</name>
+                           <description>eTester.com CAT Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Provider by eTester Independent Authors</name>
+                           <description>CAT Practice Tests from Indipendent Authors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CAT</subject>
+                     <name>Book Publishers, Training Institutes and Teachers Associations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>CAT Practice Tests from Former Employees of T.I.M.E Pvt. Ltd.</name>
+                           <description>CAT Practice Tests from Former Employees of Triumphant Institute of Management Education Pvt. Ltd.</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

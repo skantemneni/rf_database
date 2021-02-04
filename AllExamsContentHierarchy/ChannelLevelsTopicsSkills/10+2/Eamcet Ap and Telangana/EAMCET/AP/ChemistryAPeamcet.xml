@@ -1,0 +1,1122 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="true" validateOnly="false">
+         <id_system>133</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>201</id_level>
+               <subject>InterChemistry</subject>
+               <subject_header>Intermediate Chemistry</subject_header>
+               <name><![CDATA[Chemistry First Year]]></name>
+               <display_name><![CDATA[Chemistry First Year]]></display_name>
+               <description><![CDATA[Chemistry preparation for EAMCET and IIT.  First Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Atomic Structure</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Atomic Structure</name>
+                              <description>Topic Tests - Atomic Structure</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100202</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100203</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100204</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320100205</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Classification of Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Classification of Elements</name>
+                              <description>Topic Tests - Classification of Elements</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100302</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100303</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemical Bond</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Chemical Bond</name>
+                              <description>Topic Tests - Chemical Bond</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100402</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100403</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100404</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>States of matter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - States of matter</name>
+                              <description>Topic Tests - States of matter</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100502</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100503</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100504</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320100505</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Stoichiometry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Stoichiometry</name>
+                              <description>Topic Tests - Stoichiometry</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100602</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100603</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100604</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Thermodynamics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Thermodynamics</name>
+                              <description>Topic Tests - Thermodynamics</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100702</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100703</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100704</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemical Equilibrium Acid and Bases</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Chemical Equilibrium Acid and Bases</name>
+                              <description>Topic Tests - Chemical Equilibrium Acid and Bases</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100802</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100803</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100804</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320100805</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Hydrogen and its Compounds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Hydrogen and its Compounds</name>
+                              <description>Topic Tests - Hydrogen and its Compounds</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320100902</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320100903</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320100904</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320100905</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Organic Chemistry</name>
+                              <description>Topic Tests - Organic Chemistry</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320101002</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320101003</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320101004</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Environmental Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Environmental Chemistry</name>
+                              <description>Topic Tests - Environmental Chemistry</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320101102</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320101103</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>S - Block Elements (IA and IIA Group Elements)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - S - Block Elements (IA and IIA Group Elements)</name>
+                              <description>Topic Tests - S - Block Elements (IA and IIA Group Elements)</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320101202</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320101103</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>P - Block Elements (IIIA and IVA Group Elements)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - P - Block Elements (IIIA and IVA Group Elements)</name>
+                              <description>Topic Tests - P - Block Elements (IIIA and IVA Group Elements)</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320101302</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320101303</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>202</id_level>
+               <subject>InterChemistry</subject>
+               <subject_header>Intermediate Chemistry</subject_header>
+               <name><![CDATA[Chemistry Second Year]]></name>
+               <display_name><![CDATA[Chemistry Second Year]]></display_name>
+               <description><![CDATA[Chemistry preparation for EAMCET and IIT.  Second Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Solid State</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Solid State</name>
+                              <description>Topic Tests - Solid State</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200202</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200203</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320200204</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320200205</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Solutions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Solutions</name>
+                              <description>Topic Tests - Solutions</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200302</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200303</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Elctrochemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Elctrochemistry</name>
+                              <description>Topic Tests - Elctrochemistry</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200402</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200403</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320200404</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemical Kinetics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Chemical Kinetics</name>
+                              <description>Topic Tests - Chemical Kinetics</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200502</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200503</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320200504</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320200505</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>6</id_skill>
+                              <id_skill_reference>10320200506</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>7</id_skill>
+                              <id_skill_reference>10320200507</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>8</id_skill>
+                              <id_skill_reference>10320200508</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Surface Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Surface Chemistry</name>
+                              <description>Topic Tests - Surface Chemistry</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200602</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>General Principles of Metallurgy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - General Principles of Metallurgy</name>
+                              <description>Topic Tests - General Principles of Metallurgy</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200702</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200703</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>'P'- Block Elements Group-15 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - 'P'- Block Elements Group-15 Elements</name>
+                              <description>Topic Tests - 'P'- Block Elements Group-15 Elements</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200802</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200803</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Group - 16 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Group - 16 Elements</name>
+                              <description>Topic Tests - Group - 16 Elements</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320200902</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320200903</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Group - 17 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Group - 17 Elements</name>
+                              <description>Topic Tests - Group - 17 Elements</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201002</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201003</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Group - 18 Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Group - 18 Elements</name>
+                              <description>Topic Tests - Group - 18 Elements</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201102</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>d and f Block elements and Coordination Compounds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - d and f Block elements and Coordination Compounds</name>
+                              <description>Topic Tests - d and f Block elements and Coordination Compounds</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201202</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201203</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320201204</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>5</id_skill>
+                              <id_skill_reference>10320201205</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Polymers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Polymers</name>
+                              <description>Topic Tests - Polymers</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201302</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Biomolecules</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Biomolecules</name>
+                              <description>Topic Tests - Biomolecules</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201402</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Chemistry in Everyday life</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Chemistry in Everyday life</name>
+                              <description>Topic Tests - Chemistry in Everyday life</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201502</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201503</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Halo Alkanes and Haloarenes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Halo Alkanes and Haloarenes</name>
+                              <description>Topic Tests - Halo Alkanes and Haloarenes</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201602</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201603</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320201604</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic compounds containing C.H and O Alcohols Phenols and Ethers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Organic compounds containing C.H and O Alcohols Phenols and Ethers</name>
+                              <description>Topic Tests - Organic compounds containing C.H and O Alcohols Phenols and Ethers</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201702</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201703</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Aldehydes and Ketones</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Aldehydes and Ketones</name>
+                              <description>Topic Tests - Aldehydes and Ketones</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201802</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201803</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>4</id_skill>
+                              <id_skill_reference>10320201804</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic Compounds containing Nitrogen Amines</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Organic Compounds containing Nitrogen Amines</name>
+                              <description>Topic Tests - Organic Compounds containing Nitrogen Amines</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320201902</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320201903</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Diazonium salts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Diazonium salts</name>
+                              <description>Topic Tests - Diazonium salts</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320202002</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320202003</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>20</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Cyanides and Isocyanides</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Cyanides and Isocyanides</name>
+                              <description>Topic Tests - Cyanides and Isocyanides</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320202102</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320202103</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>203</id_level>
+               <subject>InterChemistry</subject>
+               <subject_header>Intermediate Chemistry</subject_header>
+               <name>Mock Exams</name>
+               <display_name>Mock Exams</display_name>
+               <description>Chemistry Mock Exams for EAMCET and IIT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>eTester IIT Chemistry Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>eTester IIT Chemistry Practice Exams</name>
+                              <description>eTester IIT Chemistry Practice Exams</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>3rd Party IIT Chemistry Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>The Elite classes</name>
+                              <description>The Elite classes</description>
+                           </skillOnly>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Core Chemistry Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>1</id_skill>
+                              <id_skill_reference>10320300101</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>2</id_skill>
+                              <id_skill_reference>10320300102</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                           <coreSkillReference>
+                              <id_skill>3</id_skill>
+                              <id_skill_reference>10320300201</id_skill_reference>
+                           </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

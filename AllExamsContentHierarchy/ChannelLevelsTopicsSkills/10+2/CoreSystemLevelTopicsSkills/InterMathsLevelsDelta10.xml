@@ -1,0 +1,72 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+      
+         <id_system>103</id_system>
+         <id_level>501</id_level>
+         <id_provider>0</id_provider>
+         <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Mathematical Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mathematical Reasoning</name>
+                           <description>Topic Tests - Mathematical Reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Statements, logical operations and, or, implies, implied by, if and only if</name>
+                           <description>Statements, logical operations and, or, implies, implied by, if and only if</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Understanding of tautology, contradiction, converse and contrapositive</name>
+                           <description>Understanding of tautology, contradiction, converse and contrapositive</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>InterMath</subject>
+                     <name>Sets and Relations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sets and Relations</name>
+                           <description>Topic Tests - Sets and Relations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sets and their representation</name>
+                           <description>Sets and their representation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Union, intersection and complement of sets and their algebraic properties</name>
+                           <description>Union, intersection and complement of sets and their algebraic properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Power set</name>
+                           <description>Power set</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Relation, Types of relations, equivalence relations</name>
+                           <description>Relation, Types of relations, equivalence relations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+         </topicOnlyArray>
+      </LoadTopicsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

@@ -1,0 +1,528 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>111</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+
+            <levelOnly>
+					<id_level>106</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Bank Probationary Officer Exam</subject_header>
+					<name>General Studies</name>
+					<display_name>General Studies</display_name>
+					<description>Bank PO Exam - General Studies</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicChoiceArray>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>1</id_topic>
+								<subject>BankingPO</subject>
+								<name>Practice Tests</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Combined Practice Tests - General Studies</name>
+											<description>
+												<![CDATA[Combined Practice Tests - General Studies]]>
+											</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>2</id_topic>
+								<subject>BankingPO</subject>
+								<name>Science</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Science</name>
+											<description>Topic Test - Science</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Measurements and Unit</name>
+											<description>Measurements and Unit</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Motion and Waves</name>
+											<description>Motion and Waves</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Light</name>
+											<description>Light</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Work Energy</name>
+											<description>Work Energy</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Heat and Temperature</name>
+											<description>Heat and Temperature</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Chemistry</name>
+											<description>Chemistry</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Biology</name>
+											<description>Biology</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Human Physiology</name>
+											<description>Human Physiology</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>3</id_topic>
+								<subject>BankingPO</subject>
+								<name>Geography</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Geography</name>
+											<description>Topic Test - Geography</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>The Universe and Solar System</name>
+											<description>The Universe and Solar System</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Earth</name>
+											<description>Earth</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Mountains and Rivers</name>
+											<description>Mountains and Rivers</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Hydrosphere: Ocean Salinity and Ocean Current</name>
+											<description>Hydrosphere: Ocean Salinity and Ocean Current</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Our Atmosphere</name>
+											<description>Our Atmosphere</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Wind Cyclone and Anti Cyclone</name>
+											<description>Wind Cyclone and Anti Cyclone</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Climate</name>
+											<description>Climate</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Geological Structure of India</name>
+											<description>Geological Structure of India</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>10</id_skill>
+											<name>Natural Divisions of India</name>
+											<description>Natural Divisions of India</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>11</id_skill>
+											<name>Indian Climate, Natural Vegetation and Soils</name>
+											<description>Indian Climate, Natural Vegetation and Soils</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>4</id_topic>
+								<subject>BankingPO</subject>
+								<name>History</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - History</name>
+											<description>Topic Test - History</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Indus Valley Civilization and Vedic Age</name>
+											<description>Indus Valley Civilization and Vedic Age</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Buddhism and Jainism in India</name>
+											<description>Buddhism and Jainism in India</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>The Magadha Empire</name>
+											<description>The Magadha Empire</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Gupta Dynasty</name>
+											<description>Gupta Dynasty</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Delhi Sultanate and Mughal Empire</name>
+											<description>Delhi Sultanate and Mughal Empire</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Revolt of 1857</name>
+											<description>Revolt of 1857</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>The Swadeshi Movement</name>
+											<description>The Swadeshi Movement</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>From 1931 till Independence</name>
+											<description>From 1931 till Independence</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>5</id_topic>
+								<subject>BankingPO</subject>
+								<name>Polity</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Polity</name>
+											<description>Topic Test - Polity</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Constitutional Development in India</name>
+											<description>Constitutional Development in India</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Preamble, Citizenships, Union and State</name>
+											<description>Preamble, Citizenships, Union and State</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Fundamental Rights</name>
+											<description>Fundamental Rights</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Directive Principles of State Policy</name>
+											<description>Directive Principles of State Policy</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Executive</name>
+											<description>Executive</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Legislation</name>
+											<description>Legislation</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Judiciary</name>
+											<description>Judiciary</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Constitutional Amendments</name>
+											<description>Constitutional Amendments</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>6</id_topic>
+								<subject>BankingPO</subject>
+								<name>Economics</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Economics</name>
+											<description>Topic Test - Economics</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>General Economics</name>
+											<description>General Economics</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Economic Planning</name>
+											<description>Economic Planning</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>National Income in India: Concept and Measurement</name>
+											<description>National Income in India: Concept and Measurement</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Budget</name>
+											<description>Budget</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Market</name>
+											<description>Market</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Demand, Supply and his Law</name>
+											<description>Demand, Supply and his Law</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Economic Reform in India</name>
+											<description>Economic Reform in India</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Indian Banking Industry</name>
+											<description>Indian Banking Industry</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>10</id_skill>
+											<name>Population, Poverty and Unemployment Economics</name>
+											<description>Population, Poverty and Unemployment Economics</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>7</id_topic>
+								<subject>BankingPO</subject>
+								<name>Miscellaneous</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Miscellaneous</name>
+											<description>Topic Test - Miscellaneous</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Abbreviations and Important Facts</name>
+											<description>Abbreviations and Important Facts</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>List of Cups and Trophies</name>
+											<description>List of Cups and Trophies</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+					</topicChoiceArray>
+				</levelOnly>
+ 
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

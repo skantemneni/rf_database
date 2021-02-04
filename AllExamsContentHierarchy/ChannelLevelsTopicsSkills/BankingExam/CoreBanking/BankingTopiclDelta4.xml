@@ -1,0 +1,202 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+
+			<id_system>111</id_system>
+			<id_level>105</id_level>
+			<id_provider>0</id_provider>
+			<topicChoiceArray>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>9</id_topic>
+						<subject>BankingPO</subject>
+						<name>Memory and Memory Units</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Memory and Memory Units</name>
+									<description>Topic Test - Memory and Memory Units</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Memory and Memory Units</name>
+									<description>Memory and Memory Units</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>10</id_topic>
+						<subject>BankingPO</subject>
+						<name>Windows</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Windows</name>
+									<description>Topic Test - Windows</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Windows</name>
+									<description>Windows</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>11</id_topic>
+						<subject>BankingPO</subject>
+						<name>Ms Office</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Ms Office</name>
+									<description>Topic Test - Ms Office</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Ms Office</name>
+									<description>Ms Office</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>12</id_topic>
+						<subject>BankingPO</subject>
+						<name>Number System and Computer Virus</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Number System and Computer Virus</name>
+									<description>Topic Test - Number System and Computer Virus</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Number System and Computer Virus</name>
+									<description>Number System and Computer Virus</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>13</id_topic>
+						<subject>BankingPO</subject>
+						<name>History and Generations</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - History and Generations</name>
+									<description>Topic Test - History and Generations</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>History and Generations</name>
+									<description>History and Generations</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>14</id_topic>
+						<subject>BankingPO</subject>
+						<name>File Extensions and Abbreviations</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - File Extensions and Abbreviations</name>
+									<description>Topic Test - File Extensions and Abbreviations</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>File Extensions and Abbreviations</name>
+									<description>File Extensions and Abbreviations</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+				<topicChoiceType>
+					<topicOnly>
+						<id_topic>15</id_topic>
+						<subject>BankingPO</subject>
+						<name>Shortcuts</name>
+						<published>true</published>
+						<derived>false</derived>
+						<skillChoiceArray>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>1</id_skill>
+									<name>Topic Test - Shortcuts</name>
+									<description>Topic Test - Shortcuts</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+							<skillChoiceType>
+								<skillOnly>
+									<id_skill>2</id_skill>
+									<name>Shortcuts</name>
+									<description>Shortcuts</description>
+									<published>true</published>
+								</skillOnly>
+							</skillChoiceType>
+						</skillChoiceArray>
+					</topicOnly>
+				</topicChoiceType>
+			</topicChoiceArray>
+		</LoadTopicsOnlyRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,1351 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="true" validateOnly="false">
+         <id_system>122</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>101</id_level>
+               <subject>BankingClerk</subject>
+               <subject_header>SBI CLERK</subject_header>
+               <name><![CDATA[Quantitative Aptitude]]></name>
+               <display_name><![CDATA[Quantitative Aptitude]]></display_name>
+               <description><![CDATA[Preparation for SBI CLERK]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Averages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Averages</name>
+                              <description>Topic Tests - Averages</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100202</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Percentages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Percentages</name>
+                              <description>Topic Tests - Percentages</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Ratio and proportion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Ratio and proportion</name>
+                              <description>Topic Tests - Ratio and proportion</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Mixtures and allegations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Mixtures and allegations</name>
+                              <description>Topic Tests - Mixtures and allegations</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100502</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Clocks and calendars</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Clocks and calendars</name>
+                              <description>Topic Tests - Clocks and calendars</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100602</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Time,speed distance and work</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Time,speed distance and work</name>
+                              <description>Topic Tests - Time,speed distance and work</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100702</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Number system</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Number system</name>
+                              <description>Topic Tests - Number system</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100802</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Probability</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Probability</name>
+                              <description>Topic Tests - Probability</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110100902</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Permutations and combinations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Permutations and combinations</name>
+                              <description>Topic Tests - Permutations and combinations</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101002</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Sequences,Progressions and series</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Sequences,Progressions and series</name>
+                              <description>Topic Tests - Sequences,Progressions and series</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101102</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Logarithms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Logarithms</name>
+                              <description>Topic Tests - Logarithms</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101202</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Simplification</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Simplification</name>
+                              <description>Topic Tests - Simplification</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Roots and averages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Roots and averages</name>
+                              <description>Topic Tests - Roots and averages</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Profit and loss</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Profit and loss</name>
+                              <description>Topic Tests - Profit and loss</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101502</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Boats and streams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Boats and streams</name>
+                              <description>Topic Tests - Boats and streams</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101602</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Simple interest and compound interest</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Simple interest and compound interest</name>
+                              <description>Topic Tests - Simple interest and compound interest</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101702</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Mensuration</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Mensuration</name>
+                              <description>Topic Tests - Mensuration</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101802</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Pipes and Cisterns</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Pipes and Cisterns</name>
+                              <description>Topic Tests - Pipes and Cisterns</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110101902</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Partnership</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Partnership</name>
+                              <description>Topic Tests - Partnership</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110102002</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>102</id_level>
+               <subject>BankingClerk</subject>
+               <subject_header>SBI CLERK</subject_header>
+               <name><![CDATA[Data Interpretation and logical reasoning]]></name>
+               <display_name><![CDATA[Data Interpretation and logical reasoning]]></display_name>
+               <description><![CDATA[Preparation for SBI CLERK]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Tables and Caselets</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Tables and Caselets</name>
+                              <description>Topic Tests - Tables and Caselets</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Charts and Diagrams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Charts and Diagrams</name>
+                              <description>Topic Tests - Charts and Diagrams</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Relationships</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Relationships</name>
+                              <description>Topic Tests - Relationships</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200502</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Directions and Arrangements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Directions and Arrangements</name>
+                              <description>Topic Tests - Directions and Arrangements</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200602</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Series and Analogy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Series and Analogy</name>
+                              <description>Topic Tests - Series and Analogy</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200702</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Codes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Codes</name>
+                              <description>Topic Tests - Codes</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200802</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Logical Puzzles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Logical Puzzles</name>
+                              <description>Topic Tests - Logical Puzzles</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110200902</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Numerical Logic</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Numerical Logic</name>
+                              <description>Topic Tests - Numerical Logic</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110201102</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Syllogism</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Syllogism</name>
+                              <description>Topic Tests - Syllogism</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110201302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Statement and reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Statement and reasoning</name>
+                              <description>Topic Tests - Statement and reasoning</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110201402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>103</id_level>
+               <subject>BankingClerk</subject>
+               <subject_header>SBI CLERK</subject_header>
+               <name><![CDATA[Verbal Ability]]></name>
+               <display_name><![CDATA[Verbal Ability]]></display_name>
+               <description><![CDATA[Preparation for SBI CLERK]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Verbal Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Verbal Reasoning</name>
+                              <description>Topic Tests - Verbal Reasoning</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110300202</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Critical Reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Critical Reasoning</name>
+                              <description>Topic Tests - Critical Reasoning</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110300302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Grammar</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Grammar</name>
+                              <description>Topic Tests - Grammar</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110300402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Vocabulary</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Vocabulary</name>
+                              <description>Topic Tests - Vocabulary</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110300502</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Reading Comprehension</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Reading Comprehension</name>
+                              <description>Topic Tests - Reading Comprehension</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110300602</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>104</id_level>
+               <subject>BankingClerk</subject>
+               <subject_header>SBI CLERK</subject_header>
+               <name><![CDATA[General Knowledge]]></name>
+               <display_name><![CDATA[General Knowledge]]></display_name>
+               <description><![CDATA[Preparation for SBI CLERK]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Social Schemes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Social Schemes</name>
+                              <description>Topic Tests - Social Schemes</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400202</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Groups, Organizations, Associations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Groups, Organizations, Associations</name>
+                              <description>Topic Tests - Groups, Organizations, Associations</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Capitals and Currencies</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Capitals and Currencies</name>
+                              <description>Topic Tests - Capitals and Currencies</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Miscellaneous</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Miscellaneous</name>
+                              <description>Topic Tests - Miscellaneous</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400502</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Current Affairs</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Current Affairs</name>
+                              <description>Topic Tests - Current Affairs</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400602</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Commonly Used Marketing Terms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Commonly Used Marketing Terms</name>
+                              <description>Topic Tests - Commonly Used Marketing Terms</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400702</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Business Terms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Business Terms</name>
+                              <description>Topic Tests - Business Terms</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400802</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Basic of Marketing</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Basic of Marketing</name>
+                              <description>Topic Tests - Basic of Marketing</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110400902</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Assorted</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Assorted</name>
+                              <description>Topic Tests - Assorted</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110401002</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Major Banks</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Major Banks</name>
+                              <description>Topic Tests - Major Banks</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110401102</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Major Schemes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Major Schemes</name>
+                              <description>Topic Tests - Major Schemes</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110401202</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Marketing for Banks</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Marketing for Banks</name>
+                              <description>Topic Tests - Marketing for Banks</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110401302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>105</id_level>
+               <subject>BankingClerk</subject>
+               <subject_header>SBI CLERK</subject_header>
+               <name><![CDATA[Computer Awareness]]></name>
+               <display_name><![CDATA[Computer Awareness]]></display_name>
+               <description><![CDATA[Preparation for SBI CLERK]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Computer Software</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Computer Software</name>
+                              <description>Topic Tests - Computer Software</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500202</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Computer Hardware</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Computer Hardware</name>
+                              <description>Topic Tests - Computer Hardware</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500302</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Internet</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Internet</name>
+                              <description>Topic Tests - Internet</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500402</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Computer Networking</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Computer Networking</name>
+                              <description>Topic Tests - Computer Networking</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500502</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Malware</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Malware</name>
+                              <description>Topic Tests - Malware</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500602</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Computer Languages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Computer Languages</name>
+                              <description>Topic Tests - Computer Languages</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500702</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Database Management</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>Topic Tests - Database Management</name>
+                              <description>Topic Tests - Database Management</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>2</id_skill>
+                               <id_skill_reference>11110500802</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>110</id_level>
+               <subject>BankingClerk</subject>
+               <subject_header>SBI CLERK</subject_header>
+               <name>SBI CLERK</name>
+               <display_name>SBI CLERK</display_name>
+               <description>Preparation for SBI CLERK</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>eTester SBI Bank Clerk Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>eTester SBI Bank Clerk Practice Exams</name>
+                              <description>eTester SBI Bank Clerk Practice Exams</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>3rd Party SBI Bank Clerk Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                           <skillOnly>
+                              <id_skill>1</id_skill>
+                              <name>VIMS</name>
+                              <description>VIMS</description>
+                              <published>false</published>
+                           </skillOnly>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>BankingClerk</subject>
+                     <name>Core SBI Bank Clerk Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillChoiceArray>
+                        <skillChoiceType>
+                            <coreSkillReference>
+                               <id_skill>1</id_skill>
+                               <id_skill_reference>11111000101</id_skill_reference>
+                            </coreSkillReference>
+                        </skillChoiceType>
+                     </skillChoiceArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

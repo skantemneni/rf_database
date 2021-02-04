@@ -1,0 +1,108 @@
+1. Matter Around Us
+	Introduction
+	States of Matter	
+	Properties of Solids, Liquids and Gases
+	Compressibility
+	Diffusion
+	Particles of Matter attract each other
+	Effect of Temperature
+	Effects of Change of Pressure
+	Evaporation
+	
+2. Motion
+	Introduction
+	What is Relative?
+	Motion is Relative
+	
+3. Laws of Motion
+	Introduction
+	First Law of Motion
+	Second Law of Motion
+	Third Law of Motion
+	Conservation of Momentum and Impulse
+	
+4. Is Matter Pure?
+	Introduction
+	What is Mixture?
+	Types of Mixture
+	Separating the Components of a Mixture
+	Separation of Immiscible and Miscible Liquids
+	Separation of a Mixture of Two Miscible Liquids
+	Types of Pure Substances
+	
+5. Atoms and Molecules
+	Introduction	
+	Law of Conservation of Mass
+	Law of Constant Proportions
+	Dalton's Atomic Theory
+	Atoms and Molecules
+	Why do we name Elements?
+	Symbols of Elements
+	Some unusual Symbols
+	Elements with more than one Atom in their Molecules
+	Atomicity
+	Valency
+	What is an Ion?
+	Atomic Mass
+	Molecules of Compounds
+	Molecular Mass
+	Formula Unit Mass
+	Mole Concept
+	Molar Mass
+	
+6. What is Inside the Atom?
+	Introduction
+	Sub Atomic Particles
+	Thomson's Model of the Atom
+	Rutherford's Alpha particles scattering experiment
+	Bohr's Model of the Atom
+	Distribution of Electrons in different Orbits(Shells)
+	Valency
+	Atomic Number
+	Atomic Mass Number
+	Writing Symbols of Atoms
+	Isotopes
+	Applications of Isotops
+	
+7. Gravitation
+	Introduction
+	Uniform Circular Motion
+	Universal Law of Gravitation
+	Freefall
+	Weight
+	Centre of Gravity
+	
+8. Floating Bodies
+	Introduction	
+	Have a little Fun
+	Comparing Density - Relative Density
+	Relative Density of Liquids
+	Upward Force in Liquids
+	Pressure of Air
+	Measuring the Force of Buoyancy
+	Archimedes' Principle
+	Pascal's Principle
+	
+9. Work and Energy
+	Introduction
+	Work
+	Idea of Energy
+	Energy Transfer and the Work
+	Sources of Energy
+	Forms of Energy
+	Conversion of Energy
+	Power
+	
+10. Sound
+	Introduction
+	Production of Sound
+	How does Sound Travel?
+	Propagation of Sound
+	Types of Waves
+	Sound Waves are Longitudinal
+	Characteristics of the Sound Wave
+	Characteristics of a Musical Sound
+	Reflection of Sound
+	Range of Hearing
+	Applications of Ultrasound
+	Sonar

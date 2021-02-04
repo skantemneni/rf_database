@@ -1,0 +1,996 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false" reload="true">
+         <id_system>104</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>570</id_level>
+               <subject>Biology</subject>
+               <subject_header>Foundation Biology</subject_header>
+               <name>Biology Foundation - Grade 8</name>
+               <display_name>Biology Foundation - Grade 8</display_name>
+               <description>Biology Foundation - Grade 8</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Biology</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Biology Foundation - Grade 8</name>
+                           <description>Combined Practice Tests - Biology Foundation - Grade 8</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Biology</subject>
+                     <name>Food Production and Management</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Food Production and Management</name>
+                           <description>Topic Tests - Food Production and Management</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Crop Plants</name>
+                           <description>Crop Plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Method of crop production</name>
+                           <description>Method of crop production</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Nutrient Management</name>
+                           <description>Nutrient Management</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Irrigation</name>
+                           <description>Irrigation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Weeding</name>
+                           <description>Weeding</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Crop Protection</name>
+                           <description>Crop Protection</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Harvesting, Threshing and Winnowing</name>
+                           <description>Harvesting, Threshing and Winnowing</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Crop Storage</name>
+                           <description>Crop Storage</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Green revolution</name>
+                           <description>Green revolution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Food from Animals</name>
+                           <description>Food from Animals</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Biology</subject>
+                     <name>Cell - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cell - Level 1</name>
+                           <description>Topic Tests - Cell - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Cell Theory</name>
+                           <description>Cell Theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Structure and Functions of cell</name>
+                           <description>Structure and Functions of cell</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Plant cell and Animal Cell</name>
+                           <description>Plant cell and Animal Cell</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Biology</subject>
+                     <name>Microorganisms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Microorganisms</name>
+                           <description>Topic Tests - Microorganisms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Bacteria</name>
+                           <description>Bacteria</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Fungi</name>
+                           <description>Fungi</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Protozoa</name>
+                           <description>Protozoa</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Algae</name>
+                           <description>Algae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Viruses</name>
+                           <description>Viruses</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Impact of Microbes on Human</name>
+                           <description>Impact of Microbes on Human</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Food Preservation</name>
+                           <description>Food Preservation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Nitrogen Cycle</name>
+                           <description>Nitrogen Cycle</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Biology</subject>
+                     <name>Conservation of plants and Animals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Conservation of plants and Animals</name>
+                           <description>Topic Tests - Conservation of plants and Animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Biodiversity</name>
+                           <description>Biodiversity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Deforestration</name>
+                           <description>Deforestration</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Forest-Conservation and Management</name>
+                           <description>Forest-Conservation and Management</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Wildlife</name>
+                           <description>Wildlife</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Statergies For Wildlife conservation</name>
+                           <description>Statergies For Wildlife conservation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Some wildlife projects in India</name>
+                           <description>Some wildlife projects in India</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Legal Provisions for Conservation of Bio diversity</name>
+                           <description>Legal Provisions for Conservation of Bio diversity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Biology</subject>
+                     <name>Reproduction in Animals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reproduction in Animals</name>
+                           <description>Topic Tests - Reproduction in Animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Asexual reproduction in animals</name>
+                           <description>Asexual reproduction in animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sexual reproduction in Animals</name>
+                           <description>Sexual reproduction in Animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Reproduction in humans</name>
+                           <description>Reproduction in humans</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Development in birds</name>
+                           <description>Development in birds</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Biology</subject>
+                     <name>Reaching the Age of Adolescence</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reaching the Age of Adolescence</name>
+                           <description>Topic Tests - Reaching the Age of Adolescence</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Puberty</name>
+                           <description>Puberty</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Hormones and Pubertal Changes</name>
+                           <description>Hormones and Pubertal Changes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sex determination in humans</name>
+                           <description>Sex determination in humans</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Endocrine System</name>
+                           <description>Endocrine System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Reproductive health</name>
+                           <description>Reproductive health</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>580</id_level>
+               <subject>Biology</subject>
+               <subject_header>Foundation Biology</subject_header>
+               <name>Biology Foundation - Grade 9</name>
+               <display_name>Biology Foundation - Grade 9</display_name>
+               <description>Biology Foundation - Grade 9</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Biology</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Biology Foundation - Grade 9</name>
+                           <description>Combined Practice Tests - Biology Foundation - Grade 9</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Biology</subject>
+                     <name>Cell - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cell - Level 2</name>
+                           <description>Topic Tests - Cell - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Discovery of Cell</name>
+                           <description>Discovery of Cell</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Cell Shape and Size</name>
+                           <description>Cell Shape and Size</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Cell Shape and Volume</name>
+                           <description>Cell Shape and Volume</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Structural organization of a cell</name>
+                           <description>Structural organization of a cell</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>ProKaryotic and Eukaryotic Cells</name>
+                           <description>ProKaryotic and Eukaryotic Cells</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Cell Organelles</name>
+                           <description>Cell Organelles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Biology</subject>
+                     <name>Tissues</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Tissues</name>
+                           <description>Topic Tests - Tissues</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Plant Tissues</name>
+                           <description>Plant Tissues</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Animal Tissue</name>
+                           <description>Animal Tissue</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Biology</subject>
+                     <name>Diversity in Living Organisms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Diversity in Living Organisms</name>
+                           <description>Topic Tests - Diversity in Living Organisms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification of Living Organisms</name>
+                           <description>Classification of Living Organisms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Classification and Evolution</name>
+                           <description>Classification and Evolution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Categories in Classification</name>
+                           <description>Categories in Classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Kingdom Animalia</name>
+                           <description>Kingdom Animalia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Classification of Animalia</name>
+                           <description>Classification of Animalia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Nomenclature</name>
+                           <description>Nomenclature</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Biology</subject>
+                     <name>Health and Diseases</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Health and Diseases</name>
+                           <description>Topic Tests - Health and Diseases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Health</name>
+                           <description>Health</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Diseases</name>
+                           <description>Diseases</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Biology</subject>
+                     <name>Improvement in Food resources</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Improvement in Food resources</name>
+                           <description>Topic Tests - Improvement in Food resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Statergies for enhancement of food production</name>
+                           <description>Statergies for enhancement of food production</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Crop variety improvement</name>
+                           <description>Crop variety improvement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Crop Production Management</name>
+                           <description>Crop Production Management</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Irrigation</name>
+                           <description>Irrigation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Crop Protection Management</name>
+                           <description>Crop Protection Management</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Animal Husbandry</name>
+                           <description>Animal Husbandry</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Biology</subject>
+                     <name>Natural Resources</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Natural Resources</name>
+                           <description>Topic Tests - Natural Resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification of Natural Resources</name>
+                           <description>Classification of Natural Resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>The breath of Life: Air</name>
+                           <description>The breath of Life: Air</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Water: A wonder liquid</name>
+                           <description>Water: A wonder liquid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Soil</name>
+                           <description>Soil</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Biochemical Cycles</name>
+                           <description>Biochemical Cycles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Ozone Layer</name>
+                           <description>Ozone Layer</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>590</id_level>
+               <subject>Biology</subject>
+               <subject_header>Foundation Biology</subject_header>
+               <name>Biology Foundation - Grade 10</name>
+               <display_name>Biology Foundation - Grade 10</display_name>
+               <description>Biology Foundation - Grade 10</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Biology</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Biology Foundation - Grade 10</name>
+                           <description>Combined Practice Tests - Biology Foundation - Grade 10</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Biology</subject>
+                     <name>Life Process</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nutrition</name>
+                           <description>Nutrition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Photosynthesis</name>
+                           <description>Photosynthesis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Nutrition in Amoeba</name>
+                           <description>Nutrition in Amoeba</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Nutrition in Humans</name>
+                           <description>Nutrition in Humans</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Respiration</name>
+                           <description>Respiration</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Respiration in Plants</name>
+                           <description>Respiration in Plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Respiration in Animals</name>
+                           <description>Respiration in Animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Respiratory system in Human</name>
+                           <description>Respiratory system in Human</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Transportation</name>
+                           <description>Transportation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Transport system in Human</name>
+                           <description>Transport system in Human</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Excreation</name>
+                           <description>Excreation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Excreation in Plants</name>
+                           <description>Excreation in Plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Life Process</name>
+                           <description>Topic Tests - Life Process</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Biology</subject>
+                     <name>Control and Coordination</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Control and Coordination</name>
+                           <description>Topic Tests - Control and Coordination</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Control and coordination in Plants</name>
+                           <description>Control and coordination in Plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Control and Coordination in animals</name>
+                           <description>Control and Coordination in animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Nervous System</name>
+                           <description>Nervous System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Human Nervous System</name>
+                           <description>Human Nervous System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Chemical coordination in Animals</name>
+                           <description>Chemical coordination in Animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Disorders of Endocrine glands</name>
+                           <description>Disorders of Endocrine glands</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Biology</subject>
+                     <name>Reproduction in Animals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reproduction in Animals</name>
+                           <description>Topic Tests - Reproduction in Animals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>The importance of variation</name>
+                           <description>The importance of variation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Asexual reproduction</name>
+                           <description>Asexual reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sexual reproduction</name>
+                           <description>Sexual reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Sexual reproduction in Human being</name>
+                           <description>Sexual reproduction in Human being</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Reproductive health</name>
+                           <description>Reproductive health</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Biology</subject>
+                     <name>Heredity and Evolution</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Heredity and Evolution</name>
+                           <description>Topic Tests - Heredity and Evolution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Accumulation of Variations</name>
+                           <description>Accumulation of Variations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Heridity and Genetics</name>
+                           <description>Heridity and Genetics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Rules of Inheritance- Mendels Contribution</name>
+                           <description>Rules of Inheritance- Mendels Contribution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Inheritance of Traits</name>
+                           <description>Inheritance of Traits</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Sex determination</name>
+                           <description>Sex determination</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Evolution</name>
+                           <description>Evolution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Specification</name>
+                           <description>Specification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Evolution and Classification</name>
+                           <description>Evolution and Classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Tracing Evolutionary Relationships</name>
+                           <description>Tracing Evolutionary Relationships</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Evolution through stages</name>
+                           <description>Evolution through stages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Evolution and Progress</name>
+                           <description>Evolution and Progress</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Human Evolution</name>
+                           <description>Human Evolution</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Biology</subject>
+                     <name>Our Environment</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Our Environment</name>
+                           <description>Topic Tests - Our Environment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ecosystem</name>
+                           <description>Ecosystem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Food Chain</name>
+                           <description>Food Chain</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Food web</name>
+                           <description>Food web</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Flow of energy in a ecosystem</name>
+                           <description>Flow of energy in a ecosystem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Effect of human Activities on the ecosystem</name>
+                           <description>Effect of human Activities on the ecosystem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Solid waste management</name>
+                           <description>Solid waste management</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Biology</subject>
+                     <name>Management of Natural Resources</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Management of Natural Resources</name>
+                           <description>Topic Tests - Management of Natural Resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Managemant and Conservation of Natural Resources</name>
+                           <description>Managemant and Conservation of Natural Resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Ganga Action Plan</name>
+                           <description>Ganga Action Plan</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Forest resources</name>
+                           <description>Forest resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Wildlife resources</name>
+                           <description>Wildlife resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Water Resources</name>
+                           <description>Water Resources</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Fossil Fuels: Coal and Petroleum</name>
+                           <description>Fossil Fuels: Coal and Petroleum</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Sustainable management</name>
+                           <description>Sustainable management</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,28 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadSkillsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>103</id_system>
+         <id_level>102</id_level>
+         <id_topic>16</id_topic>
+         <id_provider>0</id_provider>
+         <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Sky and Space Wave Propagation</name>
+                           <description>Sky and Space Wave Propagation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Amplitude and Modulation</name>
+                           <description>Amplitude and Modulation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Bandwidth of signals, transmission medium and communication system</name>
+                           <description>Bandwidth of signals, transmission medium and communication system</description>
+                        </skillOnly>
+         </skillOnlyArray>
+      </LoadSkillsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

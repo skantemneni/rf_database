@@ -1,0 +1,2374 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false" reload="true">
+         <id_system>104</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>150</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics</subject_header>
+               <name>Mathematics Foundation - Grade 6</name>
+               <display_name>Mathematics Foundation - Grade 6</display_name>
+               <description>Mathematics Foundation - Grade 6</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 6</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 6</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Math</subject>
+                     <name>Sets - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sets - Level 1</name>
+                           <description>Topic Tests - Sets - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Sets</name>
+                           <description>Sets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Finate and Infinite Sets</name>
+                           <description>Finate and Infinite Sets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>The Empty set</name>
+                           <description>The Empty set</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Math</subject>
+                     <name>Natural and Whole Numbers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Natural and Whole Numbers</name>
+                           <description>Topic Tests - Natural and Whole Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Natural Numbers</name>
+                           <description>Natural Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>The division algorithm</name>
+                           <description>The division algorithm</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Math</subject>
+                     <name>Integers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Integers</name>
+                           <description>Topic Tests - Integers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Integers</name>
+                           <description>Integers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Multiplication and Division of Integers</name>
+                           <description>Multiplication and Division of Integers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Combined operations of Integers</name>
+                           <description>Combined operations of Integers</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Math</subject>
+                     <name>Factors and Multiples</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Factors and Multiples</name>
+                           <description>Topic Tests - Factors and Multiples</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Factors and Multiples</name>
+                           <description>Factors and Multiples</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Tests for divisibility of natural numbers</name>
+                           <description>Tests for divisibility of natural numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Methods of finding HCF</name>
+                           <description>Methods of finding HCF</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Math</subject>
+                     <name>Fractions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Fractions</name>
+                           <description>Topic Tests - Fractions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Fractions</name>
+                           <description>Fractions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Math</subject>
+                     <name>Decimals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Decimals</name>
+                           <description>Topic Tests - Decimals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Decimal and fractions</name>
+                           <description>Decimal and fractions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Math</subject>
+                     <name>Squares and square roots</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Squares and square roots</name>
+                           <description>Topic Tests - Squares and square roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Squares</name>
+                           <description>Squares</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Square roots</name>
+                           <description>Square roots</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Math</subject>
+                     <name>Ratio, Proportion and Unitary method</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ratio, Proportion and Unitary method</name>
+                           <description>Topic Tests - Ratio, Proportion and Unitary method</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Ratio</name>
+                           <description>Ratio</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Unitary Method</name>
+                           <description>Unitary Method</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Math</subject>
+                     <name>Percentages</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Percentages</name>
+                           <description>Topic Tests - Percentages</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Percentage</name>
+                           <description>Percentage</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Math</subject>
+                     <name>Algebra</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Algebra</name>
+                           <description>Topic Tests - Algebra</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Algebra</name>
+                           <description>Algebra</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Identifying the coefficient and variable</name>
+                           <description>Identifying the coefficient and variable</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>Math</subject>
+                     <name>Lines and Angles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Lines and Angles</name>
+                           <description>Topic Tests - Lines and Angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Lines</name>
+                           <description>Lines</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Plane</name>
+                           <description>Plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Angles</name>
+                           <description>Angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Interacting Lines</name>
+                           <description>Interacting Lines</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>Math</subject>
+                     <name>Triangles and Polygons</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Triangles and Polygons</name>
+                           <description>Topic Tests - Triangles and Polygons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Recognizing and Naming Polygons</name>
+                           <description>Recognizing and Naming Polygons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Triangles</name>
+                           <description>Triangles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>Math</subject>
+                     <name>Circles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Circles</name>
+                           <description>Topic Tests - Circles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>Math</subject>
+                     <name>Length and Mass</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Length and Mass</name>
+                           <description>Topic Tests - Length and Mass</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Measuring Length</name>
+                           <description>Measuring Length</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>Math</subject>
+                     <name>Area and Perimeter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Area and Perimeter</name>
+                           <description>Topic Tests - Area and Perimeter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>160</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics</subject_header>
+               <name>Mathematics Foundation - Grade 7</name>
+               <display_name>Mathematics Foundation - Grade 7</display_name>
+               <description>Mathematics Foundation - Grade 7</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 7</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 7</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Math</subject>
+                     <name>Sets - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sets - Level 2</name>
+                           <description>Topic Tests - Sets - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Math</subject>
+                     <name>Rational Numbers</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Rational Numbers</name>
+                           <description>Topic Tests - Rational Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Math</subject>
+                     <name>Factors and Multiples</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Factors and Multiples</name>
+                           <description>Topic Tests - Factors and Multiples</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Math</subject>
+                     <name>Cubes and Cube Roots</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cubes and Cube Roots</name>
+                           <description>Topic Tests - Cubes and Cube Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cubes</name>
+                           <description>Cubes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Cubes Roots</name>
+                           <description>Cubes Roots</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Math</subject>
+                     <name>Ratio and Proportion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ratio and Proportion</name>
+                           <description>Topic Tests - Ratio and Proportion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Ratio</name>
+                           <description>Ratio</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Proportion</name>
+                           <description>Proportion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Math</subject>
+                     <name>Percentage</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Percentage</name>
+                           <description>Topic Tests - Percentage</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Important factor and formulae</name>
+                           <description>Important factor and formulae</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Math</subject>
+                     <name>Profit and Loss</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Profit and Loss</name>
+                           <description>Topic Tests - Profit and Loss</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Math</subject>
+                     <name>Simple Interest</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Simple Interest</name>
+                           <description>Topic Tests - Simple Interest</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Math</subject>
+                     <name>Compound Interest</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Compound Interest</name>
+                           <description>Topic Tests - Compound Interest</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Math</subject>
+                     <name>Identities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Identities</name>
+                           <description>Topic Tests - Identities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Multiplication</name>
+                           <description>Multiplication</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Division</name>
+                           <description>Division</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Special Products</name>
+                           <description>Special Products</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>Math</subject>
+                     <name>Factorisation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Factorisation</name>
+                           <description>Topic Tests - Factorisation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Factors</name>
+                           <description>Factors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>Math</subject>
+                     <name>Simple Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Simple Equations</name>
+                           <description>Topic Tests - Simple Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Simple Linear equation in our unknown</name>
+                           <description>Simple Linear equation in our unknown</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Equations involving brackets</name>
+                           <description>Equations involving brackets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Simple Fractional equations</name>
+                           <description>Simple Fractional equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Forming Linear equations to solve problems</name>
+                           <description>Forming Linear equations to solve problems</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>Math</subject>
+                     <name>Triangles and Polygons</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Triangles and Polygons</name>
+                           <description>Topic Tests - Triangles and Polygons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Theorem</name>
+                           <description>Theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Concurrent lines in a triangle</name>
+                           <description>Concurrent lines in a triangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Perpendicular bisectors</name>
+                           <description>Perpendicular bisectors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Parallelogram</name>
+                           <description>Parallelogram</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Rectangle</name>
+                           <description>Rectangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Square</name>
+                           <description>Square</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Rhombus</name>
+                           <description>Rhombus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Polygons</name>
+                           <description>Polygons</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>Math</subject>
+                     <name>Circles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Circles</name>
+                           <description>Topic Tests - Circles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Theorem</name>
+                           <description>Theorem</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>Math</subject>
+                     <name>Mensuration</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Menstruation</name>
+                           <description>Topic Tests - Menstruation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Quadrilaterals</name>
+                           <description>Quadrilaterals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Parallelogram</name>
+                           <description>Parallelogram</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Trapezoid</name>
+                           <description>Trapezoid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Rectangle</name>
+                           <description>Rectangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Rhombus</name>
+                           <description>Rhombus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Square</name>
+                           <description>Square</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Pathway</name>
+                           <description>Pathway</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Circles</name>
+                           <description>Circles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>Math</subject>
+                     <name>Solid Geometry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Solid Geometry</name>
+                           <description>Topic Tests - Solid Geometry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Geometric Solids</name>
+                           <description>Geometric Solids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Geometric properties</name>
+                           <description>Geometric properties</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>170</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics</subject_header>
+               <name>Mathematics Foundation - Grade 8</name>
+               <display_name>Mathematics Foundation - Grade 8</display_name>
+               <description>Mathematics Foundation - Grade 8</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 8</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 8</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Math</subject>
+                     <name>Number System</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Number System</name>
+                           <description>Topic Tests - Number System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Tests of Visibility</name>
+                           <description>Tests of Visibility</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Squares</name>
+                           <description>Squares</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Square Roots</name>
+                           <description>Square Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Cubes</name>
+                           <description>Cubes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Cube Roots</name>
+                           <description>Cube Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Fractions</name>
+                           <description>Fractions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Decimal Fractions</name>
+                           <description>Decimal Fractions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Numbers</name>
+                           <description>Numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Properties of natural numbers</name>
+                           <description>Properties of natural numbers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Simplification of numerical expressions</name>
+                           <description>Simplification of numerical expressions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Rule of simplification or calculation</name>
+                           <description>Rule of simplification or calculation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Absolute value of an integer or modulus</name>
+                           <description>Absolute value of an integer or modulus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Factors and Multiples</name>
+                           <description>Factors and Multiples</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>LCM and HCF</name>
+                           <description>LCM and HCF</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Math</subject>
+                     <name>Exponents and Radicals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Exponents and Radicals</name>
+                           <description>Topic Tests - Exponents and Radicals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Math</subject>
+                     <name>Sets</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sets</name>
+                           <description>Topic Tests - Sets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sets</name>
+                           <description>Sets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Types of set</name>
+                           <description>Types of set</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Math</subject>
+                     <name>Mensuration - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Menstruation - Level 1</name>
+                           <description>Topic Tests - Menstruation - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Triangle</name>
+                           <description>Triangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Quadrilaterals</name>
+                           <description>Quadrilaterals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Circle</name>
+                           <description>Circle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Semi circle</name>
+                           <description>Semi circle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Circular sector</name>
+                           <description>Circular sector</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Circular ring</name>
+                           <description>Circular ring</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Ellipse</name>
+                           <description>Ellipse</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Math</subject>
+                     <name>Polynomials - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Polynomials - Level 1</name>
+                           <description>Topic Tests - Polynomials - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Math</subject>
+                     <name>Linear Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Linear Equations</name>
+                           <description>Topic Tests - Linear Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Math</subject>
+                     <name>Inequalities - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inequalities - Level 1</name>
+                           <description>Topic Tests - Inequalities - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Inequality operators</name>
+                           <description>Inequality operators</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Linear In equations</name>
+                           <description>Linear In equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Properties of In equations</name>
+                           <description>Properties of In equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Algebra of Linear Inequalities</name>
+                           <description>Algebra of Linear Inequalities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Math</subject>
+                     <name>Arithmetic</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Arithmetic</name>
+                           <description>Topic Tests - Arithmetic</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Ratio and Proportion</name>
+                           <description>Ratio and Proportion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Percentages</name>
+                           <description>Percentages</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Math</subject>
+                     <name>Plane Geometry - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Plane Geometry - Level 1</name>
+                           <description>Topic Tests - Plane Geometry - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Properties of straight Line</name>
+                           <description>Properties of straight Line</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Angles</name>
+                           <description>Angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Elucid five postulates</name>
+                           <description>Elucid five postulates</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Triangles</name>
+                           <description>Triangles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Math</subject>
+                     <name>Coordinate Geometry - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Coordinate Geometry - Level 1</name>
+                           <description>Topic Tests - Coordinate Geometry - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Locus</name>
+                           <description>Locus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Symmetry</name>
+                           <description>Symmetry</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>180</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics</subject_header>
+               <name>Mathematics Foundation - Grade 9</name>
+               <display_name>Mathematics Foundation - Grade 9</display_name>
+               <description>Mathematics Foundation - Grade 9</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 9</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 9</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Math</subject>
+                     <name>Surds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Surds</name>
+                           <description>Topic Tests - Surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Surds</name>
+                           <description>Surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Types of Surds</name>
+                           <description>Types of Surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Comparison of two surds</name>
+                           <description>Comparison of two surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Like and Unlike surds</name>
+                           <description>Like and Unlike surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Operations on surds</name>
+                           <description>Operations on surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Rationalization of surds</name>
+                           <description>Rationalization of surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Conjugate surds</name>
+                           <description>Conjugate surds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Some important results</name>
+                           <description>Some important results</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Math</subject>
+                     <name>Logarithms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Logarithms</name>
+                           <description>Topic Tests - Logarithms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Definition</name>
+                           <description>Definition</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Math</subject>
+                     <name>Relations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Relations</name>
+                           <description>Topic Tests - Relations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Ordered Pairs</name>
+                           <description>Ordered Pairs</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Cartesian Product of sets</name>
+                           <description>Cartesian Product of sets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Relations</name>
+                           <description>Relations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Reflexive property</name>
+                           <description>Reflexive property</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Math</subject>
+                     <name>Mensuration - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Menstruation - Level 2</name>
+                           <description>Topic Tests - Menstruation - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Volumes of Solid</name>
+                           <description>Volumes of Solid</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Math</subject>
+                     <name>Polynomials - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Polynomials - Level 2</name>
+                           <description>Topic Tests - Polynomials - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Standard Formulae</name>
+                           <description>Standard Formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Factorization</name>
+                           <description>Factorization</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Homogeneous, symmetric and cyclic expression</name>
+                           <description>Homogeneous, symmetric and cyclic expression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Square roots</name>
+                           <description>Square roots</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Math</subject>
+                     <name>Quadratic Equations - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Quadratic Equations - Level 2</name>
+                           <description>Topic Tests - Quadratic Equations - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Quadratic equations</name>
+                           <description>Quadratic equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Math</subject>
+                     <name>Plane Geometry - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Plane Geometry - Level 2</name>
+                           <description>Topic Tests - Plane Geometry - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Quadrilaterals</name>
+                           <description>Quadrilaterals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Types of Quadrilaterals</name>
+                           <description>Types of Quadrilaterals</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Math</subject>
+                     <name>Permutation and combination</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Permutation and combination</name>
+                           <description>Topic Tests - Permutation and combination</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Factorial Notation</name>
+                           <description>Factorial Notation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Fundamental Principal of counting</name>
+                           <description>Fundamental Principal of counting</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Some basic results</name>
+                           <description>Some basic results</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Combination</name>
+                           <description>Combination</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Some useful shortcut Methods</name>
+                           <description>Some useful shortcut Methods</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Math</subject>
+                     <name>Inequalities - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inequalities - Level 2</name>
+                           <description>Topic Tests - Inequalities - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Inequalities in triangle</name>
+                           <description>Inequalities in triangle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Quadratic In equation</name>
+                           <description>Quadratic In equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Methods of solving In equations</name>
+                           <description>Methods of solving In equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Sign of quadratic expressions</name>
+                           <description>Sign of quadratic expressions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Math</subject>
+                     <name>Coordinate geometry - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Coordinate geometry - Level 2</name>
+                           <description>Topic Tests - Coordinate geometry - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cartesian Coordinate System</name>
+                           <description>Cartesian Coordinate System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Some Basic Formulae</name>
+                           <description>Some Basic Formulae</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>Math</subject>
+                     <name>Number theory</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Number theory</name>
+                           <description>Topic Tests - Number theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Definition</name>
+                           <description>Definition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Theorems on Number Theory</name>
+                           <description>Theorems on Number Theory</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>Math</subject>
+                     <name>Trignometry - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Trigonometry - Level 2</name>
+                           <description>Topic Tests - Trigonometry - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Definition</name>
+                           <description>Definition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Angle</name>
+                           <description>Angle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Different Units for Measuring Angles</name>
+                           <description>Different Units for Measuring Angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Trigonometric Ratios</name>
+                           <description>Trigonometric Ratios</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>For All Values of theta</name>
+                           <description>For All Values of theta</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Trigonometric Ratios of standard angles</name>
+                           <description>Trigonometric Ratios of standard angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Trigonometric Ratios of Allied Angles</name>
+                           <description>Trigonometric Ratios of Allied Angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Domain and Range of Trigonometric function</name>
+                           <description>Domain and Range of Trigonometric function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Compound angles</name>
+                           <description>Compound angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Trigonometric ratios of the sum of three angles</name>
+                           <description>Trigonometric ratios of the sum of three angles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>Math</subject>
+                     <name>Matrices</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Matrices</name>
+                           <description>Topic Tests - Matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Matrix</name>
+                           <description>Matrix</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Types of Matrices</name>
+                           <description>Types of Matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Transpose of a matrix</name>
+                           <description>Transpose of a matrix</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Equality of Matrices</name>
+                           <description>Equality of Matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Addition of Matrices</name>
+                           <description>Addition of Matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Multiplication of Matrices</name>
+                           <description>Multiplication of Matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Determinants</name>
+                           <description>Determinants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Singular and Non-singular matrices</name>
+                           <description>Singular and Non-singular matrices</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Inverse of a matrix</name>
+                           <description>Inverse of a matrix</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Properties of Determinants</name>
+                           <description>Properties of Determinants</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>190</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics</subject_header>
+               <name>Mathematics Foundation - Grade 10</name>
+               <display_name>Mathematics Foundation - Grade 10</display_name>
+               <description>Mathematics Foundation - Grade 10</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 10</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 10</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Math</subject>
+                     <name>Mathematical Induction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mathematical Induction</name>
+                           <description>Topic Tests - Mathematical Induction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Inductive reasoning</name>
+                           <description>Inductive reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Deductive reasoning</name>
+                           <description>Deductive reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Inductive Method</name>
+                           <description>Inductive Method</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Deductive Method</name>
+                           <description>Deductive Method</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Mathematical statement</name>
+                           <description>Mathematical statement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Principle of mathematical induction</name>
+                           <description>Principle of mathematical induction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>First principle of induction</name>
+                           <description>First principle of induction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Second principle of induction</name>
+                           <description>Second principle of induction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Third principle of induction</name>
+                           <description>Third principle of induction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Math</subject>
+                     <name>Progressions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Progressions</name>
+                           <description>Topic Tests - Progressions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Progression</name>
+                           <description>Progression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Arithmetic progression</name>
+                           <description>Arithmetic progression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Geometric Progression</name>
+                           <description>Geometric Progression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Harmonic Progression</name>
+                           <description>Harmonic Progression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Relation  between three progressions</name>
+                           <description>Relation  between three progressions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Math</subject>
+                     <name>Functions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Functions</name>
+                           <description>Topic Tests - Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Function</name>
+                           <description>Function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Diagrammatic Representation of a function</name>
+                           <description>Diagrammatic Representation of a function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Image</name>
+                           <description>Image</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Pre Image</name>
+                           <description>Pre Image</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Domain and Co domain</name>
+                           <description>Domain and Co domain</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Range of function</name>
+                           <description>Range of function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Description of  function</name>
+                           <description>Description of  function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Various types of function</name>
+                           <description>Various types of function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Onto functions</name>
+                           <description>Onto functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Injection</name>
+                           <description>Injection</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Many-one function</name>
+                           <description>Many-one function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Into function</name>
+                           <description>Into function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Identify function</name>
+                           <description>Identify function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Constant function</name>
+                           <description>Constant function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>16</id_skill>
+                           <name>Equal function</name>
+                           <description>Equal function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>17</id_skill>
+                           <name>Inverse function</name>
+                           <description>Inverse function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>18</id_skill>
+                           <name>Even and Odd function</name>
+                           <description>Even and Odd function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>19</id_skill>
+                           <name>Function as a relation</name>
+                           <description>Function as a relation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>20</id_skill>
+                           <name>Graph of real valued function</name>
+                           <description>Graph of real valued function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>21</id_skill>
+                           <name>Composite function</name>
+                           <description>Composite function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>22</id_skill>
+                           <name>Composition of there functions</name>
+                           <description>Composition of there functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>23</id_skill>
+                           <name>Homogenous function</name>
+                           <description>Homogenous function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>24</id_skill>
+                           <name>Symmetric function</name>
+                           <description>Symmetric function</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>25</id_skill>
+                           <name>Forms of symmetric integral functions</name>
+                           <description>Forms of symmetric integral functions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Math</subject>
+                     <name>Limits</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Limits</name>
+                           <description>Topic Tests - Limits</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Definition of Limit</name>
+                           <description>Definition of Limit</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Right Hand Limit</name>
+                           <description>Right Hand Limit</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Left Hand Limit</name>
+                           <description>Left Hand Limit</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Indeterminate forms</name>
+                           <description>Indeterminate forms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Limit of sum and Difference</name>
+                           <description>Limit of sum and Difference</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Limit of Product/quotient</name>
+                           <description>Limit of Product/quotient</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Evaluation of Algebraic Limits</name>
+                           <description>Evaluation of Algebraic Limits</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Method of Direct Substitution</name>
+                           <description>Method of Direct Substitution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Method of factorization</name>
+                           <description>Method of factorization</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Method of Rationalization</name>
+                           <description>Method of Rationalization</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Evaluation of Limits Using Standards Results</name>
+                           <description>Evaluation of Limits Using Standards Results</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Math</subject>
+                     <name>Polynomials - Level 3</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Polynomials - Level 3</name>
+                           <description>Topic Tests - Polynomials - Level 3</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Horner's Method of synthetic division</name>
+                           <description>Horner's Method of synthetic division</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Solving cubic Equations</name>
+                           <description>Solving cubic Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Math</subject>
+                     <name>Quadratic Equations - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Quadratic Equations - Level 2</name>
+                           <description>Topic Tests - Quadratic Equations - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Quadratic equation</name>
+                           <description>Quadratic equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Properties of Quadratic Equations</name>
+                           <description>Properties of Quadratic Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Sum and Product of the roots of a quadratic Equation</name>
+                           <description>Sum and Product of the roots of a quadratic Equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sign of the roots</name>
+                           <description>Sign of the roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Nature of Roots</name>
+                           <description>Nature of Roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Conditions for common roots</name>
+                           <description>Conditions for common roots</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Roots of cubic and Quadratic Equations</name>
+                           <description>Roots of cubic and Quadratic Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Math</subject>
+                     <name>Inequalities - Lavel 3</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inequalities - Level 3</name>
+                           <description>Topic Tests - Inequalities - Lave 3</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>The Inequality of the means</name>
+                           <description>The Inequality of the means</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Power Mean Inequality</name>
+                           <description>Power Mean Inequality</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Cauchy-Schwarz Inequality</name>
+                           <description>Cauchy-Schwarz Inequality</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Wisterias Inequality</name>
+                           <description>Wisterias Inequality</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Tchebychef's Inequality</name>
+                           <description>Tchebychef's Inequality</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Geometric Inequalities</name>
+                           <description>Geometric Inequalities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Math</subject>
+                     <name>Probability</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Probability</name>
+                           <description>Topic Tests - Probability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Probabilities of simple combined Events</name>
+                           <description>Probabilities of simple combined Events</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Mutually Exclusive events</name>
+                           <description>Mutually Exclusive events</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Independent Events</name>
+                           <description>Independent Events</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Further Probabilities</name>
+                           <description>Further Probabilities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Algebra of events</name>
+                           <description>Algebra of events</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Addition theorem on probability</name>
+                           <description>Addition theorem on probability</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Math</subject>
+                     <name>Plane Geometry - Level 3</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Plane Geometry - Level 3</name>
+                           <description>Topic Tests - Plane Geometry - Level 3</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Synopsis</name>
+                           <description>Synopsis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Cuclic Quadrilaterals</name>
+                           <description>Cuclic Quadrilaterals</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Math</subject>
+                     <name>Co-ordinate geometry - Level 3</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Co-ordinate geometry - Level 3</name>
+                           <description>Topic Tests - Co-ordinate geometry - Level 3</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rectangular Coordinate system</name>
+                           <description>Rectangular Coordinate system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Quadrants</name>
+                           <description>Quadrants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Position of a point in the plane</name>
+                           <description>Position of a point in the plane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Division of aline segment</name>
+                           <description>Division of aline segment</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>Math</subject>
+                     <name>Trignometry - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Trigonometry - Level 2</name>
+                           <description>Topic Tests - Trigonometry - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Trigonometric Identities</name>
+                           <description>Trigonometric Identities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Compound angles</name>
+                           <description>Compound angles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Heights and Distances</name>
+                           <description>Heights and Distances</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>Math</subject>
+                     <name>Binomial theorem</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Binomial theorem</name>
+                           <description>Topic Tests - Binomial theorem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Binomial Expression</name>
+                           <description>Binomial Expression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Binomial Theorem for Positive Integer Index</name>
+                           <description>Binomial Theorem for Positive Integer Index</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Middle Terms</name>
+                           <description>Middle Terms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Numerically greatest terms</name>
+                           <description>Numerically greatest terms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Binomial Coefficients</name>
+                           <description>Binomial Coefficients</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Binomial theorem for rational index</name>
+                           <description>Binomial theorem for rational index</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Some useful Expansions</name>
+                           <description>Some useful Expansions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Important Points to remember</name>
+                           <description>Important Points to remember</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>Math</subject>
+                     <name>Combinatorics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Combinatorics</name>
+                           <description>Topic Tests - Combinatorics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Four Enumeration Principles</name>
+                           <description>Four Enumeration Principles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

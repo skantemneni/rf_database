@@ -1,0 +1,143 @@
+1. Rational Numbers
+	Introduction
+	Properties of Rational Numbers
+	Distributivity of Multiplication over Addition
+	Representation of Rational Numbers on Number Line
+	Rational Number between Two Rational Numbers
+	Decimal Representation of Rational Numbers
+	Conversion of Decimal form into Rational Form
+	
+2. Linear Equations in One Variable
+	Introduction
+	Linear Equations
+	Simple Equations or Linear Equations in One Variable
+	Solving Simple Equation having the Variable on One Side
+	Solving Equation that has Variables on Both the Sides
+	Reducing Equations to Simpler Form - Equations Reducible to Linear Form
+	
+3. Construction of Quadrilaterals
+	Introduction
+	Quadrilaterals and their Properties
+	Constructing a Quadrilateral
+	
+4. Exponents and Powers
+	Introduction
+	powers with Negative Exponents
+	Laws of Exponents
+	Application of Exponents to Express Numbers in Standard Form
+	Comparing Very Large and Very Small Numbers
+	
+5. Comparing Quantities using Proportion
+	Introduction
+	Finding the Increase or Decrease Percent
+	Finding Discounts
+	Estimation in Percentages
+	Profit and Loss
+	Sales Tax/Value Added Tax(VAT)
+	Compound Interest
+	Deducing a Formula for Compound Interest
+	Interest Compounded Annually or Half Yearly(Semi Annually)
+	Application of Compound Interest Formula
+	
+6. Square Roots and Cube Roots
+	Introduction
+	Properties of Square Numbers
+	Interesting Patterns in Square
+	Pythagorean Triplets
+	Square Roots
+	Finding the Square Root through Subtraction of Successive Odd Numbers
+	Finding the Square Root through Prime Factorisation Method
+	Finding Square Root by Division Method
+	Square Roots of Decimals Using Division Method
+	Estimating Square Roots of Non Perfect Square Numbers
+	Cubic Numbers
+	Some Interesting Patterns
+	Cubes and their Prime Factors
+	Cube Roots
+	Finding Cube Root through Prime Factorization Method
+	Estimating the Cube Root of a Number
+	
+7. Frequency Distribution Tables and Graphs
+	Introduction
+	Basic Measures of Central Tendency
+	Organisation of Grouped Data
+	Cumulative Frequency
+	Graphical Representation of Data
+	Graphical Representation of Grouped Frequency Distribution
+	
+8. Exploring Geometrical Figures
+	Introduction
+	Congruency
+	Dilations
+	Symmetry
+	
+9. Area of Plane Figures
+	Introduction
+	Area of Trapezium
+	Area of Quadrilateral
+	Area of Rhombus
+	Surveying the Field
+	Area of a Polygon
+	Area of Circle
+	Area of a Circular Path or Area of a Ring
+	Length of the Arc
+	Area of Sector
+	
+10. Direct and Inverse Proportions
+	Introduction
+	Direct Proportion
+	Inverse Proportion
+	Compound Proportion
+	
+11. Algebraic Expressions
+	Introduction
+	Like and Unlike Terms
+	Addition and Subtraction of Algebraic Expressions
+	Multiplication of Algebraic Expressions
+	Multiplying a Monomial by a Monomial
+	Multiplying a Binomial or Trinomial by a Monomial
+	Multiplying a Binomial by a Binomial or Trinomial
+	What is an Identity?
+	Some Important Identities
+	Application of Identities
+	Geometrical Verification of the Identities
+	
+12. Factorisation
+	Introduction
+	Factors of Algebraic Expressions
+	Need of Factorisation
+	Method of Common Factors
+	Factorisation by Grouping the Terms
+	Factorisation Using Identities
+	Factors of the Form
+	Division of Algebraic Expressions
+	Division of a Monomial by another Monomial
+	Division of an Expression by a Monomial
+	Division of Expression by Expression
+	
+13. Visualising 3D in 2D
+	Introduction
+	3D Objects made with Cubes
+	Representation of 3D figures on 2D
+	Various Geometrical Solids
+	Faces, Edges and Vertices of 3D Objects
+	Regular Polyhedron
+	Number of Edges, Faces and Vertices of Polyhedrons
+	Net Diagrams
+	
+14. Surface Areas and Volume(Cube and Cuboid)
+	Introduction
+	Cuboid
+	Cube
+	Volume of Cube and Cuboid
+	
+15. Playing with Numbers	
+	Introduction	
+	Divisibility Rules
+	Some more Divisibility Rules
+	Puzzles based on Divisibility Rules
+	Fun with 3 Digit Numbers
+	Puzzles with Missing Digits
+	Finding of Divisibility by Taking Remainders of Place Values
+	Some more Puzzles on Divisibility Rules
+	

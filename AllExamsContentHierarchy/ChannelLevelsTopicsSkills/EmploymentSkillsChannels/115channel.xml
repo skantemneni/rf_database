@@ -1,0 +1,2620 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+	<soapenv:Header />
+	<soapenv:Body>
+		<LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="true" validateOnly="true">
+			<id_system>115</id_system>
+			<id_provider>0</id_provider>
+			<levelOnlyArray>
+				<levelOnly>
+					<id_level>101</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Competitive Examination</subject_header>
+					<name>
+						<![CDATA[Quantitative Aptitude]]>
+					</name>
+					<display_name>
+						<![CDATA[Quantitative Aptitude]]>
+					</display_name>
+					<description>
+						<![CDATA[Preparation for Competitive Examination]]>
+					</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicChoiceArray>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>1</id_topic>
+								<subject>BankingPO</subject>
+								<name>Practice Tests</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Combined Practice Tests - Quantitative Aptitude</name>
+											<description>
+												<![CDATA[Combined Practice Tests - Quantitative Aptitude]]>
+											</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>2</id_topic>
+								<id_topic_reference>111101008</id_topic_reference>
+								<subject_override>BankingPO</subject_override>
+								<name_override>Number Systems</name_override>
+								<description_override>Number Systems Description</description_override>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>3</id_topic>
+								<subject>BankingPO</subject>
+								<name>Number Series</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Number Series</name>
+											<description>Topic Test - Number Series</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Number Series</name>
+											<description>Number Series</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>4</id_topic>
+								<id_topic_reference>111101013</id_topic_reference>
+								<subject_override>BankingPO</subject_override>
+								<name_override>Simplification</name_override>
+								<description_override>Simplification Description</description_override>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>5</id_topic>
+								<id_topic_reference>111101003</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>6</id_topic>
+								<id_topic_reference>111101015</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>7</id_topic>
+								<id_topic_reference>111101017</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>8</id_topic>
+								<id_topic_reference>111101002</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>9</id_topic>
+								<id_topic_reference>111101014</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>10</id_topic>
+								<id_topic_reference>111101021</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>11</id_topic>
+								<id_topic_reference>111101020</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>12</id_topic>
+								<id_topic_reference>111101005</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>13</id_topic>
+								<id_topic_reference>111101007</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>14</id_topic>
+								<id_topic_reference>111101019</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>15</id_topic>
+								<id_topic_reference>111101016</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>16</id_topic>
+								<subject>BankingPO</subject>
+								<name>Inequality</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Inequality</name>
+											<description>Topic Test - Inequality</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Inequality</name>
+											<description>Inequality</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>17</id_topic>
+								<id_topic_reference>111101010</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>18</id_topic>
+								<id_topic_reference>111101009</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>19</id_topic>
+								<id_topic_reference>111102015</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>20</id_topic>
+								<id_topic_reference>111102002</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>21</id_topic>
+								<id_topic_reference>111101018</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>22</id_topic>
+								<subject>BankingPO</subject>
+								<name>Geometry</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Geometry</name>
+											<description>Topic Test - Geometry</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Geometry</name>
+											<description>Geometry</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>23</id_topic>
+								<subject>BankingPO</subject>
+								<name>Co-ordinate Geometry</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Co-ordinate Geometry</name>
+											<description>Topic Test - Co-ordinate Geometry</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Co-ordinate Geometry</name>
+											<description>Co-ordinate Geometry</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>24</id_topic>
+								<subject>BankingPO</subject>
+								<name>Trigonometry</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Trigonometry</name>
+											<description>Topic Test - Trigonometry</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Trigonometry</name>
+											<description>Trigonometry</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>25</id_topic>
+								<subject>BankingPO</subject>
+								<name>Height and Distance</name> 
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Height and Distance</name>
+											<description>Topic Test - Height and Distance</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Height and Distance</name>
+											<description>Height and Distance</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>26</id_topic>
+								<id_topic_reference>111101012</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>27</id_topic>
+								<subject>BankingPO</subject>
+								<name>Statistics</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Statistics</name>
+											<description>Topic Test - Statistics</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Statistics</name>
+											<description>Statistics</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+					</topicChoiceArray>
+				</levelOnly>
+
+				<levelOnly>
+					<id_level>102</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Competitive Examination</subject_header>
+					<name>
+						<![CDATA[Reasoning Ability]]>
+					</name>
+					<display_name>
+						<![CDATA[Reasoning Ability]]>
+					</display_name>
+					<description>
+						<![CDATA[Preparation for Competitive Examination]]>
+					</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicChoiceArray>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>1</id_topic>
+								<subject>BankingPO</subject>
+								<name>Practice Tests</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Combined Practice Tests - Reasoning Ability</name>
+											<description>
+												<![CDATA[Combined Practice Tests - Reasoning Ability]]>
+											</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>2</id_topic>
+								<subject>BankingPO</subject>
+								<name>Alphabetical Order and Miscellaneous Series</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Alphabetical Order and Miscellaneous Series</name>
+											<description>Topic Test - Alphabetical Order and Miscellaneous Series</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Alphabetical Order and Miscellaneous Series</name>
+											<description>Alphabetical Order and Miscellaneous Series</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>3</id_topic>
+								<id_topic_reference>111102008</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>4</id_topic>
+								<id_topic_reference>111102006</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>5</id_topic>
+								<id_topic_reference>111102005</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>6</id_topic>
+								<id_topic_reference>111102013</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>7</id_topic>
+								<id_topic_reference>111102010</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>8</id_topic>
+								<subject>BankingPO</subject>
+								<name>Verbal Reasoning</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Verbal Reasoning</name>
+											<description>Topic Test - Verbal Reasoning</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Analogy</name>
+											<description>Analogy</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Classification</name>
+											<description>Classification</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Series</name>
+											<description>Series</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>9</id_topic>
+								<subject>BankingPO</subject>
+								<name>Inserting the Missing Characters</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Inserting the Missing Characters</name>
+											<description>Topic Test - Inserting the Missing Characters</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Inserting the Missing Characters</name>
+											<description>Inserting the Missing Characters</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>10</id_topic>
+								<subject>BankingPO</subject>
+								<name>Arithmetical Reasoning</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Arithmetical Reasoning</name>
+											<description>Topic Test - Arithmetical Reasoning</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Arithmetical Reasoning</name>
+											<description>Arithmetical Reasoning</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>11</id_topic>
+								<subject>BankingPO</subject>
+								<name>Symbols and Notations</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Symbols and Notations</name>
+											<description>Topic Test - Symbols and Notations</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Symbols and Notations</name>
+											<description>Symbols and Notations</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>12</id_topic>
+								<subject>BankingPO</subject>
+								<name>Word Formation and Logical Order of Words</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Word Formation and Logical Order of Words</name>
+											<description>Topic Test - Word Formation and Logical Order of Words</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Word Formation and Logical Order of Words</name>
+											<description>Word Formation and Logical Order of Words</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>13</id_topic>
+								<id_topic_reference>111101006</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>14</id_topic>
+								<subject>BankingPO</subject>
+								<name>Cube, Cuboid and Dice</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Cube, Cuboid and Dice</name>
+											<description>Topic Test - Cube, Cuboid and Dice</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Cube, Cuboid and Dice</name>
+											<description>Cube, Cuboid and Dice</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>15</id_topic>
+								<id_topic_reference>111102014</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>16</id_topic>
+								<subject>BankingPO</subject>
+								<name>Statement and Conclusion</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Statement and Conclusion</name>
+											<description>Topic Test - Statement and Conclusion</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Statement and Conclusion</name>
+											<description>Statement and Conclusion</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>17</id_topic>
+								<subject>BankingPO</subject>
+								<name>Mirror Image</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Mirror Image</name>
+											<description>Topic Test - Mirror Image</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Mirror Image</name>
+											<description>Mirror Image</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>18</id_topic>
+								<subject>BankingPO</subject>
+								<name>Paper Folding and Cutting</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Paper Folding and Cutting</name>
+											<description>Topic Test - Paper Folding and Cutting</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Paper Folding and Cutting</name>
+											<description>Paper Folding and Cutting</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>19</id_topic>
+								<subject>BankingPO</subject>
+								<name>Counting Figures</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Counting Figures</name>
+											<description>Topic Test - Counting Figures</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Counting Figures</name>
+											<description>Counting Figures</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>20</id_topic>
+								<subject>BankingPO</subject>
+								<name>Figure based Problems</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Figure based Problems</name>
+											<description>Topic Test - Figure based Problems</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Figure based Problems</name>
+											<description>Figure based Problems</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>21</id_topic>
+								<subject>BankingPO</subject>
+								<name>Non Verbal Reasoning</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Non Verbal Reasoning</name>
+											<description>Topic Test - Non Verbal Reasoning</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Series</name>
+											<description>Series</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Analogy</name>
+											<description>Analogy</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Classification</name>
+											<description>Classification</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>22</id_topic>
+								<subject>BankingPO</subject>
+								<name>Matrix</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Matrix</name>
+											<description>Topic Test - Matrix</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Matrix</name>
+											<description>Matrix</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>23</id_topic>
+								<subject>BankingPO</subject>
+								<name>Order and Ranking</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Order and Ranking</name>
+											<description>Topic Test - Order and Ranking</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Order and Ranking</name>
+											<description>Order and Ranking</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>24</id_topic>
+								<subject>BankingPO</subject>
+								<name>Puzzle</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Puzzle</name>
+											<description>Topic Test - Puzzle</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Puzzle</name>
+											<description>Puzzle</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>25</id_topic>
+								<id_topic_reference>111102015</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>26</id_topic>
+								<subject>BankingPO</subject>
+								<name>Machine Input</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Machine Input</name>
+											<description>Topic Test - Machine Input</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Machine Input</name>
+											<description>Machine Input</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>27</id_topic>
+								<subject>BankingPO</subject>
+								<name>Inequality</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Inequality</name>
+											<description>Topic Test - Inequality</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Inequality</name>
+											<description>Inequality</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>28</id_topic>
+								<subject>BankingPO</subject>
+								<name>Decision Making</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Decision Making</name>
+											<description>Topic Test - Decision Making</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Decision Making</name>
+											<description>Decision Making</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>29</id_topic>
+								<subject>BankingPO</subject>
+								<name>Problem and Course of Action</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Problem and Course of Action</name>
+											<description>Topic Test - Problem and Course of Action</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Problem and Course of Action</name>
+											<description>Problem and Course of Action</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>30</id_topic>
+								<subject>BankingPO</subject>
+								<name>Cause and Effect</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Cause and Effect</name>
+											<description>Topic Test - Cause and Effect</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Cause and Effect</name>
+											<description>Cause and Effect</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>31</id_topic>
+								<subject>BankingPO</subject>
+								<name>Statement and Argument</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Statement and Argument</name>
+											<description>Topic Test - Statement and Argument</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Statement and Argument</name>
+											<description>Statement and Argument</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>32</id_topic>
+								<subject>BankingPO</subject>
+								<name>Drawing Inference</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Drawing Inference</name>
+											<description>Topic Test - Drawing Inference</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Drawing Inference</name>
+											<description>Drawing Inference</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>33</id_topic>
+								<subject>BankingPO</subject>
+								<name>Combined Logical</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Combined Logical</name>
+											<description>Topic Test - Combined Logical</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Combined Logical</name>
+											<description>Combined Logical</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+					</topicChoiceArray>
+				</levelOnly>
+				<levelOnly>
+					<id_level>103</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Competitive Examination</subject_header>
+					<name>
+						<![CDATA[English Language]]>
+					</name>
+					<display_name>
+						<![CDATA[English Language]]>
+					</display_name>
+					<description>
+						<![CDATA[Preparation for Competitive Examination]]>
+					</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicChoiceArray>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>1</id_topic>
+								<subject>BankingPO</subject>
+								<name>Practice Tests</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Combined Practice Tests - English Language</name>
+											<description>
+												<![CDATA[Combined Practice Tests - English Language]]>
+											</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>2</id_topic>
+								<subject>BankingPO</subject>
+								<name>Parts of Speech</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Parts of Speech</name>
+											<description>Topic Test - Parts of Speech</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Parts of Speech</name>
+											<description>Parts of Speech</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>3</id_topic>
+								<subject>BankingPO</subject>
+								<name>Time and Tense</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Time and Tense</name>
+											<description>Topic Test - Time and Tense</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Time and Tense</name>
+											<description>Time and Tense</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>4</id_topic>
+								<subject>BankingPO</subject>
+								<name>Verb Forms, Syntax, Modals and Tenses</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Verb Forms, Syntax, Modals and Tenses</name>
+											<description>Topic Test - Verb Forms, Syntax, Modals and Tenses</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Verb Forms, Syntax, Modals and Tenses</name>
+											<description>Verb Forms, Syntax, Modals and Tenses</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>5</id_topic>
+								<subject>BankingPO</subject>
+								<name>Articles</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Articles</name>
+											<description>Topic Test - Articles</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Articles</name>
+											<description>Articles</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>6</id_topic>
+								<subject>BankingPO</subject>
+								<name>Rearrangements of Sentences</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Rearrangements of Sentences</name>
+											<description>Topic Test - Rearrangements of Sentences</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Rearrangements of Sentences</name>
+											<description>Rearrangements of Sentences</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>7</id_topic>
+								<subject>BankingPO</subject>
+								<name>Cloze Test</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Cloze Test</name>
+											<description>Topic Test - Cloze Test</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Cloze Test</name>
+											<description>Cloze Test</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>8</id_topic>
+								<subject>BankingPO</subject>
+								<name>Error Detection</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Error Detection</name>
+											<description>Topic Test - Error Detection</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Error Detection</name>
+											<description>Error Detection</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>9</id_topic>
+								<subject>BankingPO</subject>
+								<name>Fill in the Blanks</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Fill in the Blanks</name>
+											<description>Topic Test - Fill in the Blanks</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Fill in the Blanks</name>
+											<description>Fill in the Blanks</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>10</id_topic>
+								<subject>BankingPO</subject>
+								<name>Antonyms and Synonyms</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Antonyms and Synonyms</name>
+											<description>Topic Test - Antonyms and Synonyms</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Antonyms and Synonyms</name>
+											<description>Antonyms and Synonyms</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>11</id_topic>
+								<subject>BankingPO</subject>
+								<name>Reading Comprehension</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Reading Comprehension</name>
+											<description>Topic Test - Reading Comprehension</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Reading Comprehension</name>
+											<description>Reading Comprehension</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>12</id_topic>
+								<subject>BankingPO</subject>
+								<name>Sentence Improvement</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Sentence Improvement</name>
+											<description>Topic Test - Sentence Improvement</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Sentence Improvement</name>
+											<description>Sentence Improvement</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>13</id_topic>
+								<subject>BankingPO</subject>
+								<name>Vocabulary</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Vocabulary</name>
+											<description>Topic Test - Vocabulary</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Vocabulary</name>
+											<description>Vocabulary</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>14</id_topic>
+								<subject>BankingPO</subject>
+								<name>Misspelt or Inappropriate</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Misspelt or Inappropriate</name>
+											<description>Topic Test - Misspelt or Inappropriate</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Misspelt or Inappropriate</name>
+											<description>Misspelt or Inappropriate</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>15</id_topic>
+								<subject>BankingPO</subject>
+								<name>Idioms/Phrase</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Idioms/Phrase</name>
+											<description>Topic Test - Idioms/Phrase</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Idioms/Phrase</name>
+											<description>Idioms/Phrase</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>16</id_topic>
+								<subject>BankingPO</subject>
+								<name>One Word Substitution</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - One Word Substitution</name>
+											<description>Topic Test - One Word Substitution</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>One Word Substitution</name>
+											<description>One Word Substitution</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>17</id_topic>
+								<subject>BankingPO</subject>
+								<name>Active and Passive Voice</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Active and Passive Voice</name>
+											<description>Topic Test - Active and Passive Voice</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Active and Passive Voice</name>
+											<description>Active and Passive Voice</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>18</id_topic>
+								<subject>BankingPO</subject>
+								<name>Direct and Indirect</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Direct and Indirect</name>
+											<description>Topic Test - Direct and Indirect</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Direct and Indirect</name>
+											<description>Direct and Indirect</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+					</topicChoiceArray>
+				</levelOnly>
+				<levelOnly>
+					<id_level>104</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Competitive Examination</subject_header>
+					<name>
+						<![CDATA[Computer Knowledge]]>
+					</name>
+					<display_name>
+						<![CDATA[Computer Knowledge]]>
+					</display_name>
+					<description>
+						<![CDATA[Preparation for Competitive Examination]]>
+					</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicChoiceArray>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>1</id_topic>
+								<subject>BankingPO</subject>
+								<name>Practice Tests</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Combined Practice Tests - Computer Knowledge</name>
+											<description>
+												<![CDATA[Combined Practice Tests - Computer Knowledge]]>
+											</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>2</id_topic>
+								<id_topic_reference>111105003</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType> 
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>3</id_topic>
+								<subject>BankingPO</subject>
+								<name>Memory and Memory Units</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Memory and Memory Units</name>
+											<description>Topic Test - Memory and Memory Units</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Memory and Memory Units</name>
+											<description>Memory and Memory Units</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>4</id_topic>
+								<id_topic_reference>111105002</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>5</id_topic>
+								<subject>BankingPO</subject>
+								<name>Windows</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Windows</name>
+											<description>Topic Test - Windows</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Windows</name>
+											<description>Windows</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>6</id_topic>
+								<subject>BankingPO</subject>
+								<name>Ms Office</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Ms Office</name>
+											<description>Topic Test - Ms Office</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Ms Office</name>
+											<description>Ms Office</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>7</id_topic>
+								<subject>BankingPO</subject>
+								<name>Number System and Computer Virus</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Number System and Computer Virus</name>
+											<description>Topic Test - Number System and Computer Virus</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Number System and Computer Virus</name>
+											<description>Number System and Computer Virus</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>8</id_topic>
+								<id_topic_reference>111105005</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>9</id_topic>
+								<id_topic_reference>111105004</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>10</id_topic>
+								<subject>BankingPO</subject>
+								<name>Programming Languages</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Programming Languages</name>
+											<description>Topic Test - Programming Languages</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Programming Languages</name>
+											<description>Programming Languages</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<coreTopicReference>
+								<id_topic>11</id_topic>
+								<id_topic_reference>111105008</id_topic_reference>
+								<published>true</published>
+							</coreTopicReference>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>12</id_topic>
+								<subject>BankingPO</subject>
+								<name>History and Generations</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - History and Generations</name>
+											<description>Topic Test - History and Generations</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>History and Generations</name>
+											<description>History and Generations</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>13</id_topic>
+								<subject>BankingPO</subject>
+								<name>File Extensions and Abbreviations</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - File Extensions and Abbreviations</name>
+											<description>Topic Test - File Extensions and Abbreviations</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>File Extensions and Abbreviations</name>
+											<description>File Extensions and Abbreviations</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>14</id_topic>
+								<subject>BankingPO</subject>
+								<name>Shortcuts</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Shortcuts</name>
+											<description>Topic Test - Shortcuts</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Shortcuts</name>
+											<description>Shortcuts</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+					</topicChoiceArray>
+				</levelOnly>
+				<levelOnly>
+					<id_level>105</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Competitive Examination</subject_header>
+					<name>
+						<![CDATA[General Studies]]>
+					</name>
+					<display_name>
+						<![CDATA[General Studies]]>
+					</display_name>
+					<description>
+						<![CDATA[Preparation for Competitive Examination]]>
+					</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicChoiceArray>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>1</id_topic>
+								<subject>BankingPO</subject>
+								<name>Practice Tests</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Combined Practice Tests - General Studies</name>
+											<description>
+												<![CDATA[Combined Practice Tests - General Studies]]>
+											</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>2</id_topic>
+								<subject>BankingPO</subject>
+								<name>Science</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Science</name>
+											<description>Topic Test - Science</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Measurements and Unit</name>
+											<description>Measurements and Unit</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Motion and Waves</name>
+											<description>Motion and Waves</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Light</name>
+											<description>Light</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Work Energy</name>
+											<description>Work Energy</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Heat and Temperature</name>
+											<description>Heat and Temperature</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Chemistry</name>
+											<description>Chemistry</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Biology</name>
+											<description>Biology</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Human Physiology</name>
+											<description>Human Physiology</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>3</id_topic>
+								<subject>BankingPO</subject>
+								<name>Geography</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Geography</name>
+											<description>Topic Test - Geography</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>The Universe and Solar System</name>
+											<description>The Universe and Solar System</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Earth</name>
+											<description>Earth</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Mountains and Rivers</name>
+											<description>Mountains and Rivers</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Hydrosphere: Ocean Salinity and Ocean Current</name>
+											<description>Hydrosphere: Ocean Salinity and Ocean Current</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Our Atmosphere</name>
+											<description>Our Atmosphere</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Wind Cyclone and Anti Cyclone</name>
+											<description>Wind Cyclone and Anti Cyclone</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Climate</name>
+											<description>Climate</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Geological Structure of India</name>
+											<description>Geological Structure of India</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>10</id_skill>
+											<name>Natural Divisions of India</name>
+											<description>Natural Divisions of India</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>11</id_skill>
+											<name>Indian Climate, Natural Vegetation and Soils</name>
+											<description>Indian Climate, Natural Vegetation and Soils</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>4</id_topic>
+								<subject>BankingPO</subject>
+								<name>History</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - History</name>
+											<description>Topic Test - History</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Indus Valley Civilization and Vedic Age</name>
+											<description>Indus Valley Civilization and Vedic Age</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Buddhism and Jainism in India</name>
+											<description>Buddhism and Jainism in India</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>The Magadha Empire</name>
+											<description>The Magadha Empire</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Gupta Dynasty</name>
+											<description>Gupta Dynasty</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Delhi Sultanate and Mughal Empire</name>
+											<description>Delhi Sultanate and Mughal Empire</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Revolt of 1857</name>
+											<description>Revolt of 1857</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>The Swadeshi Movement</name>
+											<description>The Swadeshi Movement</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>From 1931 till Independence</name>
+											<description>From 1931 till Independence</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>5</id_topic>
+								<subject>BankingPO</subject>
+								<name>Polity</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Polity</name>
+											<description>Topic Test - Polity</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Constitutional Development in India</name>
+											<description>Constitutional Development in India</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Preamble, Citizenships, Union and State</name>
+											<description>Preamble, Citizenships, Union and State</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>Fundamental Rights</name>
+											<description>Fundamental Rights</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Directive Principles of State Policy</name>
+											<description>Directive Principles of State Policy</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Executive</name>
+											<description>Executive</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Legislation</name>
+											<description>Legislation</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Judiciary</name>
+											<description>Judiciary</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Constitutional Amendments</name>
+											<description>Constitutional Amendments</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>6</id_topic>
+								<subject>BankingPO</subject>
+								<name>Economics</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Economics</name>
+											<description>Topic Test - Economics</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>General Economics</name>
+											<description>General Economics</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>Economic Planning</name>
+											<description>Economic Planning</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>4</id_skill>
+											<name>National Income in India: Concept and Measurement</name>
+											<description>National Income in India: Concept and Measurement</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>5</id_skill>
+											<name>Budget</name>
+											<description>Budget</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>6</id_skill>
+											<name>Market</name>
+											<description>Market</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>7</id_skill>
+											<name>Demand, Supply and his Law</name>
+											<description>Demand, Supply and his Law</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>8</id_skill>
+											<name>Economic Reform in India</name>
+											<description>Economic Reform in India</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>9</id_skill>
+											<name>Indian Banking Industry</name>
+											<description>Indian Banking Industry</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>10</id_skill>
+											<name>Population, Poverty and Unemployment Economics</name>
+											<description>Population, Poverty and Unemployment Economics</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+						<topicChoiceType>
+							<topicOnly>
+								<id_topic>7</id_topic>
+								<subject>BankingPO</subject>
+								<name>Miscellaneous</name>
+								<published>true</published>
+								<derived>false</derived>
+								<skillChoiceArray>
+									<skillChoiceType>
+										<skillOnly>
+											<id_skill>1</id_skill>
+											<name>Topic Test - Miscellaneous</name>
+											<description>Topic Test - Miscellaneous</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>2</id_skill>
+											<name>Abbreviations and Important Facts</name>
+											<description>Abbreviations and Important Facts</description>
+											<published>true</published>
+										</skillOnly>
+                                    </skillChoiceType>
+                                    <skillChoiceType>
+										<skillOnly>
+											<id_skill>3</id_skill>
+											<name>List of Cups and Trophies</name>
+											<description>List of Cups and Trophies</description>
+											<published>true</published>
+										</skillOnly>
+									</skillChoiceType>
+								</skillChoiceArray>
+							</topicOnly>
+						</topicChoiceType>
+
+					</topicChoiceArray>
+				</levelOnly>
+				<levelOnly>
+					<id_level>110</id_level>
+					<subject>BankingPO</subject>
+					<subject_header>Competitive Examination</subject_header>
+					<name>Competitive Examination Practice Exams</name>
+					<display_name>Competitive Examination Practice Exams</display_name>
+					<description>Competitive Examination Practice Exams</description>
+					<published>true</published>
+					<derived>false</derived>
+					<topicOnlyArray>
+						<topicOnly>
+							<id_topic>1</id_topic>
+							<subject>BankingPO</subject>
+							<name>eTester Competitive Examination Practice Exams</name>
+							<published>true</published>
+							<derived>false</derived>
+							<skillChoiceArray>
+								<skillChoiceType>
+									<skillOnly>
+										<id_skill>1</id_skill>
+										<name>eTester Competitive Examination Practice Exams</name>
+										<description>eTester Competitive Examination Practice Exams</description>
+										<published>false</published>
+									</skillOnly>
+								</skillChoiceType>
+							</skillChoiceArray>
+						</topicOnly>
+						<topicOnly>
+							<id_topic>2</id_topic>
+							<subject>BankingPO</subject>
+							<name>3rd Party Competitive Examination Practice Exams</name>
+							<published>true</published>
+							<derived>false</derived>
+							<skillChoiceArray>
+								<skillChoiceType>
+									<skillOnly>
+										<id_skill>1</id_skill>
+										<name>VIMS</name>
+										<description>VIMS</description>
+										<published>false</published>
+									</skillOnly>
+								</skillChoiceType>
+							</skillChoiceArray>
+						</topicOnly>
+						<topicOnly>
+							<id_topic>3</id_topic>
+							<subject>BankingPO</subject>
+							<name>Core Competitive Examination Practice Exams</name>
+							<published>true</published>
+							<derived>false</derived>
+							<skillChoiceArray>
+								<skillChoiceType>
+									<coreSkillReference>
+										<id_skill>1</id_skill>
+										<id_skill_reference>11111000101</id_skill_reference>
+									</coreSkillReference>
+								</skillChoiceType>
+							</skillChoiceArray>
+						</topicOnly>
+					</topicOnlyArray>
+				</levelOnly>
+			</levelOnlyArray>
+		</LoadLevelsOnlyRequest>
+	</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,39 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadSkillsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>103</id_system>
+         <id_level>202</id_level>
+         <id_topic>5</id_topic>
+         <id_provider>0</id_provider>
+         <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Concentration of the reactants, size of particles</name>
+                           <description>Concentration of the reactants, size of particles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Temperature dependence of rate constant</name>
+                           <description>Temperature dependence of rate constant</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Activation energy</name>
+                           <description>Activation energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Catalysis, Surface catalysis, enzymes, zeolites</name>
+                           <description>Catalysis, Surface catalysis, enzymes, zeolites</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Elementary reactions, Complex reactions</name>
+                           <description>Elementary reactions, Complex reactions</description>
+                        </skillOnly>
+
+         </skillOnlyArray>
+      </LoadSkillsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

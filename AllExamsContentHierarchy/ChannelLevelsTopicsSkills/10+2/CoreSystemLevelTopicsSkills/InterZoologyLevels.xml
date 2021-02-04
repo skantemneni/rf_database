@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="true">
+         <id_system>103</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>401</id_level>
+               <subject>InterZoology</subject>
+               <subject_header>Intermediate Zoology</subject_header>
+               <name><![CDATA[Zoology First Year]]></name>
+               <display_name><![CDATA[Zoology First Year]]></display_name>
+               <description><![CDATA[Zoology preparation for EAMCET and IIT.  First Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - First Year Zoology</name>
+                           <description><![CDATA[Combined Practice Tests - First Year Zoology]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Diversity of living world</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Diversity of living world</name>
+                           <description>Topic Tests - Diversity of living world</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>What is life</name>
+                           <description>What is life</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nature, scope and meaning of zoology</name>
+                           <description>Nature, scope and meaning of zoology</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Branches of zoology</name>
+                           <description>Branches of zoology</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Biological classification</name>
+                           <description>Biological classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Levels and hierarchy of classification</name>
+                           <description>Levels and hierarchy of classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Nomenclature</name>
+                           <description>Nomenclature</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Species concept</name>
+                           <description>Species concept</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Kingdom Animalia</name>
+                           <description>Kingdom Animalia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Biodiversity</name>
+                           <description>Biodiversity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Structural organisation in Animalia</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Structural organisation in Animalia</name>
+                           <description>Topic Tests - Structural organisation in Animalia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Levels of organisation</name>
+                           <description>Levels of organisation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Importance of symmetry</name>
+                           <description>Importance of symmetry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Coelom</name>
+                           <description>Coelom</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Animal tissues</name>
+                           <description>Animal tissues</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Animal Diversity-01 (Invertebrate phyla)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Animal Diversity-01 (Invertebrate phyla)</name>
+                           <description>Topic Tests - Animal Diversity-01 (Invertebrate phyla)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Phylum : Porifera</name>
+                           <description>Phylum : Porifera</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Phylum : Cridaria</name>
+                           <description>Phylum : Cridaria</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Phylum : Ctenophora</name>
+                           <description>Phylum : Ctenophora</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Phylum : Platyhelminthes</name>
+                           <description>Phylum : Platyhelminthes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Phylum : Nematoda</name>
+                           <description>Phylum : Nematoda</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Phylum : Annelida</name>
+                           <description>Phylum : Annelida</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Phylum : Arthropoda</name>
+                           <description>Phylum : Arthropoda</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Phylum : Mollusca</name>
+                           <description>Phylum : Mollusca</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Phylum : Echinodermata</name>
+                           <description>Phylum : Echinodermata</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Phylum : Hemichordata</name>
+                           <description>Phylum : Hemichordata</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Animal Diversity-02 (Chordata phylum)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Animal Diversity-02 (Chordata phylum)</name>
+                           <description>Topic Tests - Animal Diversity-02 (Chordata phylum)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Phylum : Chordata</name>
+                           <description>Phylum : Chordata</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Subphylum : Urochordata or Tunicata</name>
+                           <description>Subphylum : Urochordata or Tunicata</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>SubPhylum : Cephalochordata</name>
+                           <description>SubPhylum : Cephalochordata</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>SubPhylum : Vertebrata/Cramiata</name>
+                           <description>SubPhylum : Vertebrata/Cramiata</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Superclass : Agnatha</name>
+                           <description>Superclass : Agnatha</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Superclass : Gnathostomata</name>
+                           <description>Superclass : Gnathostomata</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Teteafuedo - Amphibia</name>
+                           <description>Teteafuedo - Amphibia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Teteafuedo - Repitilia</name>
+                           <description>Teteafuedo - Repitilia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Teteafuedo - Aves</name>
+                           <description>Teteafuedo - Aves</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Teteafuedo - Mammalia</name>
+                           <description>Teteafuedo - Mammalia</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Locomotion and Reproduction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Locomotion and Reproduction</name>
+                           <description>Topic Tests - Locomotion and Reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Locomotion in protozoa</name>
+                           <description>Locomotion in protozoa</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Flagellar and ciliary movement</name>
+                           <description>Flagellar and ciliary movement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Asexual reproduction</name>
+                           <description>Asexual reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sexual reproduction</name>
+                           <description>Sexual reproduction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Biology in Human welfare</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Biology in Human welfare</name>
+                           <description>Topic Tests - Biology in Human welfare</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Parasitism and parasitic adaptations</name>
+                           <description>Parasitism and parasitic adaptations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Health and Disease</name>
+                           <description>Health and Disease</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Other diseases</name>
+                           <description>Brief account of some other diseases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Tobacco, Drugs and alcohol abuse (TDA abuse)</name>
+                           <description>Tobacco, Drugs and alcohol abuse (TDA abuse)</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Periplaneta Americana (Cokroach)</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Periplaneta Americana (Cokroach)</name>
+                           <description>Topic Tests - Periplaneta Americana (Cokroach)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Habitat and habit</name>
+                           <description>Habitat and habit</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>External Features (Morphology)</name>
+                           <description>External Features (Morphology)</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Locomotion</name>
+                           <description>Locomotion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Digestive system</name>
+                           <description>Digestive system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Circulatory system</name>
+                           <description>Circulatory system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Respiratory system</name>
+                           <description>Respiratory system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Excretory system</name>
+                           <description>Excretory system</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Nervous system and sensory organs</name>
+                           <description>Nervous system and sensory organs</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Reproductive system</name>
+                           <description>Reproductive system</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Ecology and Environment</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Ecology and Environment</name>
+                           <description>Topic Tests - Ecology and Environment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Organisms and Environment</name>
+                           <description>Organisms and Environment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ecosystem-Elementary aspects</name>
+                           <description>Ecosystem-Elementary aspects</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Population interactions</name>
+                           <description>Population interactions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Ecosystem and their components</name>
+                           <description>Ecosystem and their components</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Food chains, Food web, productivity and energy flow</name>
+                           <description>Food chains, Food web, productivity and energy flow</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Nutrient cycles</name>
+                           <description>Nutrient cycles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Population</name>
+                           <description>Population</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Environment issues</name>
+                           <description>Environment issues</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>402</id_level>
+               <subject>InterZoology</subject>
+               <subject_header>Intermediate Zoology</subject_header>
+               <name><![CDATA[Zoology Second Year]]></name>
+               <display_name><![CDATA[Zoology Second Year]]></display_name>
+               <description><![CDATA[Zoology preparation for EAMCET and IIT.  Second Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Second Year Zoology</name>
+                           <description><![CDATA[Combined Practice Tests - Second Year Zoology]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterZoology</subject>
+                     <name><![CDATA[Human Anatomy & Physiology - I]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - Human Anatomy & Physiology-I]]></name>
+                           <description><![CDATA[Topic Tests - Human Anatomy & Physiology-I]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name><![CDATA[Digestion & Absorption]]></name>
+                           <description><![CDATA[Digestion & Absorption]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Breathing & Exchange of Gases]]></name>
+                           <description><![CDATA[Breathing & Exchange of Gases]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterZoology</subject>
+                     <name><![CDATA[Human Anatomy & Physiology - II]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - Human Anatomy & Physiology-II]]></name>
+                           <description><![CDATA[Topic Tests - Human Anatomy & Physiology-II]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name><![CDATA[Body Fluids & Circulations]]></name>
+                           <description><![CDATA[Body Fluids & Circulations]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Excretory Products & their Elimination]]></name>
+                           <description><![CDATA[Excretory Products & their Elimination]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterZoology</subject>
+                     <name><![CDATA[Human Anatomy & Physiology - III]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - Human Anatomy & Physiology-III]]></name>
+                           <description><![CDATA[Topic Tests - Human Anatomy & Physiology-III]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name><![CDATA[Musculo - Skeletal System]]></name>
+                           <description><![CDATA[Musculo - Skeletal System]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Neural Control & Co-ordination]]></name>
+                           <description><![CDATA[Neural Control & Co-ordination]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterZoology</subject>
+                     <name><![CDATA[Human Anatomy & Physiology - IV]]></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name><![CDATA[Topic Tests - Human Anatomy & Physiology-IV]]></name>
+                           <description><![CDATA[Topic Tests - Human Anatomy & Physiology-IV]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name><![CDATA[Endocrine System & Chemical Co-ordination]]></name>
+                           <description><![CDATA[Endocrine System & Chemical Co-ordination]]></description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name><![CDATA[Immune System]]></name>
+                           <description><![CDATA[Immune System]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Human Reproduction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Human Reproduction</name>
+                           <description>Topic Tests - Human Reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Human Reproduction System</name>
+                           <description>Human Reproduction System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Reproductive Health</name>
+                           <description>Reproductive Health</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Genetics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Genetics</name>
+                           <description>Topic Tests - Genetics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Genetics</name>
+                           <description>Genetics</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Organic Evolution</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic Evolution</name>
+                           <description>Topic Tests - Organic Evolution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Organic Evolution</name>
+                           <description>Organic Evolution</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>Applied Biology</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Applied Biology</name>
+                           <description>Topic Tests - Applied Biology</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Applied Biology</name>
+                           <description>Applied Biology</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>403</id_level>
+               <subject>InterZoology</subject>
+               <subject_header>Intermediate Zoology</subject_header>
+               <name>Mock Exams</name>
+               <display_name>Mock Exams</display_name>
+               <description>Zoology Mock Exams for EAMCET</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterZoology</subject>
+                     <name>EAMCET Zoology Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya EAMCET Practice Tests</name>
+                           <description>Sri Chaitanya EAMCET Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sakshi EAMCET Practice Tests</name>
+                           <description>Sakshi EAMCET Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

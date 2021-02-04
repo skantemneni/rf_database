@@ -1,0 +1,107 @@
+1. Real Numbers
+	Introduction
+	The Fundamental Theorem of Arithmetic
+	Irrational Numbers
+	Introduction to Logarithms
+
+2. Sets
+	Introduction
+	Set
+	Types of Set
+	Using Diagrams to Represent Sets
+	Universal Set and Subset
+	Venn Diagrams
+	Basic Operations on Sets
+	Disjoint Sets
+	Difference of Sets
+	Equal Sets
+
+3. Polynomials
+	Introduction
+	What are Polynomials?
+	Working with Polynomials
+	Geometrical Meaning of the Zeroes of a Polynomial
+	Relation between Zeroes and Coefficients of a Polynomial
+	Cubic Polynomials
+	Division Algorithm for Polynomials
+
+4. Pair of Linear Equations in Two Variables
+	Introduction
+	Solutions of Pairs of Linear Equations in Two Variables
+	Algebraic methods of finding the Solutions for a Pair of Linear Equations
+	Equations Reducible to a Pair of Linear Equations in Two Variables
+	
+5. Quadratic Equations
+	Introduction
+	Quadratic Equations
+	Solution of a Quadratic Equation by Factrorisation
+	Solution of a Quadratic Equation by Completing the Square
+	Nature of Roots
+	
+6. Progressions
+	Introduction
+	Arithmetic Progressions
+	nth Term of an Arithmetic Progression
+	Sum of First n Terms in Arithmetic Progression
+	Geometric Progressions
+	nth Term of a GP
+	
+7. Coordinate Geometry
+	Introduction
+	Distance between Two Points
+	Distance between Two Points on a Line Parallel to the Coordinate Axes
+	Distance between any Two Points on a Line in the X - Y Plane
+	Section Formula
+	Centroid of a Triangle
+	Trisectional Points of a Line
+	Area of the Triangle
+	Straight Lines
+	
+8. Similar Triangles
+	Introduction
+	Similar Figures
+	Similarity of Triangles
+	Criteria for Similarity of Triangles
+	Areas of Similar Triangles
+	Pythagoras Theorem
+	Different forms of Theoritical Statements
+	
+9. Tangents and Secants to a Circle
+	Introduction
+	Tangents of a Circle
+	Number of Tangent to a Circle from any Point
+	Segment of a Circle formed by a Secant
+	
+10. Mensuration
+	Introduction
+	Surface Area of the Combination of Solids
+	Volume of Combination of Solids
+	Conversion of Solid from One Shape to Another
+	
+11. Trigonometry
+	Introduction
+	Trigonometric Ratios
+	Trigonometric Ratios of Some Specific Angles
+	Trigonometric Ratios of Complementary Angles
+	Trigonometric Identities
+	
+12. Applications of Trigonometry
+	Introduction
+	Drawing Figures to Solve Problems
+	Solutions for Two Triangles
+	
+13. Probability
+	Introduction
+	Probability - A theoretical Approach
+	Mutually Exclusive Events
+	Deck of Cards and Probability
+	Use of Probability
+	More Applications of Probability
+	
+14. Statistics
+	Introduction
+	Mean of Ungrouped Data
+	Mode
+	Median of Grouped Data
+	Which value of Central Tendency
+	Graphical Representation of Cumulative Frequency Distribution

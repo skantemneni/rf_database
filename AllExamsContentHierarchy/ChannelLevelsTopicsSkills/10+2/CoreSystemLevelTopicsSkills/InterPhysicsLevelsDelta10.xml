@@ -1,0 +1,48 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+      
+         <id_system>103</id_system>
+         <id_level>102</id_level>
+         <id_provider>0</id_provider>
+         <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>InterPhysics</subject>
+                     <name>Magnetic Effect of Current</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Magnetic Effect of Current</name>
+                           <description>Topic Tests - Magnetic Effect of Current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Biot-Savart's law and its applications</name>
+                           <description>Biot-Savart's law and its applications</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ampere's law and its applications</name>
+                           <description>Ampere's law and its applications</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Lorentz force, force on current carrying conductors in a magnetic field</name>
+                           <description>Lorentz force, force on current carrying conductors in a magnetic field</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Magnetic moment of a current loop, torque on a current loop, Galvanometer and its conversion to voltmeter and ammeter</name>
+                           <description>Magnetic moment of a current loop, torque on a current loop, Galvanometer and its conversion to voltmeter and ammeter</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+         </topicOnlyArray>
+      </LoadTopicsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

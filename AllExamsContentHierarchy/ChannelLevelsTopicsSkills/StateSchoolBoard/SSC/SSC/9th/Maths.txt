@@ -1,0 +1,104 @@
+1. Real Numbers
+	Introduction
+	Irrational Numbers
+	Real Numbers
+	Representing Real Numbers of the Number Line through Successive Magnification
+	Operations on Real Numbers
+	Surd
+	
+2. Polynomials and Factorisation
+	Introduction
+	Polynomials in One Variable
+	Degree of the Polynomial
+	Zeroes of a Polynomial
+	Dividing Polynomials
+	Factorising a Polynomial
+	Algebraic Identities
+	
+3. The Elements of Geometry
+	Introduction
+	History
+	Euclid's Elements of Geometry
+	
+4. Lines and Angles
+	Introduction
+	Basic Terms in Geometry
+	Pair of Angles
+	Lines and a Transversal
+	Angle Sum Property of a Triangle
+	
+5. Coordinate Geometry
+	Introduction
+	Cartesian System
+	Plotting a Point on the Cartesian Plane when its Coordinate are given
+	
+6. Linear Equations in Two Variables
+	Introduction
+	Linear Equations in Two Variables
+	Solution of a Linear Equation in Two Variables
+	Graph of a Linear Equation in Two Variables
+	Equation of Lines Parallel to X - axis and Y - axis
+	
+7. Triangles
+	Introduction
+	Criteria for Congruence of Triangles
+	Congruence of Triangles
+	Some Properties of a Triangle
+	Some more Criteria for Congruency of Triangles
+	Inequalities in a Triangle
+	
+8. Quadrilaterals
+	Introduction
+	Properties of a Quadrilaterals
+	Different Types of Quadrilaterals
+	Parallelogram and their Properties
+	Diagonals of a Parallelogram
+	The Midpoint Theorem of Triangle
+	
+9. Statistics
+	Introduction
+	Collection of Data
+	Presentation of Data
+	Measures of Central Tendency
+	Deviation in Values of Central Tendency
+	
+10. Surface Areas and Volumes
+	Introduction
+	Surface Area of Cuboid
+	Right Circular Cylinder
+	Right Circular Cone
+	Sphere
+	
+11. Areas
+	Introduction
+	Area of Planar Regions
+	Area of Rectangle
+	Figures on the same Base and between the same Parallels
+	Parallelograms on the same Base and between the same Parallels
+	Triangles on the same Base and between the same Parallels
+	
+12. Circles
+	Introduction
+	Angle Subtended by a Chord at a Point on the Circle
+	Perpendicular from the Centre to a Chord
+	Angle Subtended by an Arc of a Circle
+	Cyclic Quadrilateral
+	
+13. Geometrical Constructions
+	Introduction
+	Basic Constructions
+	Constructions of Triangles(Special Cases)
+	
+14. Probability
+	Introduction
+	Probability
+	Uses of Probability in Real Life
+	
+15. Proofs in Mathematics
+	Introduction	
+	Mathematical Statements
+	Verifying the Statements
+	Reasoning in Mathematics
+	Theorems, Conjectures and Axioms
+	What is a Mathematical Proof
+	

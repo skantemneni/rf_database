@@ -1,0 +1,919 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="true">
+         <id_system>103</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+
+            <levelOnly>
+               <id_level>301</id_level>
+               <subject>InterBotany</subject>
+               <subject_header>Intermediate Botany</subject_header>
+               <name><![CDATA[Botany First Year]]></name>
+               <display_name><![CDATA[Botany First Year]]></display_name>
+               <description><![CDATA[Botany preparation for EAMCET.  First Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - First Year Botany</name>
+                           <description><![CDATA[Combined Practice Tests - First Year Botany]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>The living world</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - The living world</name>
+                           <description>Topic Tests - The living world</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>What is Living</name>
+                           <description>What is Living</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Diversity in the living world</name>
+                           <description>Diversity in the living world</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Taxonomic categories</name>
+                           <description>Taxonomic categories</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Taxonomic aids</name>
+                           <description>Taxonomic aids</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Biological classification</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Biological classification</name>
+                           <description>Topic Tests - Biological classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Two kingdom, Five kingdom, Monera</name>
+                           <description>Two kingdom, Five kingdom, Monera</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Protista, fungi</name>
+                           <description>Protista, fungi</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Plantae, Animalia, Six kingdom classification. Viruses</name>
+                           <description>Plantae, Animalia, Six kingdom classification. Viruses</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Science of plants: Botany</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Science of plants: Botany</name>
+                           <description>Topic Tests - Science of plants: Botany</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Origin, development</name>
+                           <description>Origin, development</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Scope, branches</name>
+                           <description>Scope, branches</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Plant kingdom</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Plant kingdom</name>
+                           <description>Topic Tests - Plant kingdom</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Algae</name>
+                           <description>Algae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Bryophtes, ptuidophytes</name>
+                           <description>Bryophtes, ptuidophytes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Gymnosperms, angiosperms, life cycles</name>
+                           <description>Gymnosperms, angiosperms, life cycles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Morphology of flowering plants</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Morphology of flowering plants</name>
+                           <description>Topic Tests - Morphology of flowering plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Root, stem</name>
+                           <description>Root, stem</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Leaf, inflorescence</name>
+                           <description>Leaf, inflorescence</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Flower, fruits, seeds</name>
+                           <description>Flower, fruits, seeds</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Modes of reproduction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Modes of reproduction</name>
+                           <description>Topic Tests - Modes of reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Asexual reproduction</name>
+                           <description>Asexual reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Sexual reproduction</name>
+                           <description>Sexual reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Life cycle</name>
+                           <description>Life cycle</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Sexual reproduction in flowering plants</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sexual reproduction in flowering plants</name>
+                           <description>Topic Tests - Sexual reproduction in flowering plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Prefertilisation structures and events</name>
+                           <description>Prefertilisation structures and events</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Pollination</name>
+                           <description>Pollination</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Pollen-pistil interaction, double fertilization</name>
+                           <description>Pollen-pistil interaction, double fertilization</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Post fertilization, apomixes, parthinocarpy, poly embryony</name>
+                           <description>Post fertilization, apomixes, parthinocarpy, poly embryony</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Taxanomy of Angiosperms</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Taxanomy of Angiosperms</name>
+                           <description>Topic Tests - Taxanomy of Angiosperms</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Systems, types of classification, flower description</name>
+                           <description>Systems, types of classification, flower description</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Fabacear, solanacear, liliacear</name>
+                           <description>Fabacear, solanacear, liliacear</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Unit of life</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Unit of life</name>
+                           <description>Topic Tests - Unit of life</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cell, cell theory, overview, prokaryotic cell</name>
+                           <description>Cell, cell theory, overview, prokaryotic cell</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Eukaryotic cell</name>
+                           <description>Eukaryotic cell</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Biomoleuly</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Biomoleuly</name>
+                           <description>Topic Tests - Biomoleuly</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Analysis of chemical composition, Metabolits</name>
+                           <description>Analysis of chemical composition, Metabolits</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Biomacromolecules, proteins, polysaccharides</name>
+                           <description>Biomacromolecules, proteins, polysaccharides</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Nuuclic acids, protein structure, bonds</name>
+                           <description>Nuuclic acids, protein structure, bonds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Metabolism, giving state</name>
+                           <description>Metabolism, giving state</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Cell cycle and cell division</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Cell cycle and cell division</name>
+                           <description>Topic Tests - Cell cycle and cell division</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Cell cycle, M.phase</name>
+                           <description>Cell cycle, M.phase</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Significance of Mitosci, Meiosci</name>
+                           <description>Significance of Mitosci, Meiosci</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Histology and Anatomy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Histology and Anatomy</name>
+                           <description>Topic Tests - Histology and Anatomy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Tissues</name>
+                           <description>Tissues</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Tissue systems, dicot root, monocot root</name>
+                           <description>Tissue systems, dicot root, monocot root</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Dicot stem, momocot stem, dicot leaf, momocot leaf</name>
+                           <description>Dicot stem, momocot stem, dicot leaf, momocot leaf</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Secondary growth</name>
+                           <description>Secondary growth</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Plant Ecology</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Plant Ecology</name>
+                           <description>Topic Tests - Plant Ecology</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Plant communities and Adaptations</name>
+                           <description>Plant communities and Adaptations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Plant succession, ecological sequences</name>
+                           <description>Plant succession, ecological sequences</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>302</id_level>
+               <subject>InterBotany</subject>
+               <subject_header>Intermediate Botany</subject_header>
+               <name><![CDATA[Botany Second Year]]></name>
+               <display_name><![CDATA[Botany Second Year]]></display_name>
+               <description><![CDATA[Botany preparation for EAMCET.  Second Year syllabus.]]></description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Second Year Botany</name>
+                           <description><![CDATA[Combined Practice Tests - Second Year Botany]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Transport in plants</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Transport in plants</name>
+                           <description>Topic Tests - Transport in plants</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Transport, diffusion, facilitated diffusion, types of transport</name>
+                           <description>Transport, diffusion, facilitated diffusion, types of transport</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Plant-water relations, water potential, osmosis</name>
+                           <description>Plant-water relations, water potential, osmosis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Plasmolysis, imbibition</name>
+                           <description>Plasmolysis, imbibition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Long distance transport of water, absorption of water, water movement</name>
+                           <description>Long distance transport of water, absorption of water, water movement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Transpisatin, mineral transport, phloem transport</name>
+                           <description>Transpisatin, mineral transport, phloem transport</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Mineral Nutrition</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mineral Nutrition</name>
+                           <description>Topic Tests - Mineral Nutrition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Mineral requirement, essential minerals</name>
+                           <description>Mineral requirement, essential minerals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Defficiency symptoms of elements, toxicity</name>
+                           <description>Defficiency symptoms of elements, toxicity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Translocation of solutes, metabolism of nitrogen, biological N2 taxation</name>
+                           <description>Translocation of solutes, metabolism of nitrogen, biological N2 taxation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Enzymes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Enzymes</name>
+                           <description>Topic Tests - Enzymes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Chemical reactions, nature of enzyme action, factors</name>
+                           <description>Chemical reactions, nature of enzyme action, factors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification, nomenclature, cofactors</name>
+                           <description>Classification, nomenclature, cofactors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Photosynthesis</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Photosynthesis</name>
+                           <description>Topic Tests - Photosynthesis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Experiments, chloroplast, pigments</name>
+                           <description>Experiments, chloroplast, pigments</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Light reaction, electron transport</name>
+                           <description>Light reaction, electron transport</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>C3 cycle, Usage of ATP and NADPH</name>
+                           <description>C3 cycle, Usage of ATP and NADPH</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>C4 cycle, photo respiration, factors</name>
+                           <description>C4 cycle, photo respiration, factors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Respiration</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Respiration</name>
+                           <description>Topic Tests - Respiration</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Glycolysis</name>
+                           <description>Glycolysis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Fermentation, kreb’s cycle</name>
+                           <description>Fermentation, kreb’s cycle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Electron transport</name>
+                           <description>Electron transport</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Balance sheet, Amphibolic pathway, RQ</name>
+                           <description>Balance sheet, Amphibolic pathway, RQ</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Plant growth and development</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Plant growth and development</name>
+                           <description>Topic Tests - Plant growth and development</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Plant growth</name>
+                           <description>Plant growth</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Differentiation, development, plant growth regulators</name>
+                           <description>Differentiation, development, plant growth regulators</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Auxins, gibberellins, cytokinins</name>
+                           <description>Auxins, gibberellins, cytokinins</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Ethylene, Abscisic acid, seed dormancy, photoperodium, uernalisation</name>
+                           <description>Ethylene, Abscisic acid, seed dormancy, photoperodium, uernalisation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Bacteria</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Bacteria</name>
+                           <description>Topic Tests - Bacteria</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>History, morphology, bacteria structures</name>
+                           <description>History, morphology, bacteria structures</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nutrition, reproduction, importance</name>
+                           <description>Nutrition, reproduction, importance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Viruses</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Viruses</name>
+                           <description>Topic Tests - Viruses</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Discovery, classification, structures</name>
+                           <description>Discovery, classification, structures</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Multiplication of bacteriophages, viral diseases</name>
+                           <description>Multiplication of bacteriophages, viral diseases</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Priniciples of inheritance and variation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Priniciples of inheritance and variation</name>
+                           <description>Topic Tests - Priniciples of inheritance and variation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Mendal experiments, monohybrid cross</name>
+                           <description>Mendal experiments, monohybrid cross</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Deviations from mendelian concept of dominance</name>
+                           <description>Deviations from mendelian concept of dominance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Dihybridcross</name>
+                           <description>Dihybridcross</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Chromoronal theory, linkage mutations</name>
+                           <description>Chromoronal theory, linkage mutations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Molecular basics of inheritance</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Molecular basics of inheritance</name>
+                           <description>Topic Tests - Molecular basics of inheritance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>DNA</name>
+                           <description>DNA</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Genetic material</name>
+                           <description>Genetic material</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>RNA world, reproduction</name>
+                           <description>RNA world, reproduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Transcription, types of RNA</name>
+                           <description>Transcription, types of RNA</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Genetic code</name>
+                           <description>Genetic code</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Translation, gene suppression</name>
+                           <description>Translation, gene suppression</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Biotechnology principles and processes</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Biotechnology principles and processes</name>
+                           <description>Topic Tests - Biotechnology principles and processes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Principles of Biotechnology, tools of r.DNA tech</name>
+                           <description>Principles of Biotechnology, tools of r.DNA tech</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Process of r.DNA technology</name>
+                           <description>Process of r.DNA technology</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Applications of Biotechnology</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Applications of Biotechnology</name>
+                           <description>Topic Tests - Applications of Biotechnology</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Agriculture, other applications</name>
+                           <description>Agriculture, other applications</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Transgenis plants, Bio-safety</name>
+                           <description>Transgenis plants, Bio-safety</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Strategies for enhancement in food production</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Strategies for enhancement in food production</name>
+                           <description>Topic Tests - Strategies for enhancement in food production</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Plant breeding</name>
+                           <description>Plant breeding</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>SCP, Tissue culture</name>
+                           <description>SCP, Tissue culture</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>Microbes in human welfare</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Microbes in human welfare</name>
+                           <description>Topic Tests - Microbes in human welfare</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Microbes in house hold products, industrial products</name>
+                           <description>Microbes in house hold products, industrial products</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Sewage treatment, biogas, bio control agents, bio fertilizers, challenges</name>
+                           <description>Sewage treatment, biogas, bio control agents, bio fertilizers, challenges</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>303</id_level>
+               <subject>InterBotany</subject>
+               <subject_header>Intermediate Botany</subject_header>
+               <name>Mock Exams</name>
+               <display_name>Mock Exams</display_name>
+               <description>Botany Mock Exams for EAMCET</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>InterBotany</subject>
+                     <name>EAMCET Botany Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Sri Chaitanya EAMCET Practice Tests</name>
+                           <description>Sri Chaitanya EAMCET Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sakshi EAMCET Practice Tests</name>
+                           <description>Sakshi EAMCET Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

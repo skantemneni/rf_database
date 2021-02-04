@@ -1,0 +1,71 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+      
+         <id_system>111</id_system>
+         <id_level>102</id_level>
+         <id_provider>0</id_provider>
+         <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Syllogism</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Syllogism</name>
+                           <description>Topic Tests - Syllogism</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Syllogism</name>
+                           <description>Syllogism</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Statement and reasoning</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Statement and reasoning</name>
+                           <description>Topic Tests - Statement and reasoning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Statement and reasoning</name>
+                           <description>Statement and reasoning</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>BankingPO</subject>
+                     <name>Data Sufficiency</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Data Sufficiency</name>
+                           <description>Topic Tests - Data Sufficiency</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Data Sufficiency</name>
+                           <description>Data Sufficiency</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+         </topicOnlyArray>
+      </LoadTopicsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

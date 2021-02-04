@@ -1,0 +1,969 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false">
+         <id_system>105</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+
+            <levelOnly>
+               <id_level>370</id_level>
+               <subject>Physics</subject>
+               <subject_header>SSC Physics</subject_header>
+               <name>Physics 8th Class</name>
+               <display_name>Physics 8th Class</display_name>
+               <description>Physics SSC preparation</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Physics</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Physics 8th Class</name>
+                           <description>Combined Practice Tests - Physics 8th Class</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Physics</subject>
+                     <name>Force</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Force</name>
+                           <description>Topic Tests - Force</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>What is Force?</name>
+                           <description>What is Force?</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Types of Forces</name>
+                           <description>Types of Forces</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Contact Forces</name>
+                           <description>Contact Forces</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Forces acting at a Distance</name>
+                           <description>Forces acting at a Distance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Net Force</name>
+                           <description>Net Force</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Other Effects of Force</name>
+                           <description>Other Effects of Force</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Pressure</name>
+                           <description>Pressure</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Physics</subject>
+                     <name>Friction</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Friction</name>
+                           <description>Topic Tests - Friction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Force of Friction and its Types</name>
+                           <description>Force of Friction and its Types</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Factors Affecting Friction</name>
+                           <description>Factors Affecting Friction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Is Friction necessary?</name>
+                           <description>Is Friction necessary?</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Increasing and Decreasing Friction</name>
+                           <description>Increasing and Decreasing Friction</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Fluid Friction</name>
+                           <description>Fluid Friction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Physics</subject>
+                     <name>Sound</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sound</name>
+                           <description>Topic Tests - Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Production of Sound</name>
+                           <description>Production of Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Musical Instruments</name>
+                           <description>Musical Instruments</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sounds produced by Human Being</name>
+                           <description>Sounds produced by Human Being</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Propogation of Sound</name>
+                           <description>Propogation of Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>How do we hear Sound?</name>
+                           <description>How do we hear Sound?</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Charecteristics of Sound</name>
+                           <description>Charecteristics of Sound</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Normal Sound consists of mixed Frequencies</name>
+                           <description>Normal Sound consists of mixed Frequencies</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Noise and Music</name>
+                           <description>Noise and Music</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Auidible Range</name>
+                           <description>Auidible Range</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Sound Pollution</name>
+                           <description>Sound Pollution</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Physics</subject>
+                     <name>Some Natural Phenomena</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Some Natural Phenomena</name>
+                           <description>Topic Tests - Some Natural Phenomena</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Lightning</name>
+                           <description>Lightning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Charging by Rubbing</name>
+                           <description>Charging by Rubbing</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Types of Charges and their Interaction</name>
+                           <description>Types of Charges and their Interaction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>The Story of Lightning</name>
+                           <description>The Story of Lightning</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Lightning Safety</name>
+                           <description>Lightning Safety</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Lightning Conductors</name>
+                           <description>Lightning Conductors</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Earthquakes</name>
+                           <description>Earthquakes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Physics</subject>
+                     <name>Stars and the Solar System</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Stars and the Solar System</name>
+                           <description>Topic Tests - Stars and the Solar System</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>The Surface of the Moon</name>
+                           <description>The Surface of the Moon</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Solar Eclipse</name>
+                           <description>Solar Eclipse</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Lunar Eclipse</name>
+                           <description>Lunar Eclipse</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Let us know something about Stars</name>
+                           <description>Let us know something about Stars</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>The Solar System</name>
+                           <description>The Solar System</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+         
+            <levelOnly>
+               <id_level>380</id_level>
+               <subject>Physics</subject>
+               <subject_header>SSC Physics</subject_header>
+               <name>Physics 9th Class</name>
+               <display_name>Physics 9th Class</display_name>
+               <description>Physics SSC preparation</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Physics</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Physics 9th Class</name>
+                           <description>Combined Practice Tests - Physics 9th Class</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Physics</subject>
+                     <name>Motion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Motion</name>
+                           <description>Topic Tests - Motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>What is Relative?</name>
+                           <description>What is Relative?</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Motion is Relative</name>
+                           <description>Motion is Relative</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Physics</subject>
+                     <name>Laws of Motion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Laws of Motion</name>
+                           <description>Topic Tests - Laws of Motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>First Law of Motion</name>
+                           <description>First Law of Motion</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Second Law of Motion</name>
+                           <description>Second Law of Motion</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Third Law of Motion</name>
+                           <description>Third Law of Motion</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Conservation of Momentum and Impulse</name>
+                           <description>Conservation of Momentum and Impulse</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Physics</subject>
+                     <name>Gravitation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Gravitation</name>
+                           <description>Topic Tests - Gravitation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Uniform Circular Motion</name>
+                           <description>Uniform Circular Motion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Universal Law of Gravitation</name>
+                           <description>Universal Law of Gravitation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Freefall</name>
+                           <description>Freefall</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Weight</name>
+                           <description>Weight</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Centre of Gravity</name>
+                           <description>Centre of Gravity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Physics</subject>
+                     <name>Floating Bodies</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Floating Bodies</name>
+                           <description>Topic Tests - Floating Bodies</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Have a little Fun</name>
+                           <description>Have a little Fun</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Comparing Density - Relative Density</name>
+                           <description>Comparing Density - Relative Density</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Relative Density of Liquids</name>
+                           <description>Relative Density of Liquids</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Upward Force in Liquids</name>
+                           <description>Upward Force in Liquids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Pressure of Air</name>
+                           <description>Pressure of Air</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Measuring the Force of Buoyancy</name>
+                           <description>Measuring the Force of Buoyancy</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Archimedes' Principle</name>
+                           <description>Archimedes' Principle</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Pascal's Principle</name>
+                           <description>Pascal's Principle</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Physics</subject>
+                     <name>Work and Energy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Work and Energy</name>
+                           <description>Topic Tests - Work and Energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Work</name>
+                           <description>Work</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Idea of Energy</name>
+                           <description>Idea of Energy</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Energy Transfer and the Work</name>
+                           <description>Energy Transfer and the Work</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Sources of Energy</name>
+                           <description>Sources of Energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Forms of Energy</name>
+                           <description>Forms of Energy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Conversion of Energy</name>
+                           <description>Conversion of Energy</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Power</name>
+                           <description>Power</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Physics</subject>
+                     <name>Sound</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sound</name>
+                           <description>Topic Tests - Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Production of Sound</name>
+                           <description>Production of Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>How does Sound Travel?</name>
+                           <description>How does Sound Travel?</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Propagation of Sound</name>
+                           <description>Propagation of Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Types of Waves</name>
+                           <description>Types of Waves</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Sound Waves are Longitudinal</name>
+                           <description>Sound Waves are Longitudinal</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Characteristics of the Sound Wave</name>
+                           <description>Characteristics of the Sound Wave</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Characteristics of a Musical Sound</name>
+                           <description>Characteristics of a Musical Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Reflection of Sound</name>
+                           <description>Reflection of Sound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Range of Hearing</name>
+                           <description>Range of Hearing</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Applications of Ultrasound</name>
+                           <description>Applications of Ultrasound</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Sonar</name>
+                           <description>Sonar</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+			
+			<levelOnly>
+               <id_level>390</id_level>
+               <subject>Physics</subject>
+               <subject_header>SSC Physics</subject_header>
+               <name>Physics 10th Class</name>
+               <display_name>Physics 10th Class</display_name>
+               <description>Physics SSC preparation</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Physics</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Physics 10th Class</name>
+                           <description>Combined Practice Tests - Physics 10th Class</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Physics</subject>
+                     <name>Heat</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Heat</name>
+                           <description>Topic Tests - Heat</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Thermal Equilibrium Heat and Temperature</name>
+                           <description>Thermal Equilibrium Heat and Temperature</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Specific Heat</name>
+                           <description>Specific Heat</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Method of Mixtures</name>
+                           <description>Method of Mixtures</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Evaporation</name>
+                           <description>Evaporation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Condensation</name>
+                           <description>Condensation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Boiling</name>
+                           <description>Boiling</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Melting</name>
+                           <description>Melting</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Freezing</name>
+                           <description>Freezing</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Physics</subject>
+                     <name>Reflection of Light by different Surfaces</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Reflection of Light by different Surfaces</name>
+                           <description>Topic Tests - Reflection of Light by different Surfaces</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Reflection of Light by Plane Mirrors</name>
+                           <description>Reflection of Light by Plane Mirrors</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Reflection of Light by Spherical Mirrors</name>
+                           <description>Reflection of Light by Spherical Mirrors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Physics</subject>
+                     <name>Refraction of Light at Plane Surfaces</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Refraction of Light at Plane Surfaces</name>
+                           <description>Topic Tests - Refraction of Light at Plane Surfaces</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Refraction</name>
+                           <description>Refraction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Total Internal Reflection</name>
+                           <description>Total Internal Reflection</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Refraction through a Glass Slab</name>
+                           <description>Refraction through a Glass Slab</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Physics</subject>
+                     <name>Refraction of Light at Curved Surfaces</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Refraction of Light at Curved Surfaces</name>
+                           <description>Topic Tests - Refraction of Light at Curved Surfaces</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Refraction of Light at a Curved Surface</name>
+                           <description>Refraction of Light at a Curved Surface</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Lenses</name>
+                           <description>Lenses</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Physics</subject>
+                     <name>Human Eye and Colourful World</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Human Eye and Colourful World</name>
+                           <description>Topic Tests - Human Eye and Colourful World</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Least Distance of Distinct Vision</name>
+                           <description>Least Distance of Distinct Vision</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Structure of Human Eye</name>
+                           <description>Structure of Human Eye</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Dispersion and Scattering of Light</name>
+                           <description>Dispersion and Scattering of Light</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+				  
+				  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Physics</subject>
+                     <name>Electric Current</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electric Current</name>
+                           <description>Topic Tests - Electric Current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Electric Current</name>
+                           <description>Electric Current</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Potential Difference</name>
+                           <description>Potential Difference</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Ohm's Law</name>
+                           <description>Ohm's Law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Factors Affecting the Resistance of a Material</name>
+                           <description>Factors Affecting the Resistance of a Material</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Electric Circuits</name>
+                           <description>Electric Circuits</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Kirchhoff's Laws</name>
+                           <description>Kirchhoff's Laws</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Electric Power</name>
+                           <description>Electric Power</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+				  
+				  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Physics</subject>
+                     <name>Electromagnetism</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electromagnetism</name>
+                           <description>Topic Tests - Electromagnetism</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Magnetic Field</name>
+                           <description>Magnetic Field</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Magnetic Field due to Currents</name>
+                           <description>Magnetic Field due to Currents</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Magnetic Force on Moving and Current carrying Wire</name>
+                           <description>Magnetic Force on Moving and Current carrying Wire</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Electric Motor</name>
+                           <description>Electric Motor</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Electromagnetic Induction</name>
+                           <description>Electromagnetic Induction</description>
+                        </skillOnly>
+						<skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Electric Generator and Alternating - Direct Currents</name>
+                           <description>Electric Generator and Alternating - Direct Currents</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+
+               </topicOnlyArray>
+            </levelOnly>
+ 
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

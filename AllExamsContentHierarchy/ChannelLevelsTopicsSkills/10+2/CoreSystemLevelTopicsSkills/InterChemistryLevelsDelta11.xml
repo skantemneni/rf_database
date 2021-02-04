@@ -1,0 +1,145 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <LoadTopicsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" reload="false" validateOnly="false">
+      
+         <id_system>103</id_system>
+         <id_level>202</id_level>
+         <id_provider>0</id_provider>
+         <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>22</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Purification and characterization of organic compounds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Purification and characterization of organic compounds</name>
+                           <description>Topic Tests - Purification and characterization of organic compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Purification-Crystallization, sublimation, distillation, differential extraction and chromatography</name>
+                           <description>Purification-Crystallization, sublimation, distillation, differential extraction and chromatography</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Qualitative analysis-Detection of nitrogen, sulphur, phosphorus and halogens</name>
+                           <description>Qualitative analysis-Detection of nitrogen, sulphur, phosphorus and halogens</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Quantitative analysis-Estimation of carbon, hydrogen, nitrogen, halogens, sulphur, phosphorus</name>
+                           <description>Quantitative analysis-Estimation of carbon, hydrogen, nitrogen, halogens, sulphur, phosphorus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Calculations of empirical formulae and molecular formulae</name>
+                           <description>Calculations of empirical formulae and molecular formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Numerical problems in organic quantitative analysis</name>
+                           <description>Numerical problems in organic quantitative analysis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>23</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Organic compounds containing halogens</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic compounds containing halogens</name>
+                           <description>Topic Tests - Organic compounds containing halogens</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>General methods of preparation, properties and reactions</name>
+                           <description>General methods of preparation, properties and reactions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nature of C-X bond</name>
+                           <description>Nature of C-X bond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Mechanisms of substitution reactions</name>
+                           <description>Mechanisms of substitution reactions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Environmental effects of chloroform, iodoform, freons and DDT</name>
+                           <description>Environmental effects of chloroform, iodoform, freons and DDT</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>24</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Stereochemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Stereochemistry</name>
+                           <description>Topic Tests - Stereochemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Chiral molecules, optical activity, polarimetry, R,S and D,L configurations</name>
+                           <description>Chiral molecules, optical activity, polarimetry, R,S and D,L configurations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Fischer projections, enantiomerism, racemates, diastereomerism and meso structures</name>
+                           <description>Fischer projections, enantiomerism, racemates, diastereomerism and meso structures</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Ethane conformations, Newman and Sawhorse projections</name>
+                           <description>Ethane conformations, Newman and Sawhorse projections</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Geometrical isomerism in alkenes</name>
+                           <description>Geometrical isomerism in alkenes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>25</id_topic>
+                     <subject>InterChemistry</subject>
+                     <name>Theoretical Principles of Experimental Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Theoretical Principles of Experimental Chemistry</name>
+                           <description>Topic Tests - Theoretical Principles of Experimental Chemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Volumetric Analysis</name>
+                           <description>Volumetric Analysis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Qualitative analysis of Inorganic Salts</name>
+                           <description>Qualitative analysis of Inorganic Salts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+         </topicOnlyArray>
+      </LoadTopicsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+

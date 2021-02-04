@@ -1,0 +1,1949 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false" reload="true">
+         <id_system>104</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>470</id_level>
+               <subject>Chemistry</subject>
+               <subject_header>Foundation Chemistry</subject_header>
+               <name>Chemistry Foundation - Grade 8</name>
+               <display_name>Chemistry Foundation - Grade 8</display_name>
+               <description>Chemistry Foundation - Grade 8</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Chemistry Foundation - Grade 8</name>
+                           <description>Combined Practice Tests - Chemistry Foundation - Grade 8</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>States of Matter</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - States of Matter</name>
+                           <description>Topic Tests - States of Matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>States of matter</name>
+                           <description>States of matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Kinetic molecular theory of matter</name>
+                           <description>Kinetic molecular theory of matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Properties of solids, liquids, and gases</name>
+                           <description>Properties of solids, liquids, and gases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Interconvertion between states of matter</name>
+                           <description>Interconvertion between states of matter</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Melting</name>
+                           <description>Melting</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Boiling</name>
+                           <description>Boiling</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Evaporation</name>
+                           <description>Evaporation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Condensation</name>
+                           <description>Condensation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Freezing</name>
+                           <description>Freezing</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Sublimation</name>
+                           <description>Sublimation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Determining the physical state of substance</name>
+                           <description>Determining the physical state of substance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Symbols, Formulae and Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Symbols, Formulae and Equations</name>
+                           <description>Topic Tests - Symbols, Formulae and Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Symbols and formulae</name>
+                           <description>Symbols and formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Chemical formula</name>
+                           <description>Chemical formula</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Valency and combining capacity of elements</name>
+                           <description>Valency and combining capacity of elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Names and symbols of Ions</name>
+                           <description>Names and symbols of Ions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Writing the chemical formula from the knowledge of valancy</name>
+                           <description>Writing the chemical formula from the knowledge of valancy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Chemical equations</name>
+                           <description>Chemical equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Rules of balancing a chemical equation</name>
+                           <description>Rules of balancing a chemical equation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Limitations a balanced chemical equations</name>
+                           <description>Limitations a balanced chemical equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Transformation of Substances</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Transformation of Substances</name>
+                           <description>Topic Tests - Transformation of Substances</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Physical change</name>
+                           <description>Physical change</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Chemical Change</name>
+                           <description>Chemical Change</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Chemical Reactions</name>
+                           <description>Chemical Reactions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Atomic Structure - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atomic Structure - Level 1</name>
+                           <description>Topic Tests - Atomic Structure - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Daltons atomic theory</name>
+                           <description>Daltons atomic theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Discovery of fundamental particles</name>
+                           <description>Discovery of fundamental particles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Properties of cathode rays</name>
+                           <description>Properties of cathode rays</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Discovery of Protons</name>
+                           <description>Discovery of Protons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Properties of anode rays</name>
+                           <description>Properties of anode rays</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Discovery of Neutron</name>
+                           <description>Discovery of Neutron</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Atomic models</name>
+                           <description>Atomic models</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Thomson model of an atom</name>
+                           <description>Thomson model of an atom</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Rutherford's alpha ray scattering experiment</name>
+                           <description>Rutherford's alpha ray scattering experiment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Rutherford model or planetary model</name>
+                           <description>Rutherford model or planetary model</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Drawbacks of Rutherford theory</name>
+                           <description>Drawbacks of Rutherford theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Plancks Quantum theory</name>
+                           <description>Plancks Quantum theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Bohr's model of atom</name>
+                           <description>Bohr's model of atom</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>16</id_skill>
+                           <name>Atomic number</name>
+                           <description>Atomic number</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>17</id_skill>
+                           <name>Mass number</name>
+                           <description>Mass number</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>18</id_skill>
+                           <name>Atomic Mass</name>
+                           <description>Atomic Mass</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>19</id_skill>
+                           <name>Isotopes</name>
+                           <description>Isotopes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>20</id_skill>
+                           <name>Isobars</name>
+                           <description>Isobars</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>21</id_skill>
+                           <name>Isotones</name>
+                           <description>Isotones</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>22</id_skill>
+                           <name>Bohr-Bury Scheme</name>
+                           <description>Bohr-Bury Scheme</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>23</id_skill>
+                           <name>Valence electrons</name>
+                           <description>Valence electrons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>24</id_skill>
+                           <name>Electronic configuration</name>
+                           <description>Electronic configuration</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Water</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Water</name>
+                           <description>Topic Tests - Water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Historical Note</name>
+                           <description>Historical Note</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Occurance of water</name>
+                           <description>Occurance of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Classification of water</name>
+                           <description>Classification of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Physical Characteristics of water</name>
+                           <description>Physical Characteristics of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Physical Constants of water at a Glance</name>
+                           <description>Physical Constants of water at a Glance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Chemical Properties of water</name>
+                           <description>Chemical Properties of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Factors effecting the solubility of water in air</name>
+                           <description>Factors effecting the solubility of water in air</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Importance of water</name>
+                           <description>Importance of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Types of water</name>
+                           <description>Types of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Importance of soft water</name>
+                           <description>Importance of soft water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Water Pollution</name>
+                           <description>Water Pollution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Genenral Uses of water</name>
+                           <description>Genenral Uses of water</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Tests of water</name>
+                           <description>Tests of water</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Hydrogen and Oxygen</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Hydrogen and Oxygen</name>
+                           <description>Topic Tests - Hydrogen and Oxygen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Hydrogen</name>
+                           <description>Hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Discovery of hydrogen</name>
+                           <description>Discovery of hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Occurance of hydrogen</name>
+                           <description>Occurance of hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Preparation of Hydrogen</name>
+                           <description>Preparation of Hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Physical properties of hydrogen</name>
+                           <description>Physical properties of hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Chemical properties of hydrogen</name>
+                           <description>Chemical properties of hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Test of hydrogen</name>
+                           <description>Test of hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Uses of hydrogen</name>
+                           <description>Uses of hydrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Oxygen</name>
+                           <description>Oxygen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Occurance of oxygen</name>
+                           <description>Occurance of oxygen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Preparation of Oxygen</name>
+                           <description>Preparation of Oxygen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Physical Properties</name>
+                           <description>Physical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Chemical Properties</name>
+                           <description>Chemical Properties</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Carbon and its Compounds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Carbon and its Compounds</name>
+                           <description>Topic Tests - Carbon and its Compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Unique Characteristic of Carbon</name>
+                           <description>Unique Characteristic of Carbon</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Crystalline forms of Carbon</name>
+                           <description>Crystalline forms of Carbon</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Diamond</name>
+                           <description>Diamond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Graphite</name>
+                           <description>Graphite</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Fullerenes</name>
+                           <description>Fullerenes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Amorphous forms of carbon</name>
+                           <description>Amorphous forms of carbon</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Wood charcoal</name>
+                           <description>Wood charcoal</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Animal Charcoal or Bone Charcoal</name>
+                           <description>Animal Charcoal or Bone Charcoal</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Sugar Charcoal</name>
+                           <description>Sugar Charcoal</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Lampblack or Kajal</name>
+                           <description>Lampblack or Kajal</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Coke</name>
+                           <description>Coke</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Gas Carbon</name>
+                           <description>Gas Carbon</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Coal</name>
+                           <description>Coal</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>16</id_skill>
+                           <name>Fuels</name>
+                           <description>Fuels</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>17</id_skill>
+                           <name>Calorific Values</name>
+                           <description>Calorific Values</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>18</id_skill>
+                           <name>Biogas</name>
+                           <description>Biogas</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>19</id_skill>
+                           <name>Fossil Fuels</name>
+                           <description>Fossil Fuels</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>20</id_skill>
+                           <name>Oxides of Carbon</name>
+                           <description>Oxides of Carbon</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>21</id_skill>
+                           <name>Carbon Monoxide</name>
+                           <description>Carbon Monoxide</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>22</id_skill>
+                           <name>Carbon dioxide</name>
+                           <description>Carbon dioxide</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Metals and non-metals</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Metals and non-metals</name>
+                           <description>Topic Tests - Metals and non-metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Metals</name>
+                           <description>Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Occurace of Metals</name>
+                           <description>Occurace of Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Non Metals</name>
+                           <description>Non Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Occurance of Non-Metals</name>
+                           <description>Occurance of Non-Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Metalloids</name>
+                           <description>Metalloids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Physical Properties of metals and non-Metals</name>
+                           <description>Physical Properties of metals and non-Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Chemical Properties of metals and non-metals</name>
+                           <description>Chemical Properties of metals and non-metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Displacement reactions</name>
+                           <description>Displacement reactions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Metals activity series</name>
+                           <description>Metals activity series</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Noble metals</name>
+                           <description>Noble metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Uses of Metals</name>
+                           <description>Uses of Metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Uses of non-metals</name>
+                           <description>Uses of non-metals</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Corrision</name>
+                           <description>Corrision</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>16</id_skill>
+                           <name>Methods to prevent corrosion</name>
+                           <description>Methods to prevent corrosion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>17</id_skill>
+                           <name>Alloys</name>
+                           <description>Alloys</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Synthetic fibres and Plastics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Synthetic fibres and Plastics</name>
+                           <description>Topic Tests - Synthetic fibres and Plastics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Types of synthetic fibres- Their properties and Uses</name>
+                           <description>Types of synthetic fibres- Their properties and Uses</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Charecterristics of Synthetic fibre</name>
+                           <description>Charecterristics of Synthetic fibre</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Plastics</name>
+                           <description>Plastics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Plastics and their Environment</name>
+                           <description>Plastics and their Environment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Prevention or solution</name>
+                           <description>Prevention or solution</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>480</id_level>
+               <subject>Chemistry</subject>
+               <subject_header>Foundation Chemistry</subject_header>
+               <name>Chemistry Foundation - Grade 9</name>
+               <display_name>Chemistry Foundation - Grade 9</display_name>
+               <description>Chemistry Foundation - Grade 9</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Chemistry Foundation - Grade 9</name>
+                           <description>Combined Practice Tests - Chemistry Foundation - Grade 9</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Matter and its Classification</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Matter and its Classification</name>
+                           <description>Topic Tests - Matter and its Classification</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification of Matter on the basis of Chemical composition</name>
+                           <description>Classification of Matter on the basis of Chemical composition</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Classification of Elements</name>
+                           <description>Classification of Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Separation of Mixtures</name>
+                           <description>Separation of Mixtures</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Language of Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Language of Chemistry</name>
+                           <description>Topic Tests - Language of Chemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Symbols and Formulae</name>
+                           <description>Symbols and Formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Valency</name>
+                           <description>Valency</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Radicles or Ion</name>
+                           <description>Radicles or Ion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Oxidation number</name>
+                           <description>Oxidation number</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Chemical Formulae</name>
+                           <description>Chemical Formulae</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Naming of Inorganic Compounds</name>
+                           <description>Naming of Inorganic Compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Chemical Equations</name>
+                           <description>Chemical Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Atomic Structure - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atomic Structure - Level 2</name>
+                           <description>Topic Tests - Atomic Structure - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Production of cathode rays- Discovery of Electron</name>
+                           <description>Production of cathode rays- Discovery of Electron</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Production of anode rays- Discovery of Protons</name>
+                           <description>Production of anode rays- Discovery of Protons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Thomson's Atomic Model</name>
+                           <description>Thomson's Atomic Model</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Rutherfords's experiment - Discovery of Nucleus</name>
+                           <description>Rutherfords's experiment - Discovery of Nucleus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Planks quantum theory</name>
+                           <description>Planks quantum theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Bohrs model of an atom</name>
+                           <description>Bohrs model of an atom</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Neutron</name>
+                           <description>Neutron</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Atomic Number</name>
+                           <description>Atomic Number</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Mass number</name>
+                           <description>Mass number</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Isotope</name>
+                           <description>Isotope</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Isobars</name>
+                           <description>Isobars</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Isotones</name>
+                           <description>Isotones</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Electronic configuration</name>
+                           <description>Electronic configuration</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Classification of Elements</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Classification of Elements</name>
+                           <description>Topic Tests - Classification of Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Historical Developments</name>
+                           <description>Historical Developments</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Doberniers Laws of Triads</name>
+                           <description>Doberniers Laws of Triads</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>The alkali metal group</name>
+                           <description>The alkali metal group</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>The alkaline Earth Metal Group</name>
+                           <description>The alkaline Earth Metal Group</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>The halogen Group</name>
+                           <description>The halogen Group</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Newlands Law of octaves</name>
+                           <description>Newlands Law of octaves</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Lother Meyers atomic volume curve</name>
+                           <description>Lother Meyers atomic volume curve</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Mendeleef's classification if Elements</name>
+                           <description>Mendeleef's classification if Elements</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Modern Periodic Law</name>
+                           <description>Modern Periodic Law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Charecteristics of Periods and Groups</name>
+                           <description>Charecteristics of Periods and Groups</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Chemical Bonding</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemical Bonding</name>
+                           <description>Topic Tests - Chemical Bonding</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ionic Bond</name>
+                           <description>Ionic Bond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Covalent Bond</name>
+                           <description>Covalent Bond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Coordinate covalent Bond or Dative Bond</name>
+                           <description>Coordinate covalent Bond or Dative Bond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Vanderwalls forces of Attraction</name>
+                           <description>Vanderwalls forces of Attraction</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Study of Gas Laws</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Study of Gas Laws</name>
+                           <description>Topic Tests - Study of Gas Laws</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>The kinetic molecular theory of Gases</name>
+                           <description>The kinetic molecular theory of Gases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Measurable Properties of gases</name>
+                           <description>Measurable Properties of gases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Gas Laws</name>
+                           <description>Gas Laws</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Atoms, Molecules and Ions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atoms, Molecules and Ions</name>
+                           <description>Topic Tests - Atoms, Molecules and Ions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Atomic Mass</name>
+                           <description>Atomic Mass</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Molecular Mass</name>
+                           <description>Molecular Mass</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Solutions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Solutions</name>
+                           <description>Topic Tests - Solutions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Solutions</name>
+                           <description>Solutions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Classification of solution</name>
+                           <description>Classification of solution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Soluability</name>
+                           <description>Soluability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Concentration</name>
+                           <description>Concentration</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Nitrogen</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Nitrogen</name>
+                           <description>Topic Tests - Nitrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Occurance</name>
+                           <description>Occurance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Laboratory method of preparation of Nitrogen</name>
+                           <description>Laboratory method of preparation of Nitrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Preparation of Nitrogen from Nitrogen Compounds</name>
+                           <description>Preparation of Nitrogen from Nitrogen Compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Industrial Method</name>
+                           <description>Industrial Method</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Physical Properties</name>
+                           <description>Physical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Chemical Properties</name>
+                           <description>Chemical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Uses</name>
+                           <description>Uses</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Nitrogen Cycle</name>
+                           <description>Nitrogen Cycle</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Sulphur</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sulphur</name>
+                           <description>Topic Tests - Sulphur</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Occurance of sulphur</name>
+                           <description>Occurance of sulphur</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Extraction of sulphur</name>
+                           <description>Extraction of sulphur</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Allotropes of sulphur</name>
+                           <description>Allotropes of sulphur</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Transition of Allotropic Forms of sulphur</name>
+                           <description>Transition of Allotropic Forms of sulphur</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Physical Properties</name>
+                           <description>Physical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Chemical Properties</name>
+                           <description>Chemical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Uses</name>
+                           <description>Uses</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Chlorine</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chlorine</name>
+                           <description>Topic Tests - Chlorine</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Occurace</name>
+                           <description>Occurace</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Preparation of Chlorine</name>
+                           <description>Preparation of Chlorine</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Physical Properties</name>
+                           <description>Physical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Chemical Properties of Air</name>
+                           <description>Chemical Properties of Air</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Uses</name>
+                           <description>Uses</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Phosphorus and its Compounds</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Phosphorus and its Compounds</name>
+                           <description>Topic Tests - Phosphorus and its Compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Occurace</name>
+                           <description>Occurace</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Extraction</name>
+                           <description>Extraction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Allotropic forms of Phosphorus</name>
+                           <description>Allotropic forms of Phosphorus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Physical Properties</name>
+                           <description>Physical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Chemical Properties</name>
+                           <description>Chemical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Uses</name>
+                           <description>Uses</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>9</id_skill>
+                           <name>Phosphorus Pentoxide</name>
+                           <description>Phosphorus Pentoxide</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>10</id_skill>
+                           <name>Phosphoric Acid</name>
+                           <description>Phosphoric Acid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>11</id_skill>
+                           <name>Physical Properties</name>
+                           <description>Physical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>12</id_skill>
+                           <name>Chemical Properties</name>
+                           <description>Chemical Properties</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>13</id_skill>
+                           <name>Uses</name>
+                           <description>Uses</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>14</id_skill>
+                           <name>Super Phosphate of Lime</name>
+                           <description>Super Phosphate of Lime</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>15</id_skill>
+                           <name>Uses</name>
+                           <description>Uses</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Analytical Chemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Analytical Chemistry</name>
+                           <description>Topic Tests - Analytical Chemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Analysis</name>
+                           <description>Analysis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>490</id_level>
+               <subject>Chemistry</subject>
+               <subject_header>Foundation Chemistry</subject_header>
+               <name>Chemistry Foundation - Grade 10</name>
+               <display_name>Chemistry Foundation - Grade 10</display_name>
+               <description>Chemistry Foundation - Grade 10</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Chemistry Foundation - Grade 10</name>
+                           <description>Combined Practice Tests - Chemistry Foundation - Grade 10</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Atomic Structure - Level 3</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Atomic Structure - Level 3</name>
+                           <description>Topic Tests - Atomic Structure - Level 3</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Atomic Models</name>
+                           <description>Atomic Models</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Quantum Mechanical Model</name>
+                           <description>Quantum Mechanical Model</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Electronic Configuration of Atom</name>
+                           <description>Electronic Configuration of Atom</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Periodic Table</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Periodic Table</name>
+                           <description>Topic Tests - Periodic Table</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification of elements into blocks</name>
+                           <description>Classification of elements into blocks</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Classification of elements based on properties</name>
+                           <description>Classification of elements based on properties</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Chemical Bonding</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemical Bonding</name>
+                           <description>Topic Tests - Chemical Bonding</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ionic bond or Electrovalent bond</name>
+                           <description>Ionic bond or Electrovalent bond</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Valency bond theory and its Postulates</name>
+                           <description>Valency bond theory and its Postulates</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Mole Concept and Stoichiometry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Mole Concept and Stoichiometry</name>
+                           <description>Topic Tests - Mole Concept and Stoichiometry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Atomic mass</name>
+                           <description>Atomic mass</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Molecular weight</name>
+                           <description>Molecular weight</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Molecular weight of gases</name>
+                           <description>Molecular weight of gases</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Electrochemistry</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Electrochemistry</name>
+                           <description>Topic Tests - Electrochemistry</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Electrolysis</name>
+                           <description>Electrolysis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Faraday's laws of electrolysis</name>
+                           <description>Faraday's laws of electrolysis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Reversible and Irreversible cells</name>
+                           <description>Reversible and Irreversible cells</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Chemical Kinetics and Chemical Equilibrium</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Chemical Kinetics and Chemical Equilibrium</name>
+                           <description>Topic Tests - Chemical Kinetics and Chemical Equilibrium</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Rate of reaction</name>
+                           <description>Rate of reaction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Factors affecting rate of reaction</name>
+                           <description>Factors affecting rate of reaction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Rate Law</name>
+                           <description>Rate Law</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Chemical equilibrium</name>
+                           <description>Chemical equilibrium</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Law of mass action</name>
+                           <description>Law of mass action</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Lechatliers principal</name>
+                           <description>Lechatliers principal</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Acids, Bases and Salts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Acids, Bases and Salts</name>
+                           <description>Topic Tests - Acids, Bases and Salts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Acids</name>
+                           <description>Acids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Bases</name>
+                           <description>Bases</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Salts</name>
+                           <description>Salts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Compounds of Nitrogen</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Compounds of Nitrogen</name>
+                           <description>Topic Tests - Compounds of Nitrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Ammonia</name>
+                           <description>Ammonia</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Oxides of nitrogen</name>
+                           <description>Oxides of nitrogen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Nitric Acid</name>
+                           <description>Nitric Acid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Nitrates</name>
+                           <description>Nitrates</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Compounds of Sulphur</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Compounds of Sulphur</name>
+                           <description>Topic Tests - Compounds of Sulphur</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Hydrogen Sulphide</name>
+                           <description>Hydrogen Sulphide</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Sulphur dioxide</name>
+                           <description>Sulphur dioxide</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Sulphur trioxide</name>
+                           <description>Sulphur trioxide</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Sulphurous Acid</name>
+                           <description>Sulphurous Acid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Sulphuric Acid</name>
+                           <description>Sulphuric Acid</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Compounds of Chlorine</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Compounds of Chlorine</name>
+                           <description>Topic Tests - Compounds of Chlorine</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Sodium Chloride</name>
+                           <description>Sodium Chloride</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Hydrogen Chloride</name>
+                           <description>Hydrogen Chloride</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Hydrocloric Acid</name>
+                           <description>Hydrocloric Acid</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Bleaching Powder</name>
+                           <description>Bleaching Powder</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Organic Chemistry - Level 1</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic Chemistry - Level 1</name>
+                           <description>Topic Tests - Organic Chemistry - Level 1</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Classification of organic compounds</name>
+                           <description>Classification of organic compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>IUPAC Nomenclature</name>
+                           <description>IUPAC Nomenclature</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Hydrocarbons</name>
+                           <description>Hydrocarbons</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Alkenes</name>
+                           <description>Alkenes</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Alkynes</name>
+                           <description>Alkynes</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Organic Chemistry - Level 2</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Organic Chemistry - Level 2</name>
+                           <description>Topic Tests - Organic Chemistry - Level 2</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Nomenclature of organic compounds</name>
+                           <description>Nomenclature of organic compounds</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>IUPAC Nomenclature for Easters and ethers</name>
+                           <description>IUPAC Nomenclature for Easters and ethers</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Functinal groups containing oxygen</name>
+                           <description>Functinal groups containing oxygen</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>6</id_skill>
+                           <name>Acetone or propane</name>
+                           <description>Acetone or propane</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>7</id_skill>
+                           <name>Carboxylic acids</name>
+                           <description>Carboxylic acids</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>8</id_skill>
+                           <name>Carbohydrates and proteins</name>
+                           <description>Carbohydrates and proteins</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>Chemistry</subject>
+                     <name>Metallurgy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Metallurgy</name>
+                           <description>Topic Tests - Metallurgy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction</name>
+                           <description>Introduction</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>3</id_skill>
+                           <name>Aluminium</name>
+                           <description>Aluminium</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>4</id_skill>
+                           <name>Zinc</name>
+                           <description>Zinc</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>5</id_skill>
+                           <name>Iron</name>
+                           <description>Iron</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,242 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="false" reload="true">
+         <id_system>104</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>160</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics - Grade 6</subject_header>
+               <name>Mathematics Foundation - Grade 6</name>
+               <display_name>Mathematics Foundation - Grade 6</display_name>
+               <description>Mathematics Foundation - Grade 6</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 6</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 6</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic></id_topic>
+                     <subject>Math</subject>
+                     <name></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - </name>
+                           <description>Topic Tests - </description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>170</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics - Grade 6</subject_header>
+               <name>Mathematics Foundation - Grade 6</name>
+               <display_name>Mathematics Foundation - Grade 6</display_name>
+               <description>Mathematics Foundation - Grade 6</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 6</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 6</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic></id_topic>
+                     <subject>Math</subject>
+                     <name></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - </name>
+                           <description>Topic Tests - </description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>180</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics - Grade 6</subject_header>
+               <name>Mathematics Foundation - Grade 6</name>
+               <display_name>Mathematics Foundation - Grade 6</display_name>
+               <description>Mathematics Foundation - Grade 6</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 6</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 6</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic></id_topic>
+                     <subject>Math</subject>
+                     <name></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - </name>
+                           <description>Topic Tests - </description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>190</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics - Grade 6</subject_header>
+               <name>Mathematics Foundation - Grade 6</name>
+               <display_name>Mathematics Foundation - Grade 6</display_name>
+               <description>Mathematics Foundation - Grade 6</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 6</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 6</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic></id_topic>
+                     <subject>Math</subject>
+                     <name></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - </name>
+                           <description>Topic Tests - </description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+
+            <levelOnly>
+               <id_level>100</id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics - Grade 6</subject_header>
+               <name>Mathematics Foundation - Grade 6</name>
+               <display_name>Mathematics Foundation - Grade 6</display_name>
+               <description>Mathematics Foundation - Grade 6</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Mathematics Foundation - Grade 6</name>
+                           <description>Combined Practice Tests - Mathematics Foundation - Grade 6</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic></id_topic>
+                     <subject>Math</subject>
+                     <name></name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - </name>
+                           <description>Topic Tests - </description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+
+            <levelOnly>
+               <id_level></id_level>
+               <subject>Math</subject>
+               <subject_header>Foundation Mathematics</subject_header>
+               <name>Mathematics Foundation</name>
+               <display_name>Mathematics Foundation</display_name>
+               <description>Mathematics</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>Math</subject>
+                     <name>Mathematics Foundation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Practice Tests</name>
+                           <description>Practice Tests</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,996 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:rfl="http://www.rulefree.com/RfLoadDataSchema">
+   <soapenv:Header />
+   <soapenv:Body>
+      <LoadLevelsOnlyRequest xmlns="http://www.rulefree.com/RfLoadDataSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rulefree.com/RfLoadDataSchema RfLoadDataSchema.xsd" validateOnly="true">
+         <id_system>113</id_system>
+         <id_provider>0</id_provider>
+         <levelOnlyArray>
+            <levelOnly>
+               <id_level>101</id_level>
+               <subject>CPT</subject>
+               <subject_header>CA CPT Exam</subject_header>
+               <name>Maths</name>
+               <display_name>Maths</display_name>
+               <description>CA CPT - Maths</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CPT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Maths</name>
+                           <description><![CDATA[Combined Practice Tests - Maths]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CPT</subject>
+                     <name>Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Equations</name>
+                           <description>Topic Tests - Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Equations</name>
+                           <description>Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CPT</subject>
+                     <name>Linear Inequalities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Linear Inequalities</name>
+                           <description>Topic Tests - Linear Inequalities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Linear Inequalities</name>
+                           <description>Linear Inequalities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CPT</subject>
+                     <name>Sequences and Series</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sequences and Series</name>
+                           <description>Topic Tests - Sequences and Series</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sequences and Series</name>
+                           <description>Sequences and Series</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CPT</subject>
+                     <name>Sets, Relations and Functions</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sets, Relations and Functions</name>
+                           <description>Topic Tests - Sets, Relations and Functions</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sets, Relations and Functions</name>
+                           <description>Sets, Relations and Functions</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CPT</subject>
+                     <name>Limits and Continuity</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Limits and Continuity</name>
+                           <description>Topic Tests - Limits and Continuity</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Limits and Continuity</name>
+                           <description>Limits and Continuity</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>CPT</subject>
+                     <name>Differential and Integral Calculus</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Differential and Integral Calculus</name>
+                           <description>Topic Tests - Differential and Integral Calculus</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Differential and Integral Calculus</name>
+                           <description>Differential and Integral Calculus</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>CPT</subject>
+                     <name>Statistical Description of Data</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Statistical Description of Data</name>
+                           <description>Topic Tests - Statistical Description of Data</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Statistical Description of Data</name>
+                           <description>Statistical Description of Data</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>CPT</subject>
+                     <name>Measures of Central Tendency and Dispersion</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Measures of Central Tendency and Dispersion</name>
+                           <description>Topic Tests - Measures of Central Tendency and Dispersion</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Measures of Central Tendency and Dispersion</name>
+                           <description>Measures of Central Tendency and Dispersion</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>CPT</subject>
+                     <name>Correlation and Regression</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Correlation and Regression</name>
+                           <description>Topic Tests - Correlation and Regression</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Correlation and Regression</name>
+                           <description>Correlation and Regression</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>CPT</subject>
+                     <name>Probability</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Probability</name>
+                           <description>Topic Tests - Probability</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Probability</name>
+                           <description>Probability</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>CPT</subject>
+                     <name>Theoretical Distribution</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Theoretical Distribution</name>
+                           <description>Topic Tests - Theoretical Distribution</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Theoretical Distribution</name>
+                           <description>Theoretical Distribution</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>CPT</subject>
+                     <name>Sampling Theory</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sampling Theory</name>
+                           <description>Topic Tests - Sampling Theory</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sampling Theory</name>
+                           <description>Sampling Theory</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>102</id_level>
+               <subject>CPT</subject>
+               <subject_header>CA CPT Exam</subject_header>
+               <name>Law</name>
+               <display_name>Law</display_name>
+               <description>CA CPT Exam - Law</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CPT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Law</name>
+                           <description><![CDATA[Combined Practice Tests - Law]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CPT</subject>
+                     <name>The Sale of Goods Act, 1930</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - The Sale of Goods Act, 1930</name>
+                           <description>Topic Tests - The Sale of Goods Act, 1930</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>The Sale of Goods Act, 1930</name>
+                           <description>The Sale of Goods Act, 1930</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CPT</subject>
+                     <name>The Indian Partnership Act, 1932</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - The Indian Partnership Act, 1932</name>
+                           <description>Topic Tests - The Indian Partnership Act, 1932</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>The Indian Partnership Act, 1932</name>
+                           <description>The Indian Partnership Act, 1932</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CPT</subject>
+                     <name>The Indian Contract Act, 1872</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - The Indian Contract Act, 1872</name>
+                           <description>Topic Tests - The Indian Contract Act, 1872</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>The Indian Contract Act, 1872</name>
+                           <description>The Indian Contract Act, 1872</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>103</id_level>
+               <subject>CPT</subject>
+               <subject_header>CA CPT Exam</subject_header>
+               <name>Economics</name>
+               <display_name>Economics</display_name>
+               <description>CA CPT Exam - Economics</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CPT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Economics</name>
+                           <description><![CDATA[Combined Practice Tests - Economics]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CPT</subject>
+                     <name>Introduction of Microeconomics</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Introduction of Microeconomics</name>
+                           <description>Topic Tests - Introduction of Microeconomics</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction of Microeconomics</name>
+                           <description>Introduction of Microeconomics</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CPT</subject>
+                     <name>Theory of Demand and Supply</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Theory of Demand and Supply</name>
+                           <description>Topic Tests - Theory of Demand and Supply</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Theory of Demand and Supply</name>
+                           <description>Theory of Demand and Supply</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CPT</subject>
+                     <name>Theory of Production and Cost</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Theory of Production and Cost</name>
+                           <description>Topic Tests - Theory of Production and Cost</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Theory of Production and Cost</name>
+                           <description>Theory of Production and Cost</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CPT</subject>
+                     <name>Price Determination in Different Markets</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Price Determination in Different Markets</name>
+                           <description>Topic Tests - Price Determination in Different Markets</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Price Determination in Different Markets</name>
+                           <description>Price Determination in Different Markets</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CPT</subject>
+                     <name>Indian Economy A Profile</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Indian Economy A Profile</name>
+                           <description>Topic Tests - Indian Economy A Profile</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Indian Economy A Profile</name>
+                           <description>Indian Economy A Profile</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>CPT</subject>
+                     <name>Select Aspect of Indian Economy</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Select Aspect of Indian Economy</name>
+                           <description>Topic Tests - Select Aspect of Indian Economy</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Select Aspect of Indian Economy</name>
+                           <description>Select Aspect of Indian Economy</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>CPT</subject>
+                     <name>Economic Reforms in India</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Economic Reforms in India</name>
+                           <description>Topic Tests - Economic Reforms in India</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Economic Reforms in India</name>
+                           <description>Economic Reforms in India</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>CPT</subject>
+                     <name>Money and Banking</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Money and Banking</name>
+                           <description>Topic Tests - Money and Banking</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Money and Banking</name>
+                           <description>Money and Banking</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>104</id_level>
+               <subject>CPT</subject>
+               <subject_header>CA CPT Exam</subject_header>
+               <name>Accounts</name>
+               <display_name>Accounts</display_name>
+               <description>CA CPT Exam - Accounts</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CPT</subject>
+                     <name>Practice Tests</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Combined Practice Tests - Accounts</name>
+                           <description><![CDATA[Combined Practice Tests - Accounts]]></description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CPT</subject>
+                     <name>Meaning and Scope of Accounting</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Meaning and Scope of Accounting</name>
+                           <description>Topic Tests - Meaning and Scope of Accounting</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Meaning and Scope of Accounting</name>
+                           <description>Meaning and Scope of Accounting</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>3</id_topic>
+                     <subject>CPT</subject>
+                     <name>Accounting Concept and Principles</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Accounting Concept and Principles</name>
+                           <description>Topic Tests - Accounting Concept and Principles</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Accounting Concept and Principles</name>
+                           <description>Accounting Concept and Principles</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>4</id_topic>
+                     <subject>CPT</subject>
+                     <name>Accounting Standards, Policies and Equations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Accounting Standards, Policies and Equations</name>
+                           <description>Topic Tests - Accounting Standards, Policies and Equations</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Accounting Standards, Policies and Equations</name>
+                           <description>Accounting Standards, Policies and Equations</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>5</id_topic>
+                     <subject>CPT</subject>
+                     <name>Journal Ledger and Trial Balance</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Journal Ledger and Trial Balance</name>
+                           <description>Topic Tests - Journal Ledger and Trial Balance</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Journal Ledger and Trial Balance</name>
+                           <description>Journal Ledger and Trial Balance</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>6</id_topic>
+                     <subject>CPT</subject>
+                     <name>Subsidiary Books</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Subsidiary Books</name>
+                           <description>Topic Tests - Subsidiary Books</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Subsidiary Books</name>
+                           <description>Subsidiary Books</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>7</id_topic>
+                     <subject>CPT</subject>
+                     <name>Capital and Revenue Exp, Contingent Assets and Liabilities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Capital and Revenue Exp, Contingent Assets and Liabilities</name>
+                           <description>Topic Tests - Capital and Revenue Exp, Contingent Assets and Liabilities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Capital and Revenue Exp, Contingent Assets and Liabilities</name>
+                           <description>Capital and Revenue Exp, Contingent Assets and Liabilities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>8</id_topic>
+                     <subject>CPT</subject>
+                     <name>Rectification of Errors</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Rectification of Errors</name>
+                           <description>Topic Tests - Rectification of Errors</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Rectification of Errors</name>
+                           <description>Rectification of Errors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>9</id_topic>
+                     <subject>CPT</subject>
+                     <name>Bank Reconciliation Statement</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Bank Reconciliation Statement</name>
+                           <description>Topic Tests - Bank Reconciliation Statement</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Bank Reconciliation Statement</name>
+                           <description>Bank Reconciliation Statement</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>10</id_topic>
+                     <subject>CPT</subject>
+                     <name>Inventories</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Inventories</name>
+                           <description>Topic Tests - Inventories</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Inventories</name>
+                           <description>Inventories</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>11</id_topic>
+                     <subject>CPT</subject>
+                     <name>Depreciation</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Depreciation</name>
+                           <description>Topic Tests - Depreciation</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Depreciation</name>
+                           <description>Depreciation</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>12</id_topic>
+                     <subject>CPT</subject>
+                     <name>Final Accounts of Sole Prop. and Manufacturing Entities</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Final Accounts of Sole Prop. and Manufacturing Entities</name>
+                           <description>Topic Tests - Final Accounts of Sole Prop. and Manufacturing Entities</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Final Accounts of Sole Prop. and Manufacturing Entities</name>
+                           <description>Final Accounts of Sole Prop. and Manufacturing Entities</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>13</id_topic>
+                     <subject>CPT</subject>
+                     <name>Consignment</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Consignment</name>
+                           <description>Topic Tests - Consignment</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Consignment</name>
+                           <description>Consignment</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>14</id_topic>
+                     <subject>CPT</subject>
+                     <name>Joint Venture</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Joint Venture</name>
+                           <description>Topic Tests - Joint Venture</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Joint Venture</name>
+                           <description>Joint Venture</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>15</id_topic>
+                     <subject>CPT</subject>
+                     <name>Bills of Exchange and Promissory Note</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Bills of Exchange and Promissory Note</name>
+                           <description>Topic Tests - Bills of Exchange and Promissory Note</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Bills of Exchange and Promissory Note</name>
+                           <description>Bills of Exchange and Promissory Note</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>16</id_topic>
+                     <subject>CPT</subject>
+                     <name>Sale of Good on Approval or Return Basis</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Sale of Good on Approval or Return Basis</name>
+                           <description>Topic Tests - Sale of Good on Approval or Return Basis</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Sale of Good on Approval or Return Basis</name>
+                           <description>Sale of Good on Approval or Return Basis</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>17</id_topic>
+                     <subject>CPT</subject>
+                     <name>Introduction to Partnership Accounts</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Introduction to Partnership Accounts</name>
+                           <description>Topic Tests - Introduction to Partnership Accounts</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Introduction to Partnership Accounts</name>
+                           <description>Introduction to Partnership Accounts</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>18</id_topic>
+                     <subject>CPT</subject>
+                     <name>Admission of New Partner</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Admission of New Partner</name>
+                           <description>Topic Tests - Admission of New Partner</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Admission of New Partner</name>
+                           <description>Admission of New Partner</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>19</id_topic>
+                     <subject>CPT</subject>
+                     <name>Retirement and Death of a Partner</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Retirement and Death of a Partner</name>
+                           <description>Topic Tests - Retirement and Death of a Partner</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Retirement and Death of a Partner</name>
+                           <description>Retirement and Death of a Partner</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>20</id_topic>
+                     <subject>CPT</subject>
+                     <name>Issue Forfeiture and Reissue of Shares</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Issue Forfeiture and Reissue of Shares</name>
+                           <description>Topic Tests - Issue Forfeiture and Reissue of Shares</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Issue Forfeiture and Reissue of Shares</name>
+                           <description>Issue Forfeiture and Reissue of Shares</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>21</id_topic>
+                     <subject>CPT</subject>
+                     <name>Redemption of Preference Shares</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Redemption of Preference Shares</name>
+                           <description>Topic Tests - Redemption of Preference Shares</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Redemption of Preference Shares</name>
+                           <description>Redemption of Preference Shares</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>22</id_topic>
+                     <subject>CPT</subject>
+                     <name>Issue of Debenture</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Topic Tests - Issue of Debenture</name>
+                           <description>Topic Tests - Issue of Debenture</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Issue of Debenture</name>
+                           <description>Issue of Debenture</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+            <levelOnly>
+               <id_level>110</id_level>
+               <subject>CPT</subject>
+               <subject_header>CA CPT Exam</subject_header>
+               <name>Mock Exams - CA CPT</name>
+               <display_name>Mock Exams - CA CPT</display_name>
+               <description>Mock Exams for CA CPT</description>
+               <published>true</published>
+               <derived>false</derived>
+               <topicOnlyArray>
+                  <topicOnly>
+                     <id_topic>1</id_topic>
+                     <subject>CPT</subject>
+                     <name>eTester CA CPT Practice Exams</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>Provided by eTester.com</name>
+                           <description>eTester.com CA CPT Practice Tests</description>
+                        </skillOnly>
+                        <skillOnly>
+                           <id_skill>2</id_skill>
+                           <name>Provider by eTester Independent Authors</name>
+                           <description>CA CPT Practice Tests from Indipendent Authors</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+                  <topicOnly>
+                     <id_topic>2</id_topic>
+                     <subject>CPT</subject>
+                     <name>Book Publishers, Training Institutes and Teachers Associations</name>
+                     <published>true</published>
+                     <derived>false</derived>
+                     <skillOnlyArray>
+                        <skillOnly>
+                           <id_skill>1</id_skill>
+                           <name>CA CPT Practice Tests from Former Employees of T.I.M.E Pvt. Ltd.</name>
+                           <description>CA CPT Practice Tests from Former Employees of Triumphant Institute of Management Education Pvt. Ltd.</description>
+                        </skillOnly>
+                     </skillOnlyArray>
+                  </topicOnly>
+               </topicOnlyArray>
+            </levelOnly>
+         </levelOnlyArray>
+      </LoadLevelsOnlyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
