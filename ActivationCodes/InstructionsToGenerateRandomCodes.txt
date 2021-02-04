@@ -1,0 +1,43 @@
+1.) Generate Codes
+
+    Open Page http://www.generaterandomcodes.com/free-generate-random-codes-tool
+    Hom Many: 20000
+    Code Prefix: "IJ16"  // for IIT JEE 2016 (or use EAMCET Andhra "AE16"
+    How many characters: 12    // 12 + prefix of 4 = 16
+    Code Length: 16     // automatically calculated
+    Unordered/Sorted: Mixed     // still sems to sort
+    Unique: Yes      // default
+    
+    Hit Generate codes and Expoirt to CSV
+    
+
+
+
+2.) Create the necessary channel_subscription_code_type records.....
+(here are the ones for Engineering and Medical for 2016
+
+-- Insert channel_redumption_code_types
+INSERT INTO `rulefree`.`channel_redumption_code_type`
+(`id_channel_redumption_code_type`, `channel_redumption_code_type_description`, `channel_list`, `channel_list_description`,
+`retail_price`, `code_validity_start_date`, `code_validity_end_date`, `subscription_duration_days`)
+VALUES
+(201601, 'Preview Consolidated Engineering Channel Set for 2016', '131,132,133', 'Preview Consolidated Engineering Channel Set for 2016',
+0,'2015-11-15','2016-05-31',15);
+
+INSERT INTO `rulefree`.`channel_redumption_code_type`
+(`id_channel_redumption_code_type`, `channel_redumption_code_type_description`, `channel_list`, `channel_list_description`,
+`retail_price`, `code_validity_start_date`, `code_validity_end_date`, `subscription_duration_days`)
+VALUES
+(201602, 'Preview Consolidated Medical Channel Set for 2016', '133', 'Preview Consolidated Medical Channel Set for 2016',
+0,'2015-11-15','2016-05-31',15);
+
+
+
+3.) Convert it to SQL Code
+    Open in TextPad and do the folowing Replace functions...as Regular Expressions Replace
+    
+    Replace: <<^>>  with <<INSERT INTO `rulefree`.`channel_redumption_code`\(`channel_redumption_code`,`id_channel_redumption_code_type`\)VALUES\('>>  // do not enter angle brackets
+    Replace: <<$>>  with <<','201601'\)\;>>  // do not enter angle brackets
+    
+4.) Now Cut and Load the first 5000 rows/codes into the database (last 5000 for local and xqee)
+
