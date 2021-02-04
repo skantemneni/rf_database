@@ -1,0 +1,87 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure delete_profile
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`delete_profile`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`delete_profile` (IN idProfile BIGINT, OUT status_code INT, OUT status_message VARCHAR(256))
+BEGIN
+
+DECLARE exit handler for sqlexception
+  BEGIN
+    SET status_code = -1;
+    SET status_message = "Fail - SQL Error";
+  ROLLBACK;
+END;
+
+DECLARE exit handler for sqlwarning
+ BEGIN
+    SET status_code = -1;
+    SET status_message = "Fail - SQL Warning";
+ ROLLBACK;
+END;
+
+START TRANSACTION;
+    DELETE FROM profiletest WHERE id_profiletest > 0 AND id_profilesegment in (select id_profilesegment from profilesegment where id_profile in (idProfile));
+    DELETE FROM profilesegment WHERE id_profilesegment > 0 AND id_profile in (idProfile);
+    DELETE FROM `profile` WHERE id_profile in (idProfile); 
+    SET status_code = 0;
+    SET status_message = "success";
+COMMIT;
+END 
+$$
+
+DELIMITER ;
+
+-- -----------------------------------------------------
+-- procedure delete_profilesegments_for_profile
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`delete_profilesegments_for_profile`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`delete_profilesegments_for_profile` (IN idProfile BIGINT, OUT status_code INT, OUT status_message VARCHAR(256))
+BEGIN
+
+DECLARE exit handler for sqlexception
+  BEGIN
+    SET status_code = -1;
+    SET status_message = "Fail - SQL Error";
+  ROLLBACK;
+END;
+
+DECLARE exit handler for sqlwarning
+ BEGIN
+    SET status_code = -1;
+    SET status_message = "Fail - SQL Warning";
+ ROLLBACK;
+END;
+
+START TRANSACTION;
+    DELETE FROM profiletest WHERE id_profiletest > 0 AND id_profilesegment in (select id_profilesegment from profilesegment where id_profile in (idProfile));
+    DELETE FROM profilesegment WHERE id_profilesegment > 0 AND id_profile in (idProfile);
+    SET status_code = 0;
+    SET status_message = "success";
+COMMIT;
+END 
+$$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

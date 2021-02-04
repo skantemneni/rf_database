@@ -1,0 +1,26 @@
+-- Create an organization
+INSERT INTO `rulefree`.`organization`(`id_organization`,`name`,`description`) VALUES (500004, 'Pandit Classes', 'Pandit Classes');
+
+-- give the organization some channels (to be able to have their teachers create tests in that channels)
+INSERT INTO `rulefree`.`organization_channel`(`id_organization`,`id_channel`)VALUES(500004,131);
+INSERT INTO `rulefree`.`organization_channel`(`id_organization`,`id_channel`)VALUES(500004,132);
+INSERT INTO `rulefree`.`organization_channel`(`id_organization`,`id_channel`)VALUES(500004,133);
+
+-- create students in the organization
+INSERT INTO `rulefree`.`organization_student`(`id_organization`,`id_student`) VALUES (500004, (SELECT id_user FROM user WHERE username = 'student1'));
+INSERT INTO `rulefree`.`organization_student`(`id_organization`,`id_student`) VALUES (500004, (SELECT id_user FROM user WHERE username = 'student2'));
+
+-- create an Organization Provider user and give him ROLE_PROVIDER
+INSERT INTO `rulefree`.`user`(`username`,`password`,`enabled`,`first_name`,`last_name`,`email_address`)VALUES
+('panditclasses_etester','221a545535df6761e615ea5157a4884a021841d1117112978d92ddca45b03902',1,'Pandit Classes','Teacher','chandakasiva@gmail.com');
+
+-- make him a provider
+INSERT INTO `rulefree`.`authorities`(`username`,`authority`)VALUES('panditclasses_etester','ROLE_PROVIDER');
+
+-- give the account "Create/Update test permission"
+INSERT INTO `rulefree`.`permissions`(`username`,`privilege`)VALUES('panditclasses_etester','UPDATE_TEST');
+
+-- Associated the new provider with the organization
+INSERT INTO `rulefree`.`organization_provider`(`id_organization`,`id_provider`) VALUES (500004,
+(SELECT id_user FROM user WHERE username = 'panditclasses_etester'));
+

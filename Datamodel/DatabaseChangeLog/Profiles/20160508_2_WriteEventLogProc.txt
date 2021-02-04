@@ -1,0 +1,33 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure write_eventlog_msg
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`write_eventlog_msg`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.write_eventlog_msg (enabled INTEGER, event_type VARCHAR(45), msg VARCHAR(255))
+    BEGIN
+        IF enabled THEN 
+            BEGIN
+                INSERT INTO `rulefree`.`eventlog` (event_type, msg, date_time) SELECT event_type, msg, sysdate();
+            END; 
+        END IF;
+    END 
+    $$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

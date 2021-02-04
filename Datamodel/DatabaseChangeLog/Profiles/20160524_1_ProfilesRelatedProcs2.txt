@@ -1,0 +1,395 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure update_user_profile_test
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`update_user_profile_test`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`update_user_profile_test` (IN in_idUserprofile BIGINT, IN in_action INT, OUT out_status_code INT, OUT out_status_message VARCHAR(256))
+BEGIN
+
+DECLARE exit handler for sqlexception
+  BEGIN
+    SET out_status_code = -1;
+    SET out_status_message = "Fail - SQL Error";
+  ROLLBACK;
+END;
+
+DECLARE exit handler for sqlwarning
+ BEGIN
+    SET out_status_code = -1;
+    SET out_status_message = "Fail - SQL Warning";
+ ROLLBACK;
+END;
+
+
+START TRANSACTION;
+-- 1= insert, 2 = delete, 3 = update
+IF (in_action = 1) THEN
+
+    INSERT INTO `userprofiletest` (`id_userprofile`, `id_profiletest`, `test_provision_date`, `test_removal_date`, `active`) 
+    SELECT      up.id_userprofile, 
+                pt.id_profiletest, 
+                (CASE 
+                   WHEN p.profile_type = 1 THEN pt.test_provision_date
+                   WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_provision_day DAY)
+                   ELSE pt.test_provision_date
+                 END) AS test_provision_date, 
+                (CASE 
+                   WHEN p.profile_type = 1 THEN pt.test_removal_date
+                   WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_removal_day DAY)
+                   ELSE pt.test_removal_date
+                 END) AS test_removal_date,
+                (CASE 
+                   WHEN p.profile_type = 1 THEN 1
+                   WHEN p.profile_type = 2 THEN 1 
+                   ELSE pt.initial_active
+                 END) AS active
+    FROM userprofile up LEFT JOIN profile p ON p.id_profile = up.id_profile
+                LEFT JOIN profilesegment ps ON ps.id_profile = up.id_profile
+                LEFT JOIN profiletest pt ON pt.id_profilesegment = ps.id_profilesegment
+     WHERE up.id_userprofile = in_idUserprofile;
+
+ELSEIF (in_action = 2) THEN
+
+    DELETE FROM `userprofiletest` 
+    WHERE id_userprofiletest > 0 AND 
+          id_userprofile = in_idUserprofile;
+
+ELSEIF (in_action = 3) THEN
+
+    UPDATE userprofiletest upt LEFT JOIN profiletest pt ON upt.id_profiletest = pt.id_profiletest
+                             LEFT JOIN profilesegment ps ON pt.id_profilesegment = ps.id_profilesegment
+                             LEFT JOIN profile p ON ps.id_profile = p.id_profile
+                             LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+    SET     upt.test_provision_date = 
+                (CASE 
+                    WHEN p.profile_type = 1 THEN pt.test_provision_date
+                    WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_provision_day DAY)
+                    ELSE pt.test_provision_date
+                 END),
+            upt.test_removal_date = 
+                (CASE
+                    WHEN p.profile_type = 1 THEN pt.test_removal_date
+                    WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_removal_day DAY)
+                    ELSE pt.test_removal_date
+                END),
+            upt.active = 
+                (CASE 
+                   WHEN p.profile_type = 1 THEN 1
+                   WHEN p.profile_type = 2 THEN 1 
+                   ELSE pt.initial_active
+                 END)
+    WHERE up.id_userprofile = in_idUserprofile;
+
+-- ELSE 
+    -- nothing to do here
+END IF;
+
+SET out_status_code = 0;
+SET out_status_message = "success";
+
+
+
+COMMIT;
+END 
+
+$$
+
+DELIMITER ;
+
+-- -----------------------------------------------------
+-- procedure userprofiletest_to_usertest_mover
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`userprofiletest_to_usertest_mover`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`userprofiletest_to_usertest_mover` (OUT v_rows_inserted INT, OUT v_rows_updated INT, OUT v_rows_deleted INT, OUT out_status_code INT, OUT out_status_message VARCHAR(256))
+BEGIN
+
+    -- declare variables
+    DECLARE v_timestamp TIMESTAMP;
+
+    -- declare cursor variables
+    DECLARE v_id_provider BIGINT DEFAULT 0;
+    DECLARE v_id_test BIGINT DEFAULT 0;
+    DECLARE v_id_user BIGINT DEFAULT 0;
+    DECLARE v_id_profile BIGINT DEFAULT 0;
+    DECLARE v_test_type varchar(45);
+    DECLARE v_user_type INT DEFAULT 1;
+    DECLARE v_name varchar(100);
+    DECLARE v_description varchar(200);
+    DECLARE v_test_assignment_date TIMESTAMP;
+    DECLARE v_test_status varchar(45);
+    DECLARE v_id_profiletest BIGINT DEFAULT 0;
+    DECLARE v_profile_name varchar(100);
+    DECLARE v_profilesegment_name varchar(100);
+
+    -- cursor exit variable
+    DECLARE v_finished INTEGER DEFAULT 0;
+  
+    -- Temp variable to see if the row exists
+    DECLARE v_exists INT DEFAULT 0;
+
+
+    -- declare the cursor
+    DECLARE cursor1 CURSOR FOR 
+        SELECT  up.id_provider AS id_provider, 
+                t.id_test AS id_test, 
+                up.id_student AS id_user, 
+                up.id_profile AS id_profile, 
+                t.test_type AS test_type, 
+                1 AS user_type, 
+                pt.`name` AS `name`, 
+                pt.description AS description, 
+                upt.test_provision_date AS test_assignment_date, 
+                'assigned' AS test_status,
+                upt.id_profiletest AS id_profiletest, 
+                p.`name` AS profile_name, 
+                ps.`name` AS profilesegment_name
+        FROM userprofiletest upt LEFT JOIN userprofile up ON upt.id_userprofile = up.id_userprofile
+                                 LEFT JOIN profiletest pt ON upt.id_profiletest = pt.id_profiletest
+                                 LEFT JOIN profilesegment ps ON pt.id_profilesegment = ps.id_profilesegment
+                                 LEFT JOIN profile p ON ps.id_profile = p.id_profile
+                                 LEFT JOIN test t ON pt.id_test_ref = t.id_test
+        WHERE upt.test_provision_date < v_timestamp AND upt.active = 1;
+
+
+
+    -- Error/exception handlers
+    DECLARE exit handler for sqlexception
+    BEGIN
+        ROLLBACK;
+        SET out_status_code = -1;
+        SET out_status_message = "Fail - SQL Error";
+    END;
+
+    DECLARE exit handler for sqlwarning
+    BEGIN
+        ROLLBACK;
+        SET out_status_code = -1;
+        SET out_status_message = "Fail - SQL Warning";
+    END;
+
+
+    -- declare NOT FOUND handler
+    DECLARE CONTINUE HANDLER
+        FOR NOT FOUND SET v_finished = 1;
+
+    -- Initialize the return values
+    SET v_rows_inserted = 0;
+    SET v_rows_updated = 0;
+    SET v_rows_deleted = 0;
+
+    -- do everything in a transaction
+    START TRANSACTION;
+
+    -- Get the current date
+    SELECT ADDDATE(now(), INTERVAL 1 DAY) INTO v_timestamp;
+
+
+    -- open the cursor
+    OPEN cursor1;   
+
+
+    -- Fetch in a loop
+    get_row: LOOP
+
+        FETCH cursor1 INTO  v_id_provider, 
+                            v_id_test, 
+                            v_id_user, 
+                            v_id_profile, 
+                            v_test_type, 
+                            v_user_type, 
+                            v_name, 
+                            v_description, 
+                            v_test_assignment_date, 
+                            v_test_status,
+                            v_id_profiletest, 
+                            v_profile_name, 
+                            v_profilesegment_name;
+
+        IF v_finished = 1 THEN
+            LEAVE get_row;
+        END IF;
+
+        SELECT COUNT(*) INTO v_exists 
+        FROM usertest 
+        WHERE id_test = v_id_test AND id_user = v_id_user AND id_profile = v_id_profile;
+
+        IF (v_exists = 0) THEN 
+        
+        -- if the key values do not exist in the usertest table, then insert them
+            INSERT INTO `usertest`(`id_provider`, `id_test`, `id_user`, `id_profile`, `test_type`, `user_type`, `name`, `description`, `test_assignment_date`, `test_status`, `id_profiletest`, `profile_name`, `profilesegment_name`)
+            VALUES (
+                v_id_provider,
+                v_id_test,
+                v_id_user,
+                v_id_profile,
+                v_test_type,
+                v_user_type,
+                v_name,
+                v_description,
+                v_test_assignment_date,
+                v_test_status,
+                v_id_profiletest, 
+                v_profile_name, 
+                v_profilesegment_name );
+            
+            SET v_rows_inserted = v_rows_inserted + 1;
+
+        ELSE 
+        
+        -- if the key values exist in the usertest table, then simply update the values with the new times etc.    
+            UPDATE `usertest` 
+            SET `id_provider` = v_id_provider,
+                `test_type` = v_test_type,
+                `name` = v_name,
+                `description` = v_description,
+                `test_assignment_date` = v_test_assignment_date, 
+                `id_profiletest` = v_id_profiletest, 
+                `profile_name` = v_profile_name, 
+                `profilesegment_name` = v_profilesegment_name
+            WHERE id_test = v_id_test AND id_user = v_id_user AND id_profile = v_id_profile;
+            
+            SET v_rows_updated = v_rows_updated + 1;
+
+        END if;
+
+    END LOOP get_row;
+  
+    -- close the cursor
+    CLOSE cursor1;
+
+    -- Next delete the corresponding userprofiletest records from the userprofiletest table
+    DELETE upt 
+    FROM `userprofiletest` upt LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+                            LEFT JOIN profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+    WHERE   upt.test_provision_date < v_timestamp AND upt.active = 1;
+
+    SELECT ROW_COUNT() INTO v_rows_deleted;
+
+    COMMIT;
+
+    -- indicate success status
+    SET out_status_code = 0;
+    SET out_status_message = "success";
+
+END 
+
+$$
+
+DELIMITER ;
+
+-- -----------------------------------------------------
+-- procedure mark_usertest_as_graded
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`mark_usertest_as_graded`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`mark_usertest_as_graded` (IN in_idUsertest BIGINT, OUT out_status_code INT, OUT out_status_message VARCHAR(256))
+BEGIN
+
+    DECLARE v_idUser BIGINT DEFAULT 0;
+    DECLARE v_idProfiletest BIGINT DEFAULT 0;
+    DECLARE v_idProfilesegment BIGINT DEFAULT 0;
+    DECLARE v_profile_type INT DEFAULT 0;
+    DECLARE v_idProfiletestNext BIGINT DEFAULT 0;
+    DECLARE v_idProfiletestNextSequence INT DEFAULT 0;
+
+    DECLARE exit handler for sqlexception
+      BEGIN
+        SET out_status_code = -1;
+        SET out_status_message = "Fail - SQL Error";
+      ROLLBACK;
+    END;
+
+    DECLARE exit handler for sqlwarning
+     BEGIN
+        SET out_status_code = -1;
+        SET out_status_message = "Fail - SQL Warning";
+     ROLLBACK;
+    END;
+
+
+    START TRANSACTION;
+
+    -- Does not use usertest.id_profile (only uses usertest.id_profiletest)
+    -- SELECT ut.id_profiletest, p.profile_type INTO v_idProfiletest, v_profile_type
+    -- FROM usertest ut LEFT JOIN profiletest pt ON ut.id_profiletest = pt.id_profiletest
+    --               LEFT JOIN profilesegment ps ON pt.id_profilesegment = ps.id_profilesegment
+    --               LEFT JOIN profile p ON ps.id_profile = p.id_profile
+    -- WHERE ut.id_usertest = in_idUsertest;
+
+    -- Use the usertest.id_profile value for efficiency purpose
+    SELECT ut.id_user, ut.id_profiletest, p.profile_type INTO v_idUser, v_idProfiletest, v_profile_type
+    FROM usertest ut LEFT JOIN profile p ON ut.id_profile = p.id_profile
+    WHERE ut.id_usertest = in_idUsertest;
+
+    -- do this complicated logic only for a Sequenced profile (note that v_profile_type can be null for non-profiled usertest)
+    IF (v_profile_type = 3) THEN
+        -- Figure out the id_profilesegment to identify the series
+        SELECT ps.id_profilesegment INTO v_idProfilesegment
+        FROM profiletest pt LEFT JOIN profilesegment ps ON pt.id_profilesegment = ps.id_profilesegment 
+        WHERE pt.id_profiletest = v_idProfiletest;
+
+        -- figure out the next id_profiletest in the series
+        -- SELECT MIN(upt.id_profiletest) INTO v_idProfiletestNext
+        SELECT MIN(pt.seq) INTO v_idProfiletestNextSequence
+        FROM userprofiletest upt LEFT JOIN profiletest pt ON upt.id_profiletest = pt.id_profiletest 
+                                 LEFT JOIN userprofile up ON upt.id_userprofile = up.id_userprofile
+        WHERE pt.id_profilesegment = v_idProfilesegment AND 
+              up.id_student = v_idUser AND 
+              upt.active = 0;
+
+        IF (v_idProfiletestNextSequence IS NOT null) THEN
+            -- SELECT MIN(upt.id_profiletest) INTO v_idProfiletestNext
+            SELECT upt.id_profiletest INTO v_idProfiletestNext
+            FROM userprofiletest upt LEFT JOIN profiletest pt ON upt.id_profiletest = pt.id_profiletest 
+                                     LEFT JOIN userprofile up ON upt.id_userprofile = up.id_userprofile
+            WHERE pt.id_profilesegment = v_idProfilesegment AND 
+                  pt.seq = v_idProfiletestNextSequence;
+
+            -- update its status to active (note that v_idProfiletestNext can be null)
+            UPDATE userprofiletest upt LEFT JOIN userprofile up ON upt.id_userprofile = up.id_userprofile
+            SET  active = 1 
+            WHERE upt.id_profiletest = v_idProfiletestNext AND 
+                  up.id_student = v_idUser;
+        END IF;
+    END IF;
+
+    -- either way, update the usertest to the next status...
+    UPDATE usertest ut SET test_status = 'corrections' WHERE ut.id_usertest = in_idUsertest;
+
+    -- done
+    COMMIT;
+
+    -- indicate success status
+    SET out_status_code = 0;
+    SET out_status_message = "success";
+
+END
+$$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

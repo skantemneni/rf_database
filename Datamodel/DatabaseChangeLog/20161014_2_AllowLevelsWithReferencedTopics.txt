@@ -1,0 +1,11 @@
+-- Add the id_topic_reference column
+ALTER TABLE `rulefree`.`topic` ADD COLUMN `id_topic_reference` BIGINT NULL;
+
+-- Constrain the id_topic_reference column to contain valid id_topic values only (it can be null, though)
+ALTER TABLE `rulefree`.`topic` 
+    ADD  CONSTRAINT `fk_id_topic_reference_to_topic`
+    FOREIGN KEY (`id_topic_reference` )
+    REFERENCES `rulefree`.`topic` (`id_topic` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+    

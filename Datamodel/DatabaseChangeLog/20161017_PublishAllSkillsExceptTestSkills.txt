@@ -1,0 +1,31 @@
+-- Note that All skills have the following criteria
+-- 1.) skill id '01' in most topics is a Test Skill.  However, it has a name called "Topic Test" in it.  So we do not care about 01.
+-- 2.) skill names having "test" or "exam" should not be published
+-- 3.) Skills in a Level with a Level id or the format "x10" should not be published
+-- 4.) All other skills need to be published (after they are ready for public consumption)
+-- Run the following statement to see which skills need to be published in channels (111 (banking), 112 (CAT), 113 (CPT) and 114(RRB))
+/****
+SELECT ((s.id_topic DIV 1000) % 100), s.* 
+FROM skill s
+WHERE s.published = 1 
+    AND UPPER(s.name) NOT LIKE '%test%' 
+    AND UPPER(s.name) NOT LIKE '%exam%' 
+    AND ((s.id_topic DIV 1000) % 100) != 10
+    AND (s.id_topic DIV 1000000) IN (111, 112, 113, 114);
+
+****/
+
+UPDATE skill s
+SET s.published = 0
+WHERE (s.id_topic DIV 1000000) IN (111);
+    
+UPDATE skill s
+SET s.published = 1
+WHERE UPPER(s.name) NOT LIKE '%test%' 
+    AND UPPER(s.name) NOT LIKE '%exam%' 
+    AND ((s.id_topic DIV 1000) % 100) != 10
+    AND (s.id_topic DIV 1000000) IN (111);
+    
+   
+    
+    

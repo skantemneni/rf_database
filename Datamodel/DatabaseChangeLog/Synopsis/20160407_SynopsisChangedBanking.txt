@@ -1,0 +1,55 @@
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101002,'topic','BankingSynopsis/Quant/Averages.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101003,'topic','BankingSynopsis/Quant/Percentage.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101004,'topic','BankingSynopsis/Quant/RatioandProportion.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101005,'topic','BankingSynopsis/Quant/MixtureandAllegations.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101006,'topic','BankingSynopsis/Quant/ClocksandCalendars.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101007,'topic','BankingSynopsis/Quant/TimeSpeedDistanceandWork.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101008,'topic','BankingSynopsis/Quant/NumberSystems.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101009,'topic','BankingSynopsis/Quant/Probability.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101010,'topic','BankingSynopsis/Quant/PermutationsandCombinations.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101011,'topic','BankingSynopsis/Quant/SequencesProgressionsandSeries.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101012,'topic','BankingSynopsis/Quant/Logarithms.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101013,'topic','BankingSynopsis/Quant/Simplifications.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101014,'topic','BankingSynopsis/Quant/RootsandAverages.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101015,'topic','BankingSynopsis/Quant/ProfitandLoss.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101016,'topic','BankingSynopsis/Quant/BoatsandStreams.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101017,'topic','BankingSynopsis/Quant/SimpleInterestandCompoundInterest.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101018,'topic','BankingSynopsis/Quant/Mensuration.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101019,'topic','BankingSynopsis/Quant/PipesandCisterns.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101020,'topic','BankingSynopsis/Quant/Partnership.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111101021,'topic','BankingSynopsis/Quant/ProblemsonAges.html');
+
+
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102002,'topic','BankingSynopsis/Reasoning/DataInterpretationandAnalysis.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102003,'topic','BankingSynopsis/Reasoning/TablesandCaselets.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102004,'topic','BankingSynopsis/Reasoning/ChartsandDiagrams.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102005,'topic','BankingSynopsis/Reasoning/Relationships.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102006,'topic','BankingSynopsis/Reasoning/DirectionandArrangements.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102007,'topic','BankingSynopsis/Reasoning/SeriesandAnalogy.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102008,'topic','BankingSynopsis/Reasoning/Codes.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102009,'topic','BankingSynopsis/Reasoning/LogicalPuzzles.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102010,'topic','BankingSynopsis/Reasoning/VennDiagrams.html');
+-- Missing the next 2
+-- INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102011,'topic','BankingSynopsis/Reasoning/.html');
+-- INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102012,'topic','BankingSynopsis/Reasoning/.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102013,'topic','BankingSynopsis/Reasoning/Syllogism.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102014,'topic','BankingSynopsis/Reasoning/StatementandReasoning.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111102015,'topic','BankingSynopsis/Reasoning/DataSuffiency.html');
+
+
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111103002,'topic','BankingSynopsis/English/VerbalReasoning.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111103003,'topic','BankingSynopsis/English/CriticalReasoning.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111103004,'topic','BankingSynopsis/English/Grammar.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111103005,'topic','BankingSynopsis/English/Vocabulary.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111103006,'topic','BankingSynopsis/English/ReadingComprehension.html');
+
+-- NO GeneralKnowledge Synopsis
+-- INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(11110400,'topic','BankingSynopsis/GeneralKnowledge/.html');
+
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105002,'topic','BankingSynopsis/ComputerAwareness/ComputerSoftware.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105003,'topic','BankingSynopsis/ComputerAwareness/ComputerHardware.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105004,'topic','BankingSynopsis/ComputerAwareness/Internet.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105005,'topic','BankingSynopsis/ComputerAwareness/ComputerNetworking.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105006,'topic','BankingSynopsis/ComputerAwareness/Malware.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105007,'topic','BankingSynopsis/ComputerAwareness/ComputerLanguages.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(111105008,'topic','BankingSynopsis/ComputerAwareness/DatabaseManagement.html');

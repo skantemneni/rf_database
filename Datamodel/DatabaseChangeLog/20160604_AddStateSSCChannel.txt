@@ -1,0 +1,15 @@
+-- Insert the new System
+INSERT INTO `rulefree`.`system`(`id_system`,`name`,`description`,`editable`,`published`) VALUES (105,'State SSC', 'State Secondary School Certificate (SSC)', 1,1);
+
+-- Insert the new subjects for the new channel
+-- Already have all necessary subjects
+-- insert into subject (subject_name, description) values ('', '');
+
+-- Insert the Channeltrack for the new channel
+insert into rulefree.channel_channeltrack (id_channel, channeltrack) values ('105', 'FoundationChannels');
+
+-- channel admin
+INSERT INTO `rulefree`.`channel_admin`(`id_channel`,`id_provider`,`upload_content`)VALUES(105,106,1);
+
+-- Organization channel
+INSERT INTO `rulefree`.`organization_channel`(`id_organization`,`id_channel`)VALUES(100, 105);

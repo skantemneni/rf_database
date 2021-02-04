@@ -1,0 +1,59 @@
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114101002,'topic','RRBSynopsis/GeneralAwareness/HistoryofIndia.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114101003,'topic','RRBSynopsis/GeneralAwareness/Geography.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114101004,'topic','RRBSynopsis/GeneralAwareness/IndianPolity.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114101005,'topic','RRBSynopsis/GeneralAwareness/IndianEconomy.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114101006,'topic','RRBSynopsis/GeneralAwareness/GeneralKnowledge.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114101007,'topic','RRBSynopsis/GeneralAwareness/CurrentAffairs.html');
+
+
+
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114102001,'topic','RRBSynopsis/Science/Physics.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114102002,'topic','RRBSynopsis/Science/Chemistry.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114102003,'topic','RRBSynopsis/Science/Biology.html');
+
+
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103002,'topic','RRBSynopsis/Arithmatic/Simplification.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103003,'topic','RRBSynopsis/Arithmatic/NumberSystemandProgression.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103004,'topic','RRBSynopsis/Arithmatic/SquareRootandCubeRoot.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103005,'topic','RRBSynopsis/Arithmatic/Percentages.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103006,'topic','RRBSynopsis/Arithmatic/Averages.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103007,'topic','RRBSynopsis/Arithmatic/ProblemBasedonAge.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103008,'topic','RRBSynopsis/Arithmatic/IndicesandSurds.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103009,'topic','RRBSynopsis/Arithmatic/RatioandProportion.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103010,'topic','RRBSynopsis/Arithmatic/SimpleInterestandCompoundInterest.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103011,'topic','RRBSynopsis/Arithmatic/ProfitLossandDiscount.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103012,'topic','RRBSynopsis/Arithmatic/HCFandLCM.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103013,'topic','RRBSynopsis/Arithmatic/LinearandQuadraticEquation.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103014,'topic','RRBSynopsis/Arithmatic/PolynomialsandFactors.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103015,'topic','RRBSynopsis/Arithmatic/AlgebraicFormulaeandtheirOperations.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103016,'topic','RRBSynopsis/Arithmatic/TimeandWork.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103017,'topic','RRBSynopsis/Arithmatic/TimeandDistance.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103018,'topic','RRBSynopsis/Arithmatic/Geometry.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103019,'topic','RRBSynopsis/Arithmatic/Mensuration.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103020,'topic','RRBSynopsis/Arithmatic/Trignometry.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114103021,'topic','RRBSynopsis/Arithmatic/Miscellaneous.html');
+
+
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104002,'topic','RRBSynopsis/Reasoning/AlphabetTest.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104003,'topic','RRBSynopsis/Reasoning/WordFormation.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104004,'topic','RRBSynopsis/Reasoning/LogicalOrderofWords.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104005,'topic','RRBSynopsis/Reasoning/CodingDecoding.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104006,'topic','RRBSynopsis/Reasoning/Classification.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104007,'topic','RRBSynopsis/Reasoning/Analogy.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104008,'topic','RRBSynopsis/Reasoning/MathematicalOperations.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104009,'topic','RRBSynopsis/Reasoning/InsertingtheMissingCharacter.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104010,'topic','RRBSynopsis/Reasoning/NumberSeries.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104011,'topic','RRBSynopsis/Reasoning/LetterSeries.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104012,'topic','RRBSynopsis/Reasoning/BloodRelations.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104013,'topic','RRBSynopsis/Reasoning/SenseofDirectionTest.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104014,'topic','RRBSynopsis/Reasoning/OrderandSequence.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104015,'topic','RRBSynopsis/Reasoning/SittingArrangement.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104016,'topic','RRBSynopsis/Reasoning/Puzzels.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104017,'topic','RRBSynopsis/Reasoning/MathematicalReasoning.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104018,'topic','RRBSynopsis/Reasoning/LogicalVennDiagrams.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104019,'topic','RRBSynopsis/Reasoning/ClockandCalender.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104020,'topic','RRBSynopsis/Reasoning/CubeandDice.html');
+INSERT INTO `rulefree`.`synopsis_link`(`id_core_artifact`,`core_artifact_type`,`synopsis_link`)VALUES(114104021,'topic','RRBSynopsis/Reasoning/LogicalReasoning.html');
+
+
+

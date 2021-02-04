@@ -1,0 +1,35 @@
+-- Create an organization
+INSERT INTO `rulefree`.`organization`(`id_organization`,`name`,`description`) VALUES (500001, 'The Elite Classes', 'The Elite Classes');
+
+-- give the organization some channels (to be able to have their teachers create tests in that channels)
+INSERT INTO `rulefree`.`organization_channel`(`id_organization`,`id_channel`)VALUES(500001,131);
+
+-- create students in the organization
+INSERT INTO `rulefree`.`organization_student`(`id_organization`,`id_student`) VALUES (500001, (SELECT id_user FROM user WHERE username = 'student1'));
+INSERT INTO `rulefree`.`organization_student`(`id_organization`,`id_student`) VALUES (500001, (SELECT id_user FROM user WHERE username = 'student2'));
+INSERT INTO `rulefree`.`organization_student`(`id_organization`,`id_student`) VALUES (500001, (SELECT id_user FROM user WHERE username = 'student5'));
+INSERT INTO `rulefree`.`organization_student`(`id_organization`,`id_student`) VALUES (500001, (SELECT id_user FROM user WHERE username = 'student6'));
+
+-- create an Organization Provider user and give him ROLE_PROVIDER
+INSERT INTO `rulefree`.`user`(`username`,`password`,`enabled`,`first_name`,`last_name`,`email_address`)VALUES
+('eliteclasses_etester','221a545535df6761e615ea5157a4884a021841d1117112978d92ddca45b03902',1,'Elite Classes','Teacher','chandakasiva@gmail.com');
+
+-- make him a provider
+INSERT INTO `rulefree`.`authorities`(`username`,`authority`)VALUES('eliteclasses_etester','ROLE_PROVIDER');
+
+-- give the account "Create/Update test permission"
+INSERT INTO `rulefree`.`permissions`(`username`,`privilege`)VALUES('eliteclasses_etester','UPDATE_TEST');
+
+-- unfreese the IIT channel for content can be uploaded...
+UPDATE `rulefree`.`system` set `editable` = 1 WHERE `id_system` in (131);
+
+-- make siva (sai account) capable of uploading content into 131 (IIT) channel.
+INSERT INTO `rulefree`.`channel_admin`(`id_channel`,`id_provider`,`upload_content`)VALUES(131,106,1);
+
+-- Associated the new provider with the organization
+INSERT INTO `rulefree`.`organization_provider`(`id_organization`,`id_provider`) VALUES (500001,
+(SELECT id_user FROM user WHERE username = 'eliteclasses_etester'));
+
+-- create students in the organization
+
+

@@ -1,0 +1,11 @@
+-- Add the id_level_reference column
+ALTER TABLE `rulefree`.`level` ADD COLUMN `id_level_reference` BIGINT NULL;
+
+-- Constrain the id_level_reference column to contain valid id_topic values only (it can be null, though)
+ALTER TABLE `rulefree`.`level` 
+    ADD  CONSTRAINT `fk_id_level_reference_to_level`
+    FOREIGN KEY (`id_level_reference` )
+    REFERENCES `rulefree`.`level` (`id_level` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+    

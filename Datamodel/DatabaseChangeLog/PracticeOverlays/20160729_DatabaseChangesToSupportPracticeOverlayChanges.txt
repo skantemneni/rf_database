@@ -1,0 +1,9 @@
+-- Add a column called test_artifacts_string to contain a comma seperated list of artifacts
+-- Also modify the id_section to contain a null.  This column will be later deleted.
+ALTER TABLE `rulefree`.`adaptive_test` ADD COLUMN `test_artifacts_string` VARCHAR(1000) NULL;
+ALTER TABLE `rulefree`.`adaptive_test` MODIFY COLUMN `id_section` BIGINT NULL;
+ALTER TABLE `rulefree`.`adaptive_test` MODIFY COLUMN `name` VARCHAR(100) NULL;
+
+ALTER TABLE `rulefree`.`adaptive_test` ADD COLUMN `test_type` VARCHAR(1) NULL DEFAULT 'S' ;
+ALTER TABLE `rulefree`.`adaptive_test` ADD COLUMN `test_mode` VARCHAR(1) NULL DEFAULT 'A' ;
+

@@ -1,0 +1,86 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure userprofiletest_to_usertest_mover
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`userprofiletest_to_usertest_mover`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`userprofiletest_to_usertest_mover` (OUT v_rows_inserted INT, OUT v_rows_deleted INT, OUT out_status_code INT, OUT out_status_message VARCHAR(256))
+BEGIN
+
+-- declare variables
+DECLARE v_timestamp TIMESTAMP;
+
+DECLARE exit handler for sqlexception
+  BEGIN
+    SET out_status_code = -1;
+    SET out_status_message = "Fail - SQL Error";
+  ROLLBACK;
+END;
+
+DECLARE exit handler for sqlwarning
+ BEGIN
+    SET out_status_code = -1;
+    SET out_status_message = "Fail - SQL Warning";
+ ROLLBACK;
+END;
+
+START TRANSACTION;
+
+-- Get the current date
+    SELECT ADDDATE(now(), INTERVAL 1 DAY) INTO v_timestamp;
+
+
+
+    -- First Insert the userprofiletest records into the usertest table
+    INSERT INTO `usertest`(`id_provider`, `id_test`, `id_user`, `id_profile`, `test_type`, `user_type`, `name`, `description`, `test_assignment_date`, `test_status`)
+    SELECT up.id_provider AS id_provider, upt.id_test AS id_test, up.id_student AS id_user, up.id_profile AS id_profile, t.test_type AS test_type, 1 AS user_type, 
+            pt.`name` AS `name`, pt.description AS description, upt.test_provision_date AS test_assignment_date, 
+            'assigned' AS test_status
+    FROM userprofiletest upt LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+                            LEFT JOIN profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+                            LEFT JOIN profiletest pt ON pt.id_profile = p.id_profile AND pt.id_test_ref = upt.id_test
+                            LEFT JOIN test t ON t.id_test = upt.id_test
+    WHERE upt.test_provision_date < v_timestamp;
+    SELECT ROW_COUNT() INTO v_rows_inserted;
+
+
+
+
+    -- Next delete the corresponding userprofiletest records from the userprofiletest table
+    DELETE upt 
+    FROM `userprofiletest` upt LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+                            LEFT JOIN profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+    WHERE   upt.test_provision_date < v_timestamp;
+    SELECT ROW_COUNT() INTO v_rows_deleted;
+
+
+
+SET out_status_code = 0;
+SET out_status_message = "success";
+
+
+
+
+
+COMMIT;
+END 
+
+$$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

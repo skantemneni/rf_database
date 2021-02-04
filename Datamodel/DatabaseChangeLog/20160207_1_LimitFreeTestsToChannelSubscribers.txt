@@ -1,0 +1,53 @@
+-- create a table to do a (M to N) map between channels and examtracks
+-- 
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`channel_examtrack`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`channel_examtrack` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`channel_examtrack` (
+  `id_channel` BIGINT NOT NULL ,
+  `examtrack` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id_channel`, `examtrack`) ,
+  INDEX `fk_channel_examtrack_2_channel_idx` (`id_channel` ASC) ,
+  INDEX `fk_channel_examtrack_2_examtrack_idx` (`examtrack` ASC) ,
+  CONSTRAINT `fk_channel_examtrack_2_channel`
+    FOREIGN KEY (`id_channel` )
+    REFERENCES `rulefree`.`system` (`id_system` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `fk_channel_examtrack_2_examtrack`
+    FOREIGN KEY (`examtrack` )
+    REFERENCES `rulefree`.`examtrack` (`examtrack` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+USE `rulefree` ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+
+-- insert date into the table for the mapping iformation
+
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(131,'IITEngineering');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(132,'BITSATEngineering');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(133,'EAMCETEngineering');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(133,'EAMCETMedical');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(111,'BankClerk');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(111,'BankPO');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(112,'CAT');
+INSERT INTO `rulefree`.`channel_examtrack`(`id_channel`,`examtrack`)VALUES(113,'CPT');
+
+

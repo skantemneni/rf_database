@@ -1,0 +1,77 @@
+USE `rulefree`;
+DROP EVENT IF EXISTS `rulefree`.`userprofiletest_to_usertest_mover_event`;
+
+DELIMITER $$
+USE `rulefree`$$
+
+    CREATE 
+    DEFINER = CURRENT_USER 
+    EVENT IF NOT EXISTS `rulefree`.`userprofiletest_to_usertest_mover_event` 
+    ON SCHEDULE EVERY 1 HOUR STARTS NOW() 
+    ON COMPLETION PRESERVE
+
+    DO 
+    
+    BEGIN
+    
+
+        -- declare variables
+        DECLARE v_timestamp TIMESTAMP;
+        DECLARE v_rows_inserted INTEGER DEFAULT 0;
+        DECLARE v_rows_deleted INTEGER DEFAULT 0;
+
+        DECLARE exit handler for sqlexception
+        BEGIN
+            ROLLBACK;
+            call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", "UserProfileTest Transfer Failed - SQL Error");
+        END;
+
+        DECLARE exit handler for sqlwarning
+        BEGIN
+            ROLLBACK;
+            call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", "UserProfileTest Transfer Failed - SQL Warning");
+        END;
+
+        -- Next, write the log file entry to start processing
+        call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", "UserProfileTest Transfer Event Starting...");
+
+        START TRANSACTION;
+
+        -- Get the current date
+        SELECT ADDDATE(now(), INTERVAL 1 DAY) INTO v_timestamp;
+
+
+        -- First Insert the userprofiletest records into the usertest table
+        INSERT INTO `rulefree`.`usertest`(`id_provider`, `id_test`, `id_user`, `id_profile`, `test_type`, `user_type`, `name`, `description`, `test_assignment_date`, `test_status`)
+        SELECT up.id_provider AS id_provider, upt.id_test AS id_test, up.id_student AS id_user, up.id_profile AS id_profile, t.test_type AS test_type, 1 AS user_type, 
+                pt.`name` AS `name`, pt.description AS description, upt.test_provision_date AS test_assignment_date, 
+                'assigned' AS test_status
+        FROM `rulefree`.userprofiletest upt LEFT JOIN `rulefree`.userprofile up ON upt.id_userprofile =  up.id_userprofile
+                                LEFT JOIN `rulefree`.profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+                                LEFT JOIN `rulefree`.profiletest pt ON pt.id_profile = p.id_profile AND pt.id_test_ref = upt.id_test
+                                LEFT JOIN `rulefree`.test t ON t.id_test = upt.id_test
+        WHERE upt.test_provision_date < v_timestamp;
+        SELECT ROW_COUNT() INTO v_rows_inserted;
+
+
+        -- Next delete the corresponding userprofiletest records from the userprofiletest table
+        DELETE upt 
+        FROM `rulefree`.`userprofiletest` upt LEFT JOIN `rulefree`.userprofile up ON upt.id_userprofile =  up.id_userprofile
+                                LEFT JOIN `rulefree`.profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+        WHERE   upt.test_provision_date < v_timestamp;
+        SELECT ROW_COUNT() INTO v_rows_deleted;
+
+
+
+        COMMIT;
+
+        -- Next, write the log file entry
+        call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", CONCAT('UserProfileTest Transfer Completed Successfully.  ', v_rows_inserted, ' rows inserted into usertest.  ', v_rows_deleted, ' rows deleted from userprofiletest.'));
+
+
+
+    END
+
+$$
+
+DELIMITER ;

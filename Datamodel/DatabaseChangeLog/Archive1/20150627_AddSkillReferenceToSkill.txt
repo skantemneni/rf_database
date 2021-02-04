@@ -1,0 +1,13 @@
+ALTER TABLE `rulefree`.`skill` ADD COLUMN `id_skill_reference` BIGINT NULL;
+
+ALTER TABLE `rulefree`.`skill` ADD CONSTRAINT `fk_id_skill_reference_to_skill`
+    FOREIGN KEY (`id_skill_reference` )
+    REFERENCES `rulefree`.`skill` (`id_skill` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION;
+
+
+ALTER TABLE `rulefree`.`skill` MODIFY COLUMN `published` INT NULL DEFAULT 1 ;
+
+
+

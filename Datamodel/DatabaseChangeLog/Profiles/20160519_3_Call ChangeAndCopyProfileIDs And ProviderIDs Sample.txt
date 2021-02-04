@@ -1,0 +1,35 @@
+----------------------------------------------------------------------------------------------------
+-- Here is how you update a profile ID (in this example from 9990000000056 to 1315000030010)
+----------------------------------------------------------------------------------------------------
+
+-- first make sure the foreign keys are enabled
+SET FOREIGN_KEY_CHECKS=1;
+
+-- call the stored proc to update the test and print out the results and logs
+CALL change_profile_id(9990000000056, 1315000030010, @status_code, @status_message);
+select @status_code, @status_message;
+SELECT * FROM logtable; 
+
+// provider id for eliteclasses_etester
+update profile set id_provider = 460 where id_profile = 1315000030010;
+
+// pulish...
+update test set published = true  where id_profile = 1315000030010;
+ 
+ 
+ 
+
+
+----------------------------------------------------------------------------------------------------
+-- Here is how you COPY a Profile (in this example from 1315000030010 to 1415000030010)
+----------------------------------------------------------------------------------------------------
+-- first make sure the foreign keys are enabled
+SET FOREIGN_KEY_CHECKS=1;
+
+-- call the stored proc to update the test and print out the results and logs
+CALL copy_profile(1315000030010, 1415000030010, @status_code, @status_message);
+select @status_code, @status_message;
+SELECT * FROM logtable; 
+
+
+ 

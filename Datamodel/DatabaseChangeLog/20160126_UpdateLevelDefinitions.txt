@@ -1,0 +1,21 @@
+-- IIT 131
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+update level set description = '' where id_level = ;
+

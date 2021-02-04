@@ -1,0 +1,5 @@
+INSERT INTO `rulefree`.`subject`(`subject_name`,`description`)VALUES('MentalAbility','Grade School Mental Ability');
+INSERT INTO `rulefree`.`subject`(`subject_name`,`description`)VALUES('GeneralKnowledge','Grade School General Knowledge');
+INSERT INTO `rulefree`.`subject`(`subject_name`,`description`)VALUES('Physics','Grade School and Foundation Physics');
+INSERT INTO `rulefree`.`subject`(`subject_name`,`description`)VALUES('Chemistry','Grade School and Foundation Chemistry');
+INSERT INTO `rulefree`.`subject`(`subject_name`,`description`)VALUES('Biology','Grade School and Foundation Biology');

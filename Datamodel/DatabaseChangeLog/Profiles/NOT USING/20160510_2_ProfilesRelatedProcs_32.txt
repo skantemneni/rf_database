@@ -1,0 +1,168 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure userprofiletest_to_usertest_mover
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`userprofiletest_to_usertest_mover`;
+
+DELIMITER $$
+USE `rulefree`$$
+
+CREATE PROCEDURE `rulefree`.`userprofiletest_to_usertest_mover` (OUT v_rows_inserted INT, OUT v_rows_updated INT, OUT v_rows_deleted INT, OUT out_status_code INT, OUT out_status_message VARCHAR(256))
+BEGIN
+
+    -- declare variables
+    DECLARE v_timestamp TIMESTAMP;
+
+    -- declare cursor variables
+    DECLARE v_id_provider BIGINT DEFAULT 0;
+    DECLARE v_id_test BIGINT DEFAULT 0;
+    DECLARE v_id_user BIGINT DEFAULT 0;
+    DECLARE v_id_profile BIGINT DEFAULT 0;
+    DECLARE v_test_type varchar(45);
+    DECLARE v_user_type INT DEFAULT 1;
+    DECLARE v_name varchar(200);
+    DECLARE v_description varchar(400);
+    DECLARE v_test_assignment_date TIMESTAMP;
+    DECLARE v_test_status varchar(45);
+
+    -- cursor exit variable
+    DECLARE v_finished INTEGER DEFAULT 0;
+  
+    -- Temp variable to see if the row exists
+    DECLARE v_exists INT DEFAULT 0;
+
+
+    -- declare the cursor
+    DECLARE cursor1 CURSOR FOR 
+        SELECT up.id_provider AS id_provider, upt.id_test AS id_test, up.id_student AS id_user, up.id_profile AS id_profile, t.test_type AS test_type, 1 AS user_type, 
+                pt.`name` AS `name`, pt.description AS description, upt.test_provision_date AS test_assignment_date, 
+                'assigned' AS test_status
+        FROM userprofiletest upt LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+                                LEFT JOIN profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+                                LEFT JOIN profiletest pt ON pt.id_profile = p.id_profile AND pt.id_test_ref = upt.id_test
+                                LEFT JOIN test t ON t.id_test = upt.id_test
+        WHERE upt.test_provision_date < v_timestamp;
+
+
+
+    -- Error/exception handlers
+    DECLARE exit handler for sqlexception
+    BEGIN
+        ROLLBACK;
+        SET out_status_code = -1;
+        SET out_status_message = "Fail - SQL Error";
+    END;
+
+    DECLARE exit handler for sqlwarning
+    BEGIN
+        ROLLBACK;
+        SET out_status_code = -1;
+        SET out_status_message = "Fail - SQL Warning";
+    END;
+
+
+    -- declare NOT FOUND handler
+    DECLARE CONTINUE HANDLER
+        FOR NOT FOUND SET v_finished = 1;
+
+    -- Initialize the return values
+    SET v_rows_inserted = 0;
+    SET v_rows_updated = 0;
+    SET v_rows_deleted = 0;
+
+    -- do everything in a transaction
+    START TRANSACTION;
+
+    -- Get the current date
+    SELECT ADDDATE(now(), INTERVAL 1 DAY) INTO v_timestamp;
+
+
+    -- open the cursor
+    OPEN cursor1;   
+
+
+    -- Fetch in a loop
+    get_row: LOOP
+
+        FETCH cursor1 INTO v_id_provider, v_id_test, v_id_user, v_id_profile, v_test_type, v_user_type, v_name, v_description, v_test_assignment_date, v_test_status;
+        IF v_finished = 1 THEN
+            LEAVE get_row;
+        END IF;
+
+        SELECT COUNT(*) INTO v_exists 
+        FROM usertest 
+        WHERE id_test = v_id_test AND id_user = v_id_user AND id_profile = v_id_profile;
+
+        IF (v_exists = 0) THEN 
+        
+        -- if the key values do not exist in the usertest table, then insert them
+            INSERT INTO `usertest`(`id_provider`, `id_test`, `id_user`, `id_profile`, `test_type`, `user_type`, `name`, `description`, `test_assignment_date`, `test_status`)
+            VALUES (
+                v_id_provider,
+                v_id_test,
+                v_id_user,
+                v_id_profile,
+                v_test_type,
+                v_user_type,
+                v_name,
+                v_description,
+                v_test_assignment_date,
+                v_test_status );
+            
+            SET v_rows_inserted = v_rows_inserted + 1;
+
+        ELSE 
+        
+        -- if the key values exist in the usertest table, then simply update the values with the new times etc.    
+            UPDATE `usertest` 
+            SET `id_provider` = v_id_provider,
+                `test_type` = v_test_type,
+                `name` = v_name,
+                `description` = v_description,
+                `test_assignment_date` = v_test_assignment_date
+            WHERE id_test = v_id_test AND id_user = v_id_user AND id_profile = v_id_profile;
+            
+            SET v_rows_updated = v_rows_updated + 1;
+
+        END if;
+
+    END LOOP get_row;
+  
+    -- close the cursor
+    CLOSE cursor1;
+
+    -- Next delete the corresponding userprofiletest records from the userprofiletest table
+    DELETE upt 
+    FROM `userprofiletest` upt LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+                            LEFT JOIN profile p ON p.id_profile = up.id_profile AND p.profile_type IN (1, 2)
+    WHERE   upt.test_provision_date < v_timestamp;
+
+    SELECT ROW_COUNT() INTO v_rows_deleted;
+
+    COMMIT;
+
+    -- indicate success status
+    SET out_status_code = 0;
+    SET out_status_message = "success";
+
+END 
+
+
+$$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+

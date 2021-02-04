@@ -1,0 +1,39 @@
+MySQL event scheduler configuration...
+--------------------------------------------------
+
+1.) 
+---------------
+Make sure the EVENT SCHEDULER is TURNED ON
+edit my.ini or my.cnf files.....to add this line to the END...
+
+# Turn ON the Event Scheduler
+event_scheduler=ON
+
+Note that the my.ini file is located here.....
+[WINDOWS] C:\ProgramData\MySQL\MySQL Server 5.6\my.ini
+[LINUX Amazon] /etc/my.cnf   -------------------------------------------MAY NOT WORK if put at the end...
+            (May have to do it manually after each restart of mysql with the following statement: 'SET GLOBAL event_scheduler = ON')
+[LINUX Ctrls] /etc/mysql/my.cnf
+
+
+2.) 
+---------------
+MySQL uses a special thread called event schedule thread to execute all scheduled events. You can see the status of event scheduler thread by executing the following command:
+
+SHOW PROCESSLIST;
+
+This should show atleast one user with name 'event_scheduler';
+
+If not, Run....
+SET GLOBAL event_scheduler = ON;
+(NOTE:  This can only be run as root.)
+
+
+3.) 
+---------------
+And try again...
+SHOW PROCESSLIST;
+
+This should show atleast one user with name 'event_scheduler';
+
+

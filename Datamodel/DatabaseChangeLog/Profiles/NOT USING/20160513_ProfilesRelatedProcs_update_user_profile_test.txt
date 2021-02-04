@@ -1,0 +1,117 @@
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure update_user_profile_test
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`update_user_profile_test`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`update_user_profile_test` (IN in_idUserprofile BIGINT, IN in_action INT, OUT out_status_code INT, OUT out_status_message VARCHAR(256))
+BEGIN
+
+DECLARE exit handler for sqlexception
+  BEGIN
+    SET out_status_code = -1;
+    SET out_status_message = "Fail - SQL Error";
+  ROLLBACK;
+END;
+
+DECLARE exit handler for sqlwarning
+ BEGIN
+    SET out_status_code = -1;
+    SET out_status_message = "Fail - SQL Warning";
+ ROLLBACK;
+END;
+
+
+START TRANSACTION;
+-- 1= insert, 2 = delete, 3 = update
+IF (in_action = 1) THEN
+
+    INSERT INTO `userprofiletest` (`id_userprofile`, `id_test`, `test_provision_date`, `test_removal_date`, `active`) 
+    SELECT      up.id_userprofile, 
+                pt.id_test_ref, 
+                (CASE 
+                   WHEN p.profile_type = 1 THEN pt.test_provision_date
+                   WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_provision_day DAY)
+                   ELSE pt.test_provision_date
+                 END) AS test_provision_date, 
+                (CASE 
+                   WHEN p.profile_type = 1 THEN pt.test_removal_date
+                   WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_removal_day DAY)
+                   ELSE pt.test_removal_date
+                 END) AS test_removal_date,
+                (CASE 
+                   WHEN p.profile_type = 1 THEN 1
+                   WHEN p.profile_type = 2 THEN 1 
+                   ELSE pt.initial_active
+                 END) AS active
+    FROM user u LEFT JOIN userprofile up ON u.id_user = up.id_student 
+                LEFT JOIN profile p ON p.id_profile = up.id_profile
+                LEFT JOIN profilesegment ps ON ps.id_profile = up.id_profile
+                LEFT JOIN profiletest pt ON pt.id_profilesegment = ps.id_profilesegment
+                LEFT JOIN test t on t.id_test = pt.id_test_ref
+    WHERE up.id_userprofile = in_idUserprofile;
+
+ELSEIF (in_action = 2) THEN
+
+    DELETE FROM `userprofiletest` 
+    WHERE id_userprofiletest > 0 AND 
+          id_userprofile = in_idUserprofile;
+
+ELSEIF (in_action = 3) THEN
+
+    UPDATE userprofiletest upt LEFT JOIN userprofile up ON upt.id_userprofile =  up.id_userprofile
+                LEFT JOIN user u ON u.id_user = up.id_student 
+                LEFT JOIN profile p ON p.id_profile = up.id_profile
+                LEFT JOIN profiletest pt ON pt.id_profile = p.id_profile AND pt.id_test_ref = upt.id_test
+                LEFT JOIN test t on t.id_test = pt.id_test_ref
+    SET     upt.test_provision_date = 
+                (CASE 
+                    WHEN p.profile_type = 1 THEN pt.test_provision_date
+                    WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_provision_day DAY)
+                    ELSE pt.test_provision_date
+                 END),
+            upt.test_removal_date = 
+                (CASE
+                    WHEN p.profile_type = 1 THEN pt.test_removal_date
+                    WHEN p.profile_type = 2 THEN ADDDATE(up.profile_start_date, INTERVAL pt.test_removal_day DAY)
+                    ELSE pt.test_removal_date
+                END),
+            upt.active = 
+                (CASE 
+                   WHEN p.profile_type = 1 THEN 1
+                   WHEN p.profile_type = 2 THEN 1 
+                   ELSE pt.initial_active
+                 END)
+    WHERE up.id_userprofile = in_idUserprofile;
+
+-- ELSE 
+    -- nothing to do here
+END IF;
+
+SET out_status_code = 0;
+SET out_status_message = "success";
+
+
+
+COMMIT;
+END 
+
+$$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;

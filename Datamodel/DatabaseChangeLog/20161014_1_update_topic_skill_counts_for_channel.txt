@@ -1,0 +1,82 @@
+-- Alter the procedure that calculates Skill Counts and Topic Counts in a given channel
+
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+CREATE SCHEMA IF NOT EXISTS `rulefree` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `rulefree` ;
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- procedure update_topic_skill_counts_for_channel
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP procedure IF EXISTS `rulefree`.`update_topic_skill_counts_for_channel`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE PROCEDURE `rulefree`.`update_topic_skill_counts_for_channel` (IN idChannel BIGINT)
+BEGIN
+
+    -- Declare Question and Point count variables at a Test Level
+    DECLARE v_finished INTEGER DEFAULT 0;
+
+    DECLARE v_id_level BIGINT DEFAULT 0;
+    DECLARE v_topiccount INT DEFAULT 0;
+    DECLARE v_skillcount INT DEFAULT 0;
+
+    -- declare the testsegment cursor 
+/*  This does not calculate skill_counts when a topic is referred...
+        DECLARE levelWithCountsCursor CURSOR FOR 
+        SELECT l.id_level, 
+                count(distinct t.id_topic) AS topiccount, 
+                count(distinct s.id_skill) AS skillcount 
+        FROM level l LEFT JOIN topic t on t.id_level = l.id_level LEFT JOIN skill s ON s.id_topic = t.id_topic
+        GROUP BY l.id_level;
+*/
+-- Include counts from referred topics 
+    DECLARE levelWithCountsCursor CURSOR FOR 
+        SELECT l.id_level, 
+                count(distinct t.id_topic) AS topiccount, 
+                count(distinct s.id_skill)  + count(distinct s2.id_skill) AS skillcount 
+        FROM level l LEFT JOIN topic t on t.id_level = l.id_level 
+                    LEFT JOIN skill s ON s.id_topic = t.id_topic
+                    LEFT JOIN skill s2 ON s2.id_topic = t.id_topic_reference
+        WHERE l.id_system = idChannel
+        GROUP BY l.id_level;
+
+    -- declare NOT FOUND handler
+    DECLARE CONTINUE HANDLER
+        FOR NOT FOUND SET v_finished = 1;
+
+    -- Update skill and topic counts for each level
+    SET v_finished = 0;
+    -- open the cursor
+    OPEN levelWithCountsCursor;   
+    -- Fetch in a loop
+    get_level: LOOP
+        FETCH levelWithCountsCursor INTO v_id_level, v_topiccount, v_skillcount;
+        IF v_finished = 1 THEN
+            LEAVE get_level;
+        END IF;
+        -- update testsection
+        UPDATE level l
+        SET l.topiccount = v_topiccount, l.skillcount = v_skillcount
+        WHERE l.id_level = v_id_level;
+
+    END LOOP get_level;
+    -- close the cursor
+    CLOSE levelWithCountsCursor;
+
+END$$
+
+DELIMITER ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+

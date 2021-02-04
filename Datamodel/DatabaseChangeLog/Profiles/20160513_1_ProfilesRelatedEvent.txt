@@ -1,0 +1,46 @@
+-- Make sure to ENABLE 'event scheduler configuration';
+-- SHOW EVENTS FROM rulefree;
+
+
+USE `rulefree`;
+DROP EVENT IF EXISTS `rulefree`.`userprofiletest_to_usertest_mover_event`;
+
+DELIMITER $$
+USE `rulefree`$$
+
+    CREATE 
+    DEFINER = CURRENT_USER 
+    EVENT IF NOT EXISTS `rulefree`.`userprofiletest_to_usertest_mover_event` 
+    ON SCHEDULE EVERY 1 HOUR STARTS NOW() 
+    ON COMPLETION PRESERVE
+
+    DO 
+    
+    BEGIN
+    
+
+        -- declare variables
+        DECLARE v_rows_inserted INTEGER DEFAULT 0;
+        DECLARE v_rows_updated INTEGER DEFAULT 0;
+        DECLARE v_rows_deleted INTEGER DEFAULT 0;
+        DECLARE v_out_status_code INT;
+        DECLARE v_out_status_message VARCHAR(256);
+
+        -- Next, write the log file entry to start processing
+        call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", "UserProfileTest Transfer Event Starting...");
+
+        -- Next, call the stored procedure that performs the actual functionality
+        call `rulefree`.userprofiletest_to_usertest_mover (@v_rows_inserted, @v_rows_updated, @v_rows_deleted, @v_out_status_code, @v_out_status_message);
+
+        -- Next, write the log file entry
+        IF (@v_out_status_code = 0) THEN
+            call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", CONCAT('UserProfileTest Transfer Completed Successfully.  ', @v_rows_inserted, ' rows inserted into usertest.  ', @v_rows_updated, ' rows updated in usertest.  ', @v_rows_deleted, ' rows deleted from userprofiletest.'));
+        ELSE 
+             call `rulefree`.write_eventlog_msg (1, "UserProfileTestEvent", CONCAT('UserProfileTest Transfer Failed - ', @v_out_status_message));
+        END IF;
+
+    END
+
+$$
+
+DELIMITER ;

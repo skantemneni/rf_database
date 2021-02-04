@@ -1,0 +1,299 @@
+-- Add 'published' column to system/channel table to indicate if the channel is published or otherwise
+ALTER TABLE `rulefree`.`system` ADD COLUMN       `published` INT NOT NULL DEFAULT 0;
+
+-- Set Published = true for overlay channels (non-base/core)
+UPDATE `rulefree`.`system` SET published = true WHERE id_system IN (112, 113, 121, 122, 123, 124, 131, 132, 133, 134, 135, 136, 141);
+
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+USE `rulefree` ;
+
+
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`sequence_channel_redumption_code`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`sequence_channel_redumption_code` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`sequence_channel_redumption_code` (
+  `id_channel_redumption_code_type` INT NOT NULL ,
+  `create_current` INT NOT NULL DEFAULT 0 ,
+  `assign_current` INT NOT NULL DEFAULT 0 ,
+  PRIMARY KEY (`id_channel_redumption_code_type`) ,
+  CONSTRAINT `fk_sequence_crctype_to_crctype`
+    FOREIGN KEY (`id_channel_redumption_code_type` )
+    REFERENCES `rulefree`.`channel_redumption_code_type` (`id_channel_redumption_code_type` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`channel_redumption_code_type`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`channel_redumption_code_type` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`channel_redumption_code_type` (
+  `id_channel_redumption_code_type` INT NOT NULL ,
+  `channel_redumption_code_type_description` VARCHAR(200) NULL ,
+  `id_channel` BIGINT NOT NULL ,
+  `retail_price` INT NOT NULL DEFAULT 0 COMMENT 'List Price for the code (in rupees)\n' ,
+  `code_validity_start_date` TIMESTAMP NULL ,
+  `code_validity_end_date` TIMESTAMP NULL ,
+  `subscription_duration_days` INT NULL ,
+  PRIMARY KEY (`id_channel_redumption_code_type`) ,
+  INDEX `fk_crctype_to_channel_idx` (`id_channel` ASC) ,
+  CONSTRAINT `fk_crctype_to_channel`
+    FOREIGN KEY (`id_channel` )
+    REFERENCES `rulefree`.`system` (`id_system` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`channel_redumption_code`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`channel_redumption_code` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`channel_redumption_code` (
+  `channel_redumption_code` VARCHAR(25) NOT NULL ,
+  `id_channel_redumption_code_type` INT NOT NULL ,
+  `crc_type_sequence` INT NOT NULL ,
+  `sale_price` INT NOT NULL DEFAULT 0 COMMENT 'actual price it was sold for\n' ,
+  `purchaser` VARCHAR(200) NULL ,
+  `redeemed` INT NOT NULL DEFAULT 0 COMMENT '0 = yet to complete redumption\n1 = already redeemed\n' ,
+  `redumption_date` TIMESTAMP NULL ,
+  `subscriber_username` VARCHAR(50) NULL ,
+  `expired` INT NOT NULL DEFAULT 0 ,
+  `subscription_start_date` TIMESTAMP NULL ,
+  `subscription_end_date` TIMESTAMP NULL ,
+  `channel_redumption_codecol` VARCHAR(45) NULL ,
+  PRIMARY KEY (`channel_redumption_code`, `id_channel_redumption_code_type`) ,
+  INDEX `fk_crc_crctype_idx` (`id_channel_redumption_code_type` ASC) ,
+  CONSTRAINT `fk_crc_crctype`
+    FOREIGN KEY (`id_channel_redumption_code_type` )
+    REFERENCES `rulefree`.`channel_redumption_code_type` (`id_channel_redumption_code_type` )
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+
+
+-- -----------------------------------------------------
+-- function get_new_crc_create_sequence
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP function IF EXISTS `rulefree`.`get_new_crc_create_sequence`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE FUNCTION get_new_crc_create_sequence(id_crc_type INT)
+  RETURNS INT
+BEGIN
+    DECLARE new_crc_create_sequence INT;
+    UPDATE `rulefree`.`sequence_channel_redumption_code` SET `create_current` = last_insert_id(`create_current`+1) WHERE `id_channel_redumption_code_type`= id_crc_type;
+    SELECT last_insert_id() INTO new_crc_create_sequence;
+    RETURN new_crc_create_sequence;
+END;
+$$
+
+DELIMITER ;
+
+-- -----------------------------------------------------
+-- function get_new_crc_assign_sequence
+-- -----------------------------------------------------
+
+USE `rulefree`;
+DROP function IF EXISTS `rulefree`.`get_new_crc_assign_sequence`;
+
+DELIMITER $$
+USE `rulefree`$$
+CREATE FUNCTION get_new_crc_assign_sequence(id_crc_type INT)
+  RETURNS INT
+BEGIN
+    DECLARE new_crc_assign_sequence INT;
+    UPDATE `rulefree`.`sequence_channel_redumption_code` SET `assign_current` = last_insert_id(`assign_current`+1) WHERE `id_channel_redumption_code_type`= id_crc_type;
+    SELECT last_insert_id() INTO new_crc_assign_sequence;
+    RETURN new_crc_assign_sequence;
+END;
+$$
+
+DELIMITER ;
+
+
+
+
+
+
+
+
+
+USE `rulefree` ;
+
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`channel_stats`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`channel_stats` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`channel_stats` (
+  `id_channel` BIGINT NOT NULL ,
+  `total_subscribers` INT NOT NULL DEFAULT 0 ,
+  `level_count` INT NOT NULL DEFAULT 0 ,
+  `topic_count` INT NOT NULL DEFAULT 0 ,
+  `skill_count` INT NOT NULL DEFAULT 0 ,
+  `comprehensive_test_count` INT NOT NULL DEFAULT 0 ,
+  `subject_test_count` INT NOT NULL DEFAULT 0 ,
+  `level_test_count` INT NOT NULL DEFAULT 0 ,
+  `topic_test_count` INT NOT NULL DEFAULT 0 ,
+  PRIMARY KEY (`id_channel`) ,
+  INDEX `fk_channel_admin_to_channel_idx` (`id_channel` ASC) ,
+  CONSTRAINT `fk_channel_stats_to_channel`
+    FOREIGN KEY (`id_channel` )
+    REFERENCES `rulefree`.`system` (`id_system` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+
+
+
+USE `rulefree` ;
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`channeltrack`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`channeltrack` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`channeltrack` (
+  `channeltrack` VARCHAR(45) NOT NULL ,
+  `channeltrack_description` VARCHAR(200) NOT NULL ,
+  `display_seq` INT NOT NULL ,
+  PRIMARY KEY (`channeltrack`) )
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `rulefree`.`channel_channeltrack`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `rulefree`.`channel_channeltrack` ;
+
+CREATE  TABLE IF NOT EXISTS `rulefree`.`channel_channeltrack` (
+  `id_channel` BIGINT NOT NULL ,
+  `channeltrack` VARCHAR(45) NOT NULL ,
+  PRIMARY KEY (`id_channel`, `channeltrack`) ,
+  INDEX `fk_channeltrack_to_channel_idx` (`id_channel` ASC) ,
+  INDEX `fk_channelchanneltrack_to_channeltrack_idx` (`channeltrack` ASC) ,
+  CONSTRAINT `fk_channelchanneltrack_to_channel`
+    FOREIGN KEY (`id_channel` )
+    REFERENCES `rulefree`.`system` (`id_system` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+  CONSTRAINT `fk_channelchanneltrack_to_channeltrack`
+    FOREIGN KEY (`channeltrack` )
+    REFERENCES `rulefree`.`channeltrack` (`channeltrack` )
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+ENGINE = InnoDB;
+
+
+
+
+
+USE `rulefree` ;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+
+
+
+-- insert consolidated channels
+INSERT INTO `rulefree`.`system`(`id_system`,`name`,`description`,`editable`,`published`)VALUES(130,'Engineering Entrance Channel Set',
+'Engineering Entrance Channel Set',0,1);
+INSERT INTO `rulefree`.`system`(`id_system`,`name`,`description`,`editable`,`published`)VALUES(120,'Bank Entrance Channel Set',
+'Bank Entrance Channel Set',0,1);
+
+
+
+
+-- Insert channel_redumption_code_types
+INSERT INTO `rulefree`.`channel_redumption_code_type`
+(`id_channel_redumption_code_type`, `channel_redumption_code_type_description`, `id_channel`, 
+`retail_price`, `code_validity_start_date`, `code_validity_end_date`, `subscription_duration_days`)
+VALUES
+(201601, 'Preview Consolidated Engineering Channel Set for 2016', '130', 
+0,'2015-11-15','2016-05-31',15);
+
+INSERT INTO `rulefree`.`channel_redumption_code_type`
+(`id_channel_redumption_code_type`, `channel_redumption_code_type_description`, `id_channel`, 
+`retail_price`, `code_validity_start_date`, `code_validity_end_date`, `subscription_duration_days`)
+VALUES
+(201602, 'Preview Consolidated Medical Channel Set for 2016', '133', 
+0,'2015-11-15','2016-05-31',15);
+
+-- Insert sequence_channel_redumption_code
+INSERT INTO `rulefree`.`sequence_channel_redumption_code`(id_channel_redumption_code_type)VALUES(201601);
+INSERT INTO `rulefree`.`sequence_channel_redumption_code`(id_channel_redumption_code_type)VALUES(201602);
+
+
+
+
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('CombinedChannelSets','Combined Channel Sets',0);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('FoundationChannels','Foundation Exam Channels',10);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('EngineeringChannels','Engineering Entrance Exam Channels',20);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('MedicalChannels','Medical Entrance Exam Channels',30);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('BankingChannels','Bank Exam Channels',40);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('OtherChannels','Other Channels',50);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('K12Channels','K-12 Proficiency Channels',60);
+INSERT INTO `rulefree`.`channeltrack`(`channeltrack`,`channeltrack_description`,`display_seq`)VALUES('InterExamChannels','Intermediate Exam Channels',70);
+
+
+
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(101, 'K12Channels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(102, 'BankingChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(103, 'InterExamChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(104, 'FoundationChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(111, 'BankingChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(112, 'OtherChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(113, 'OtherChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(120, 'CombinedChannelSets');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(121, 'BankingChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(122, 'BankingChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(123, 'BankingChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(124, 'BankingChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(130, 'CombinedChannelSets');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(131, 'EngineeringChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(132, 'EngineeringChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(133, 'EngineeringChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(134, 'EngineeringChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(135, 'EngineeringChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(136, 'EngineeringChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(133, 'MedicalChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(134, 'MedicalChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(135, 'MedicalChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(136, 'MedicalChannels');
+INSERT INTO `rulefree`.`channel_channeltrack`(`id_channel`,`channeltrack`)VALUES(141, 'FoundationChannels');
+
+
+
+
+
+-- THIS IS JUNK DATA.....DELETE IT
+INSERT INTO `rulefree`.`channel_stats`(`id_channel`,`total_subscribers`,`level_count`,`topic_count`,`skill_count`,`comprehensive_test_count`,`subject_test_count`,`level_test_count`,`topic_test_count`)VALUES
+(131,78,15,94,312,12,10,35,112);
+INSERT INTO `rulefree`.`channel_stats`(`id_channel`,`total_subscribers`,`level_count`,`topic_count`,`skill_count`,`comprehensive_test_count`,`subject_test_count`,`level_test_count`,`topic_test_count`)VALUES
+(133,72,21,112,240,10,9,3,85);
+
