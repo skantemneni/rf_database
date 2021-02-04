@@ -1,0 +1,54 @@
+Start the database service:
+------------------------------
+1.) Start the MySql 5.6 service
+
+Connect to the database:
+------------------------------
+2.) Connect to the database (rulefree).  This can be done from the command line client or the work bench.
+	a.) Open Programs --> MySql --> MySql Server 5.6 --> MySQL 5.6 Command Line Client (or unicode).  Use your std password.
+	b.) Open Programs --> MySql --> MySQL Workbench CE 5.2.47
+		- Double click the connection to open the database server instance, 
+		- Click the "new schema" icon on the toolbar.
+
+
+3.) 
+Create the rulefree schema/database:
+-------------------------------------
+/** this can be done from a 
+/**
+ * CREATE SCHEMA is a synonym for CREATE DATABASE 
+ * CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] db_name
+ */
+CREATE DATABASE IF NOT EXISTS rulefree;
+ - Punch "show databases;" on the command window to verify the creation.
+ 
+
+4.) 
+Create user rulefree_user
+-------------------------------------
+CREATE USER 'rulefree_user' IDENTIFIED BY PASSWORD '*CECA14F278A411AC79D979774854EE5EC348D90B';
+
+To generate password use the following commands...
+mysql> SET old_passwords = 0;
+mysql> select PASSWORD('rulefree_user');
++-------------------------------------------+
+| PASSWORD('rulefree_user')                 |
++-------------------------------------------+
+| *CECA14F278A411AC79D979774854EE5EC348D90B |
++-------------------------------------------+
+
+5.) Verify you can login as follows...
+"C:\Program Files\MySQL\MySQL Server 5.6\bin\mysql.exe" "--defaults-file=C:\ProgramData\MySQL\MySQL Server 5.6\my.ini" "-urulefree_user" "-p"
+Enter password:enter 'rulefree_user'
+
+6.) 
+Grant authorities
+-------------------------------------
+
+GRANT ALL ON rulefree.* TO 'rulefree_user';
+
+7.) 
+Now create the tables using the tables script.
+--------------------------------------------------------------------------
+.........................
+
